@@ -1,6 +1,8 @@
 # Popego - A Meaningful Web
 Social media meets machine learning to deliver meaningful recommendations. Launched in September 2008. 
 
+The project is not maintained anymore, but it is made available to world under a BSD3 license.
+
 ## Installation and Setup
 
 Install ``popserver`` using easy_install::
