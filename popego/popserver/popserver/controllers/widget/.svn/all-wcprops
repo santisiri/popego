@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/1121/trunk/popserver/popserver/controllers/widget
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/private/popego/main/!svn/ver/625/trunk/popserver/popserver/controllers/widget/__init__.py
+END
+media.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/private/popego/main/!svn/ver/1064/trunk/popserver/popserver/controllers/widget/media.py
+END
+items.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/private/popego/main/!svn/ver/1064/trunk/popserver/popserver/controllers/widget/items.py
+END
+widget.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/1121/trunk/popserver/popserver/controllers/widget/widget.py
+END

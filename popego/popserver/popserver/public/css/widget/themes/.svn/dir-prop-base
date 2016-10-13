@@ -1,0 +1,30 @@
+K 14
+bugtraq:append
+V 5
+false
+K 13
+bugtraq:label
+V 8
+Issue #:
+K 15
+bugtraq:message
+V 16
+Issue #: %BUGID%
+K 14
+bugtraq:number
+V 4
+true
+K 11
+bugtraq:url
+V 46
+https://tracker.popego.com/view.php?id=%BUGID%
+K 21
+bugtraq:warnifnoissue
+V 4
+true
+K 10
+svn:ignore
+V 19
+popcard_ff900a.css
+
+END

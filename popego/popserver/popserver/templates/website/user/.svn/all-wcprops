@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/private/popego/main/!svn/ver/1130/trunk/popserver/popserver/templates/website/user
+END
+base.mako
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/private/popego/main/!svn/ver/855/trunk/popserver/popserver/templates/website/user/base.mako
+END
+socialfeed.mako
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/private/popego/main/!svn/ver/829/trunk/popserver/popserver/templates/website/user/socialfeed.mako
+END
+settings.mako
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/private/popego/main/!svn/ver/861/trunk/popserver/popserver/templates/website/user/settings.mako
+END
+notyet.mako
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/private/popego/main/!svn/ver/829/trunk/popserver/popserver/templates/website/user/notyet.mako
+END
+services.mako
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/private/popego/main/!svn/ver/822/trunk/popserver/popserver/templates/website/user/services.mako
+END
+widgets.mako
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/templates/website/user/widgets.mako
+END
+home.mako
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/private/popego/main/!svn/ver/1130/trunk/popserver/popserver/templates/website/user/home.mako
+END

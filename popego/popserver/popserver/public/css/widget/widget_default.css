@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/********* iFrame & Top Menu ************/
+#popego iframe {
+	border:0;
+	margin:-4px -4px 0px;
+	width:150px;
+	height:240px;
+	position:absolute;	
+	z-index:9995;
+	clear:both;
+}
+
+#popego.widget {
+	font-size:13px;
+	font-family: Arial, Tahoma, FreeSans, sans-serif;
+	text-align:left;
+	color:#fff;
+	width:160px;
+	height:250px;
+	padding:9px;
+	z-index:9998;
+	margin:0 auto 0 auto;
+}

@@ -1,0 +1,13 @@
+/*******************************
+ ** Widget Theme: aa0000 
+ ** Base Color: #aa0000
+ ******************************/
+#popcard.dialog .content,
+#popcard.dialog .t,
+#popcard.dialog .b,
+#popcard.dialog .b div {
+	background:transparent url(/images/widget/card_background_aa0000.png) no-repeat top right;
+}
+#popcard .menu {
+	color: #aa0000;
+}

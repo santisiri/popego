@@ -1,0 +1,101 @@
+# ENVIRONMENT PARA LA APLICACION HOSTEADA EN http://demo-popego
+
+#
+# popserver - Pylons development environment configuration
+#
+# The %(here)s variable will be replaced with the parent directory of this file
+#
+[DEFAULT]
+debug = true
+# Uncomment and replace with the address which should receive any error reports
+#email_to = you@yourdomain.com
+smtp_server = localhost
+error_email_from = paste@localhost
+
+[server:main]
+use = egg:Paste#http
+host = 0.0.0.0
+port = 5000
+
+[app:main]
+use = egg:popserver
+cache_dir = /var/cache/apache2/demo-popego-cache
+beaker.session.key = popserver
+beaker.session.secret = somesecret
+
+# If you'd like to fine-tune the individual locations of the cache data dirs
+# for the Cache data, or the Session saves, un-comment the desired settings
+# here:
+beaker.cache.data_dir = /var/cache/apache2/demo-popego-cache/data/cache
+beaker.session.data_dir = /var/cache/apache2/demo-popego-cache/data/sessions
+
+# WARNING: *THE LINE BELOW MUST BE UNCOMMENTED ON A PRODUCTION ENVIRONMENT*
+# Debug mode will enable the interactive debugging tool, allowing ANYONE to
+# execute malicious code after an exception is raised.
+set debug = false
+
+#DB Config
+sqlalchemy.url = postgres://popego:GranPopego@localhost:5432/popego_demo
+sqlalchemy.echo = None
+
+# Disables the EvalException middleware. It can't be used in a multiprocess environment
+full_stack = False
+
+# JQueue Config
+jqueue.hostname = localhost
+jqueue.port = 8787
+
+##  AuthKit Config
+authkit.setup.method = form, cookie
+authkit.form.authenticate.user.type = popserver.lib.authkitutil:AuthKitDatabaseUsers
+authkit.form.authenticate.user.data = popserver.model
+authkit.cookie.secret = secret string
+authkit.cookie.signoutpath = /signout
+authkit.form.template.obj = popserver.lib.template:make_template
+authkit.form.authenticate.user.encrypt = authkit.users:md5
+authkit.form.authenticate.user.encrypt.secret = popego secret string
+
+# Cache Manager
+popego.cache_manager.enable = True
+
+
+# Logging configuration
+[loggers]
+keys = root, popserver, popserver_cache
+
+[handlers]
+keys = console, rotating_cache_log
+
+[formatters]
+keys = generic
+
+[logger_root]
+level = INFO
+handlers = console
+
+[logger_popserver]
+level = DEBUG
+handlers =
+qualname = popserver
+
+[logger_popserver_cache]
+level = DEBUG
+handlers = rotating_cache_log
+qualname = popserver_cache
+
+[handler_rotating_cache_log]
+class = logging.handlers.RotatingFileHandler
+args = ('/var/log/demo-popego/popserver_cache.log',)
+level = INFO
+formatter = generic
+
+
+[handler_console]
+class = StreamHandler
+args = (sys.stderr,)
+level = NOTSET
+formatter = generic
+
+[formatter_generic]
+format = %(asctime)s,%(msecs)03d %(levelname)-5.5s [%(name)s] %(message)s
+datefmt = %H:%M:%S

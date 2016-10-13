@@ -1,0 +1,40 @@
+8
+
+dir
+1132
+https://svn.popego.com/private/popego/main/trunk/popserver/popserver/tests/sync
+https://svn.popego.com/private/popego/main
+
+
+
+2008-02-11T18:23:31.189730Z
+844
+fernando
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+acf6466c-6d64-462d-91de-bbf11b5ca8a0
+
+test_cache.py
+file
+
+
+
+
+2008-02-14T15:00:11.000000Z
+83ab0109fcde267b9dc20d6e9015d6e8
+2008-01-22T18:01:18.063865Z
+602
+mariano
+

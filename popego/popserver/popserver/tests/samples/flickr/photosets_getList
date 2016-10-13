@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+<photosets>
+	<photoset id="72157602203941886" primary="1460568539" secret="6bec5c9b25" server="1407" farm="2" photos="5">
+		<title>Barcamp BA 2007</title>
+		<description>Algunas fotos de Barcamp BA 2007</description>
+	</photoset>
+	<photoset id="72157600412302330" primary="576830108" secret="5f821e5bd1" server="1076" farm="2" photos="7">
+		<title>Farewell</title>
+		<description />
+	</photoset>
+	<photoset id="72157594384543177" primary="302039293" secret="60d3d3641f" server="105" farm="1" photos="5">
+		<title>madame.lefigaro.fr</title>
+		<description>Some photos from the launch day - &lt;a href=&quot;http://madame.lefigaro.fr&quot;&gt;madame.lefigaro.fr&lt;/a&gt;</description>
+	</photoset>
+	<photoset id="72157594340417682" primary="276684966" secret="efae5d471e" server="112" farm="1" photos="62">
+		<title>Amsterdam, Oct 2006</title>
+		<description />
+	</photoset>
+	<photoset id="72157594317942897" primary="263805189" secret="a4d2f735a5" server="117" farm="1" photos="19">
+		<title>Catacombes de Paris</title>
+		<description />
+	</photoset>
+	<photoset id="72157594286633600" primary="244669191" secret="5094cafd0c" server="92" farm="1" photos="12">
+		<title>Malahide Castle, Ireland</title>
+		<description />
+	</photoset>
+	<photoset id="72157594286625367" primary="244671887" secret="bc1bf58d34" server="92" farm="1" photos="5">
+		<title>Noche en Dublin</title>
+		<description />
+	</photoset>
+	<photoset id="72157594276506133" primary="238548898" secret="9392d554b5" server="82" farm="1" photos="19">
+		<title>Montmartre</title>
+		<description />
+	</photoset>
+	<photoset id="72157594235166928" primary="214027855" secret="591d09379e" server="85" farm="1" photos="8">
+		<title>Visita al Musee des arts et metiers</title>
+		<description />
+	</photoset>
+	<photoset id="72157594223809684" primary="206377455" secret="156058c124" server="82" farm="1" photos="7">
+		<title>Caminando</title>
+		<description />
+	</photoset>
+	<photoset id="72157594222957605" primary="205809241" secret="61d4a978f4" server="82" farm="1" photos="34">
+		<title>Grabeta @ Jacinto's</title>
+		<description>31 de Julio de 2006</description>
+	</photoset>
+	<photoset id="72157594222677047" primary="205637899" secret="84d5fa26e7" server="69" farm="1" photos="7">
+		<title>1er dia en Francia</title>
+		<description />
+	</photoset>
+	<photoset id="72057594115834621" primary="134259442" secret="32dfef0a2c" server="48" farm="1" photos="5">
+		<title>Vacaciones en Uruguay</title>
+		<description>Vacaciones en Uruguay - Marzo 2006</description>
+	</photoset>
+</photosets>
+</rsp>

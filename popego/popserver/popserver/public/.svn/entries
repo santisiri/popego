@@ -1,0 +1,95 @@
+8
+
+dir
+1132
+https://svn.popego.com/private/popego/main/trunk/popserver/popserver/public
+https://svn.popego.com/private/popego/main
+
+
+
+2008-03-04T18:12:53.332439Z
+1129
+manuel
+has-props
+
+svn:special svn:externals svn:needs-lock
+svn:externals
+
+
+
+
+
+
+
+
+
+
+acf6466c-6d64-462d-91de-bbf11b5ca8a0
+
+error_500.html
+file
+
+
+
+
+2008-03-04T19:22:41.000000Z
+7d39e75f7620b51802230099ccabba88
+2008-02-05T15:25:39.389755Z
+804
+manuel
+
+error_404.html
+file
+
+
+
+
+2008-03-04T19:22:41.000000Z
+7003dbc8a5c9971f42e124db34ac4b5f
+2008-02-05T15:25:39.389755Z
+804
+manuel
+
+index.bak
+file
+
+
+
+
+2008-03-04T19:22:41.000000Z
+d5179577a705db00d5ff94dca31aa484
+2007-11-08T21:15:09.346710Z
+42
+fernando
+
+system
+dir
+
+upload
+dir
+
+images
+dir
+
+css
+dir
+
+javascripts
+dir
+
+flash
+dir
+
+favicon.ico
+file
+
+
+
+
+2008-03-04T19:22:41.000000Z
+3539dc548d85711319c4c9dfced57d60
+2007-12-08T00:38:38.577827Z
+295
+victor
+has-props
+

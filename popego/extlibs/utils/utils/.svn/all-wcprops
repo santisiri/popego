@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/private/popego/main/!svn/ver/2095/trunk/extlibs/utils/utils
+END
+reflection.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/private/popego/main/!svn/ver/2095/trunk/extlibs/utils/utils/reflection.py
+END
+transform.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/private/popego/main/!svn/ver/2095/trunk/extlibs/utils/utils/transform.py
+END
+addressless.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/popego/main/!svn/ver/2085/trunk/extlibs/utils/utils/addressless.py
+END
+date.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/private/popego/main/!svn/ver/1773/trunk/extlibs/utils/utils/date.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/private/popego/main/!svn/ver/1773/trunk/extlibs/utils/utils/__init__.py
+END
+coercion.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/private/popego/main/!svn/ver/2063/trunk/extlibs/utils/utils/coercion.py
+END
+decorator.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/private/popego/main/!svn/ver/1773/trunk/extlibs/utils/utils/decorator.py
+END
+html.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/private/popego/main/!svn/ver/1773/trunk/extlibs/utils/utils/html.py
+END
+function.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/private/popego/main/!svn/ver/2034/trunk/extlibs/utils/utils/function.py
+END
+iterable.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/private/popego/main/!svn/ver/1773/trunk/extlibs/utils/utils/iterable.py
+END

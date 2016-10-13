@@ -1,0 +1,52 @@
+8
+
+dir
+1132
+https://svn.popego.com/private/popego/main/trunk/popserver/popserver/templates/widget/media/music
+https://svn.popego.com/private/popego/main
+
+
+
+2008-02-13T18:50:18.570791Z
+866
+santiago
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+acf6466c-6d64-462d-91de-bbf11b5ca8a0
+
+ranks.mako
+file
+
+
+
+
+2008-02-14T15:00:11.000000Z
+805cef374de330cf19068aa77a106b14
+2008-01-26T00:01:59.553249Z
+672
+victor
+
+index.mako
+file
+
+
+
+
+2008-02-14T15:00:11.000000Z
+f3bae13b85cf263088d56077d331308e
+2008-02-13T18:50:18.570791Z
+866
+santiago
+

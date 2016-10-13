@@ -1,0 +1,6 @@
+
+          [paste.filter_factory]
+          beaker_session = beaker.middleware:session_filter_factory
+          [paste.filter_app_factory]
+          beaker_session = beaker.middleware:session_filter_app_factory
+      

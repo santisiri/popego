@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/private/popego/main/!svn/ver/844/trunk/popserver/popserver/tests/samples/flickr
+END
+people_findByUsername
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/private/popego/main/!svn/ver/232/trunk/popserver/popserver/tests/samples/flickr/people_findByUsername
+END
+photos_getAllContexts-1460569161
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/private/popego/main/!svn/ver/232/trunk/popserver/popserver/tests/samples/flickr/photos_getAllContexts-1460569161
+END
+photos_getInfo-2075891275
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/private/popego/main/!svn/ver/232/trunk/popserver/popserver/tests/samples/flickr/photos_getInfo-2075891275
+END
+photosets_getInfo
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/private/popego/main/!svn/ver/232/trunk/popserver/popserver/tests/samples/flickr/photosets_getInfo
+END
+photosets_getList
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/private/popego/main/!svn/ver/236/trunk/popserver/popserver/tests/samples/flickr/photosets_getList
+END
+photos_getAllContexts-2075891275
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/private/popego/main/!svn/ver/232/trunk/popserver/popserver/tests/samples/flickr/photos_getAllContexts-2075891275
+END
+photos_getInfo-1460569161
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/private/popego/main/!svn/ver/274/trunk/popserver/popserver/tests/samples/flickr/photos_getInfo-1460569161
+END
+people_getPublicPhotos-1
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/private/popego/main/!svn/ver/236/trunk/popserver/popserver/tests/samples/flickr/people_getPublicPhotos-1
+END
+people_getPublicPhotos-2
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/private/popego/main/!svn/ver/232/trunk/popserver/popserver/tests/samples/flickr/people_getPublicPhotos-2
+END

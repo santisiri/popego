@@ -1,0 +1,4 @@
+[console_scripts]
+ipython = IPython.ipapi:launch_new_instance
+pycolor = IPython.PyColorize:main
+

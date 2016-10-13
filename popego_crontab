@@ -1,0 +1,5 @@
+# m h  dom mon dow   command
+SHELL = /bin/bash
+1 4,16 * * *	/home/popego/bin/update_accounts.sh 
+1 10 * * sun	/home/popego/bin/update_compatibility.sh 
+1 10,22 * * *	/home/popego/bin/update_alltags.sh 

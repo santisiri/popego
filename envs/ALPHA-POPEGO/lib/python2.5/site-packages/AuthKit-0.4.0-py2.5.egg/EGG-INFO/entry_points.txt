@@ -1,0 +1,15 @@
+
+        [authkit.method]
+        basic=authkit.authenticate.basic:make_basic_handler
+        digest=authkit.authenticate.digest:make_digest_handler
+        form=authkit.authenticate.form:make_form_handler
+        forward=authkit.authenticate.forward:make_forward_handler
+        openid=authkit.authenticate.open_id:make_passurl_handler
+        redirect=authkit.authenticate.redirect:make_redirect_handler
+        cookie=authkit.authenticate.cookie:make_cookie_handler
+        
+        cas = authkit.authenticate.sso.cas:make_cas_handler
+
+        [paste.paster_create_template]
+        authenticate_plugin=authkit.template:AuthenticatePlugin
+    

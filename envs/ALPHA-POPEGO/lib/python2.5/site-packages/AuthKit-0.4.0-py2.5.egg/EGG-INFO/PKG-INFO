@@ -1,0 +1,126 @@
+Metadata-Version: 1.0
+Name: AuthKit
+Version: 0.4.0
+Summary: An authentication and authorization toolkit for WSGI applications and frameworks
+Home-page: http://authkit.org/
+Author: James Gardner
+Author-email: james@pythonweb.org
+License: MIT
+Description: 
+        AuthKit
+        +++++++
+        
+        .. contents ::
+        
+        Summary
+        =======
+        
+        *   Built for WSGI applications and middleware
+        *   Sophisticated and extensible permissions system
+        *   Built in support for HTTP basic, HTTP digest, form, cookie and OpenID
+        authentication methods plus others
+        *   Easily define users, passwords and roles
+        *   Designed to be totally extensible so you can use the components to integrate
+        with a database, LDAP connection or your own custom system
+        *   Plays nicely with the `Pylons <http://pylonshq.com>`_ web framework
+        
+        There is also a `development version
+        <http://authkit.org/svn/AuthKit/trunk#egg=AuthKit-dev>`_.
+        
+        Get Started
+        ===========
+        
+        * `Download and Installation <http://python.org/pypi/AuthKit/0.4.0>`_
+        * `Pylons Book <http://pylonsbook.com>`_ (the two chapters on Authentication and
+        Authorization and Advanced AuthKit form the AuthKit 0.4 documentation)
+        * `Module Reference <http://authkit.org/docs/0.4/module-index.html>`_
+        * `Trac <http://authkit.org/trac>`_ - Tickets, Wiki, Subversion
+        * `Examples <http://authkit.org/trac/browser/AuthKit/trunk/examples>`_
+        
+        Author
+        ======
+        
+        `James Gardner <http://jimmyg.org/>`_ james at pythonweb dot org
+        
+        Development sponsored by `3aims <http://3aims.com/>`_ and
+        `Prometheus Research <http://www.prometheusresearch.com/>`_.
+        
+        
+        Changes
+        =======
+        
+        0.4 (**svn**)
+        
+        *** AS A RESULT OF THESE CHANGES THE DOCS ARE CURRENTLY OUT OF DATE ***
+        
+        * Added support for encrypted passwords
+        * Fixed the IE7 bug in digest middleware
+        * Adding SSO sub-directory, redirecting API, and CAS auth handler.
+        * Fixed binding check to return none, instead of throwing an Exception (for
+        performance reasons).
+        * Moved start_response check outside of app_iter consumption since it must be
+        called by this point to comply with WSGI.
+        * Fixed consumption app iter in multi, loading entire response into ram.
+        * Adding changelog
+        * Added IP and Time based permission objects
+        * Started unit tests
+        * Extended the user management API and added SQLAlchemy driver and example
+        * Restructured the authenticate middleware into induvidual pluggable components
+        * Simplified the configuration file system
+        * Added OpenID dependencies
+        * Removed the larger SQLAlchemy based demos
+        * The cookie module uses ``authkit`` as a default cookie name, not ``auth_tkt``.
+        Any code which does anything manually with this cookie needs the name changing
+        if it wasn't explicitly set to ``auth_tkt`` in the config file.
+        
+        0.3.0pre5
+        
+        * Changed the arguments to the authkit.authenticate.middleware() factory. You
+        will need to update your middleware setup to use app_conf instead of
+        config_paste for the app_conf dictionary.
+        
+        0.3
+        
+        * Re-written from scratch to be a modular toolkit for building your own auth
+        framework rather than an all-in-one solution.
+        
+        0.2
+        
+        * Re-written from scratch so to use SQLAlchemy only, old driver system considered
+        unnecessary and limiting. Also doesn't fit in with current Pylons
+        best-practice.
+        
+        0.1
+        
+        * Based on the web.auth 0.6 module from www.pythonweb.org, support for SQLObject
+        driver included
+        
+        
+        License
+        =======
+        
+        Copyright (c) Copyright 2005-2007 James Gardner <james at pythonweb dot org>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+        
+        
+        Download
+        ========
+        
+Platform: UNKNOWN

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/private/popego/main/!svn/ver/844/trunk/popserver/popserver/templates/errors
+END
+base.mako
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/private/popego/main/!svn/ver/790/trunk/popserver/popserver/templates/errors/base.mako
+END
+error_500.mako
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/popego/main/!svn/ver/790/trunk/popserver/popserver/templates/errors/error_500.mako
+END
+error_404.mako
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/popego/main/!svn/ver/790/trunk/popserver/popserver/templates/errors/error_404.mako
+END

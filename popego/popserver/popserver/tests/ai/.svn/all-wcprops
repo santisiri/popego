@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/private/popego/main/!svn/ver/844/trunk/popserver/popserver/tests/ai
+END
+test_nestedset.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/private/popego/main/!svn/ver/744/trunk/popserver/popserver/tests/ai/test_nestedset.py
+END
+test_clustering.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/private/popego/main/!svn/ver/673/trunk/popserver/popserver/tests/ai/test_clustering.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/private/popego/main/!svn/ver/652/trunk/popserver/popserver/tests/ai/__init__.py
+END
+aifixtures.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/private/popego/main/!svn/ver/652/trunk/popserver/popserver/tests/ai/aifixtures.py
+END

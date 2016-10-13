@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/private/popego/main/!svn/ver/916/trunk/popserver/fixture/loadable
+END
+sqlobject_loadable.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/loadable/sqlobject_loadable.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/loadable/__init__.py
+END
+loadable.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/loadable/loadable.py
+END
+sqlalchemy_loadable.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/916/trunk/popserver/fixture/loadable/sqlalchemy_loadable.py
+END

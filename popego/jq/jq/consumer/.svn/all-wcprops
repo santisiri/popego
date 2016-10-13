@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/private/popego/main/!svn/ver/2492/trunk/jq/jq/consumer
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/private/popego/main/!svn/ver/380/trunk/jq/jq/consumer/__init__.py
+END
+agent_dispatcher.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/popego/main/!svn/ver/2492/trunk/jq/jq/consumer/agent_dispatcher.py
+END
+server.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/private/popego/main/!svn/ver/1045/trunk/jq/jq/consumer/server.py
+END

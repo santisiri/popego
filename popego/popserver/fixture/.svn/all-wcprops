@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/private/popego/main/!svn/ver/916/trunk/popserver/fixture
+END
+docs.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/docs.py
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/base.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/util.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/__init__.py
+END
+exc.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/exc.py
+END
+style.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/style.py
+END
+dataset.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/dataset.py
+END
+io.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/io.py
+END

@@ -1,0 +1,1 @@
+from webhelpers.rails import *

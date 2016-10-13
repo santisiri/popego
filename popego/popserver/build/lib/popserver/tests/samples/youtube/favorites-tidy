@@ -1,0 +1,3369 @@
+<?xml version='1.0' encoding='utf-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'
+xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
+xmlns:gml='http://www.opengis.net/gml'
+xmlns:georss='http://www.georss.org/georss'
+xmlns:media='http://search.yahoo.com/mrss/'
+xmlns:yt='http://gdata.youtube.com/schemas/2007'
+xmlns:gd='http://schemas.google.com/g/2005'>
+  <id>http://gdata.youtube.com/feeds/users/santisiri/favorites</id>
+  <updated>2007-11-21T16:46:42.907Z</updated>
+  <category scheme='http://schemas.google.com/g/2005#kind'
+  term='http://gdata.youtube.com/schemas/2007#video' />
+  <title>Favorites of santisiri</title>
+  <logo>
+  http://www.youtube.com/img/pic_youtubelogo_123x63.gif</logo>
+  <link rel='related' type='application/atom+xml'
+  href='http://gdata.youtube.com/feeds/users/santisiri' />
+  <link rel='alternate' type='text/html'
+  href='http://www.youtube.com/profile_favorites?user=santisiri' />
+  <link rel='http://schemas.google.com/g/2005#feed'
+  type='application/atom+xml'
+  href='http://gdata.youtube.com/feeds/users/santisiri/favorites' />
+  <link rel='self' type='application/atom+xml'
+  href='http://gdata.youtube.com/feeds/users/santisiri/favorites?start-index=1&amp;max-results=25' />
+  <link rel='next' type='application/atom+xml'
+  href='http://gdata.youtube.com/feeds/users/santisiri/favorites?start-index=26&amp;max-results=25' />
+  <author>
+    <name>santisiri</name>
+    <uri>http://gdata.youtube.com/feeds/users/santisiri</uri>
+  </author>
+  <generator version='beta' uri='http://gdata.youtube.com/'>YouTube
+  data API</generator>
+  <openSearch:totalResults>47</openSearch:totalResults>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/Om84Zc4-KcQ</id>
+    <updated>2007-11-20T16:38:29.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='atari' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='race' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='car' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='arcade' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='retro' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='pole' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='position' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='game' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='commercial' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Autos' label='Autos &amp; Vehicles' />
+    <title>Pole Position Commercial! (Atari)</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=Om84Zc4-KcQ"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/Om84Zc4-KcQ/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=Om84Zc4-KcQ"&gt;Pole
+    Position Commercial! (Atari)&lt;/a&gt; &lt;br&gt;&lt;/div&gt;
+    &lt;div style="font-size: 12px; margin: 3px
+    0px;"&gt;&lt;span&gt;Xbox and Playstation commercials have got
+    nuthin&amp;#39; on this old classic. Even the theme song
+    rocks!&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=mcphilthy"&gt;mcphilthy&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 481522&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;1022 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;01:31&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=2"&gt;Autos
+    &amp;amp;
+    Vehicles&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/Om84Zc4-KcQ' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=Om84Zc4-KcQ' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/Om84Zc4-KcQ/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/Om84Zc4-KcQ/related' />
+    <author>
+      <name>mcphilthy</name>
+      <uri>http://gdata.youtube.com/feeds/users/mcphilthy</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Pole Position Commercial!
+      (Atari)</media:title>
+      <media:description type='plain'>Xbox and Playstation
+      commercials have got nuthin' on this old classic. Even the
+      theme song rocks!</media:description>
+      <media:keywords>position, car, retro, game, race, pole,
+      atari, commercial, arcade, video</media:keywords>
+      <yt:duration seconds='91' />
+      <media:category label='Autos &amp; Vehicles'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Autos</media:category>
+      <media:content url='http://www.youtube.com/v/Om84Zc4-KcQ'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='91'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=3a6f3865ce3e29c4&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='91' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=Om84Zc4-KcQ' />
+      <media:thumbnail url='http://img.youtube.com/vi/Om84Zc4-KcQ/2.jpg'
+      height='97' width='130' time='00:00:45.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/Om84Zc4-KcQ/1.jpg'
+      height='97' width='130' time='00:00:22.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/Om84Zc4-KcQ/3.jpg'
+      height='97' width='130' time='00:01:08.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/Om84Zc4-KcQ/0.jpg'
+      height='240' width='320' time='00:00:45.500' />
+    </media:group>
+    <yt:statistics viewCount='481522' />
+    <gd:rating min='1' max='5' numRaters='1022' average='4.77' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/Om84Zc4-KcQ/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/mDnx0OmIWe8</id>
+    <published>2007-01-10T14:37:22.000-08:00</published>
+    <updated>2007-11-20T14:28:51.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='fensler' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='service' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='gi' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='joe' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='public' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='psa' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='announcements' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Comedy' label='Comedy' />
+    <title>G.I. Joe Public Service Announcements</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=mDnx0OmIWe8"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/mDnx0OmIWe8/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=mDnx0OmIWe8"&gt;G.I. Joe
+    Public Service Announcements&lt;/a&gt; &lt;br&gt;&lt;/div&gt;
+    &lt;div style="font-size: 12px; margin: 3px
+    0px;"&gt;&lt;span&gt;montage part
+    1&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td style="font-size:
+    11px; line-height: 1.4em; padding-left: 20px; padding-top:
+    1px;" width="146" valign="top"&gt;&lt;div&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;From:&lt;/span&gt;
+    &lt;a
+    href="http://www.youtube.com/profile?user=fry210"&gt;fry210&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 120841&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;352 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;06:58&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=23"&gt;Comedy&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/mDnx0OmIWe8' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=mDnx0OmIWe8' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/mDnx0OmIWe8/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/mDnx0OmIWe8/related' />
+    <author>
+      <name>fry210</name>
+      <uri>http://gdata.youtube.com/feeds/users/fry210</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>G.I. Joe Public Service
+      Announcements</media:title>
+      <media:description type='plain'>montage part
+      1</media:description>
+      <media:keywords>joe, gi, service, announcements, fensler,
+      psa, public</media:keywords>
+      <yt:duration seconds='418' />
+      <media:category label='Comedy'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Comedy</media:category>
+      <media:content url='http://www.youtube.com/v/mDnx0OmIWe8'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='418'
+      yt:format='5' />
+      <media:player url='http://www.youtube.com/watch?v=mDnx0OmIWe8' />
+      <media:thumbnail url='http://img.youtube.com/vi/mDnx0OmIWe8/2.jpg'
+      height='97' width='130' time='00:03:29' />
+      <media:thumbnail url='http://img.youtube.com/vi/mDnx0OmIWe8/1.jpg'
+      height='97' width='130' time='00:01:44.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/mDnx0OmIWe8/3.jpg'
+      height='97' width='130' time='00:05:13.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/mDnx0OmIWe8/0.jpg'
+      height='240' width='320' time='00:03:29' />
+    </media:group>
+    <yt:statistics viewCount='120841' />
+    <gd:rating min='1' max='5' numRaters='352' average='4.79' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/mDnx0OmIWe8/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/TXb6bjCCtuY</id>
+    <published>2006-10-01T13:14:41.000-07:00</published>
+    <updated>2007-11-20T14:27:15.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='rapper' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='average' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='viral' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='white' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='rap' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='hot' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='demo' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Blaze' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Denny' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Hazen' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='80s' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Homeboy' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='burning' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='blazed' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='music' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Blazin' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='original' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Music' label='Music' />
+    <title>Average Homeboy ORIGINAL FULL VERSION! DENNY BLAZIN
+    HAZEN</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=TXb6bjCCtuY"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/TXb6bjCCtuY/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=TXb6bjCCtuY"&gt;Average
+    Homeboy ORIGINAL FULL VERSION! DENNY BLAZIN HAZEN&lt;/a&gt;
+    &lt;br&gt;&lt;/div&gt; &lt;div style="font-size: 12px; margin:
+    3px 0px;"&gt;&lt;span&gt;www.dennyblaze.com The Average
+    Homeboy... I&amp;#39;m just a middle class guy who&amp;#39;s
+    trying to express myself through my rap music. Once you watch
+    my Demo, you&amp;#39;ll just be BLAZED! This is THE ORIGINAL
+    FULL LENGTH VIDEO including Verse 3!!!! I&amp;#39;m knocking on
+    every door that I can to get my recording contract! Keep it
+    hot! Denny Blaze
+    www.dennyblaze.com&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=theaveragehomeboy"&gt;theaveragehomeboy&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 150950&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;603 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;04:40&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=10"&gt;Music&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/TXb6bjCCtuY' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=TXb6bjCCtuY' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/TXb6bjCCtuY/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/TXb6bjCCtuY/related' />
+    <author>
+      <name>theaveragehomeboy</name>
+      <uri>
+      http://gdata.youtube.com/feeds/users/theaveragehomeboy</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Average Homeboy ORIGINAL FULL
+      VERSION! DENNY BLAZIN HAZEN</media:title>
+      <media:description type='plain'>www.dennyblaze.com The
+      Average Homeboy... I'm just a middle class guy who's trying
+      to express myself through my rap music. Once you watch my
+      Demo, you'll just be BLAZED! This is THE ORIGINAL FULL LENGTH
+      VIDEO including Verse 3!!!! I'm knocking on every door that I
+      can to get my recording contract! Keep it hot! Denny Blaze
+      www.dennyblaze.com</media:description>
+      <media:keywords>demo, 80s, Blazin, rapper, blazed, rap,
+      Denny, Blaze, viral, video, music, white, burning, Homeboy,
+      original, hot, average, Hazen</media:keywords>
+      <yt:duration seconds='280' />
+      <media:category label='Music'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Music</media:category>
+      <media:content url='http://www.youtube.com/v/TXb6bjCCtuY'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='280'
+      yt:format='5' />
+      <media:player url='http://www.youtube.com/watch?v=TXb6bjCCtuY' />
+      <media:thumbnail url='http://img.youtube.com/vi/TXb6bjCCtuY/2.jpg'
+      height='97' width='130' time='00:02:20' />
+      <media:thumbnail url='http://img.youtube.com/vi/TXb6bjCCtuY/1.jpg'
+      height='97' width='130' time='00:01:10' />
+      <media:thumbnail url='http://img.youtube.com/vi/TXb6bjCCtuY/3.jpg'
+      height='97' width='130' time='00:03:30' />
+      <media:thumbnail url='http://img.youtube.com/vi/TXb6bjCCtuY/0.jpg'
+      height='240' width='320' time='00:02:20' />
+    </media:group>
+    <yt:statistics viewCount='150950' />
+    <gd:rating min='1' max='5' numRaters='603' average='4.58' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/TXb6bjCCtuY/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/nPdP1jBfxzo</id>
+    <published>2007-08-14T18:55:33.000-07:00</published>
+    <updated>2007-11-20T12:50:46.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='dance' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Wired' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Keepon' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='beatbots' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Evah' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Tokyo' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Don&#39;t' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='You' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Robot' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Spoon' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='music' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='yellow' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Music' label='Music' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Nextfest' />
+    <title>Keepon dancing to Spoon's "Don't You Evah"</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=nPdP1jBfxzo"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/nPdP1jBfxzo/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=nPdP1jBfxzo"&gt;Keepon
+    dancing to Spoon&amp;#39;s &amp;quot;Don&amp;#39;t You
+    Evah&amp;quot;&lt;/a&gt; &lt;br&gt;&lt;/div&gt; &lt;div
+    style="font-size: 12px; margin: 3px 0px;"&gt;&lt;span&gt;The
+    robot Keepon (developed by Hideki Kozima and programmed by
+    Marek Michalowski) dancing to the Spoon song,
+    &amp;quot;Don&amp;#39;t You Evah.&amp;quot; Keepon and Spoon
+    will reunite at WIRED NextFest in LA September 10, 2007 for
+    Creative Commons. This video is available to the public under
+    the terms of the Creative Commons Attribution-NonCommercial 3.0
+    license. For information about what uses this license permits,
+    visit http://creativecommons.org/licenses/by-nc/3.0/. See
+    http://wirednextfest.com http://beatbots.org
+    http://creativecommons.org
+    http://spoontheband.com&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td style="font-size: 11px; line-height: 1.4em;
+    padding-left: 20px; padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=wired"&gt;wired&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 374239&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;876 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;04:05&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=10"&gt;Music&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/nPdP1jBfxzo' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=nPdP1jBfxzo' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/nPdP1jBfxzo/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/nPdP1jBfxzo/related' />
+    <author>
+      <name>wired</name>
+      <uri>http://gdata.youtube.com/feeds/users/wired</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Keepon dancing to Spoon's "Don't
+      You Evah"</media:title>
+      <media:description type='plain'>The robot Keepon (developed
+      by Hideki Kozima and programmed by Marek Michalowski) dancing
+      to the Spoon song, "Don't You Evah." Keepon and Spoon will
+      reunite at WIRED NextFest in LA September 10, 2007 for
+      Creative Commons. This video is available to the public under
+      the terms of the Creative Commons Attribution-NonCommercial
+      3.0 license. For information about what uses this license
+      permits, visit
+      http://creativecommons.org/licenses/by-nc/3.0/. See
+      http://wirednextfest.com http://beatbots.org
+      http://creativecommons.org
+      http://spoontheband.com</media:description>
+      <media:keywords>music, Wired, You, Robot, Tokyo, Spoon,
+      Nextfest, yellow, Evah, Keepon, Don't, dance,
+      beatbots</media:keywords>
+      <yt:duration seconds='245' />
+      <media:category label='Music'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Music</media:category>
+      <media:content url='http://www.youtube.com/v/nPdP1jBfxzo'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='245'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=9cf74fd6305fc73a&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='245' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=nPdP1jBfxzo' />
+      <media:thumbnail url='http://img.youtube.com/vi/nPdP1jBfxzo/2.jpg'
+      height='97' width='130' time='00:02:02.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/nPdP1jBfxzo/1.jpg'
+      height='97' width='130' time='00:01:01.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/nPdP1jBfxzo/3.jpg'
+      height='97' width='130' time='00:03:03.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/nPdP1jBfxzo/0.jpg'
+      height='240' width='320' time='00:02:02.500' />
+    </media:group>
+    <yt:statistics viewCount='374239' />
+    <gd:rating min='1' max='5' numRaters='876' average='4.85' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/nPdP1jBfxzo/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/gJRYWKkcsDE</id>
+    <published>2006-12-26T03:56:09.000-08:00</published>
+    <updated>2007-11-19T09:00:50.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='futbol' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='diego' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Sports' label='Sports' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='gloria' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='2002' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='maradona' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='mundial' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='argentina' />
+    <title>Tanta Gloria, Tanto Futbol (Argentina)</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=gJRYWKkcsDE"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/gJRYWKkcsDE/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=gJRYWKkcsDE"&gt;Tanta
+    Gloria, Tanto Futbol (Argentina)&lt;/a&gt;
+    &lt;br&gt;&lt;/div&gt; &lt;div style="font-size: 12px; margin:
+    3px 0px;"&gt;&lt;span&gt;Publicidad de Quilmes para el Mundial
+    2002 - Esperemos que la podamos seguir completando el proximo
+    mundial&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=Seiyannitax"&gt;Seiyannitax&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 4571&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;13 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;01:39&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=17"&gt;Sports&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/gJRYWKkcsDE' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=gJRYWKkcsDE' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/gJRYWKkcsDE/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/gJRYWKkcsDE/related' />
+    <author>
+      <name>Seiyannitax</name>
+      <uri>http://gdata.youtube.com/feeds/users/seiyannitax</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Tanta Gloria, Tanto Futbol
+      (Argentina)</media:title>
+      <media:description type='plain'>Publicidad de Quilmes para el
+      Mundial 2002 - Esperemos que la podamos seguir completando el
+      proximo mundial</media:description>
+      <media:keywords>argentina, diego, mundial, gloria, 2002,
+      futbol, maradona</media:keywords>
+      <yt:duration seconds='99' />
+      <media:category label='Sports'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Sports</media:category>
+      <media:content url='http://www.youtube.com/v/gJRYWKkcsDE'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='99'
+      yt:format='5' />
+      <media:player url='http://www.youtube.com/watch?v=gJRYWKkcsDE' />
+      <media:thumbnail url='http://img.youtube.com/vi/gJRYWKkcsDE/2.jpg'
+      height='97' width='130' time='00:00:49.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/gJRYWKkcsDE/1.jpg'
+      height='97' width='130' time='00:00:24.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/gJRYWKkcsDE/3.jpg'
+      height='97' width='130' time='00:01:14.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/gJRYWKkcsDE/0.jpg'
+      height='240' width='320' time='00:00:49.500' />
+    </media:group>
+    <yt:statistics viewCount='4571' />
+    <gd:rating min='1' max='5' numRaters='13' average='5.00' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/gJRYWKkcsDE/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/AZC2IQr6OUg</id>
+    <published>2006-12-14T05:13:53.000-08:00</published>
+    <updated>2007-11-20T10:22:18.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Maradona' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Galindez' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Sedantes' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='agua' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Argentina' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Branco' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='gatorade' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Brazil' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Sports' label='Sports' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Diego' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Bilardo' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Italia' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='1990' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='pisalo' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Masajista' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Italy' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Brasil' />
+    <title>Diego Maradona confeso lo del bidon de Branco</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=AZC2IQr6OUg"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/AZC2IQr6OUg/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=AZC2IQr6OUg"&gt;Diego
+    Maradona confeso lo del bidon de Branco&lt;/a&gt;
+    &lt;br&gt;&lt;/div&gt; &lt;div style="font-size: 12px; margin:
+    3px 0px;"&gt;&lt;span&gt;Maradona confeso lo del bidon de
+    Branco, no insultar en los comentarios o seran
+    eliminados&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=murdock1983"&gt;murdock1983&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 24605&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;47 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;07:32&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=17"&gt;Sports&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/AZC2IQr6OUg' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=AZC2IQr6OUg' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/AZC2IQr6OUg/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/AZC2IQr6OUg/related' />
+    <author>
+      <name>murdock1983</name>
+      <uri>http://gdata.youtube.com/feeds/users/murdock1983</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Diego Maradona confeso lo del bidon
+      de Branco</media:title>
+      <media:description type='plain'>Maradona confeso lo del bidon
+      de Branco, no insultar en los comentarios o seran
+      eliminados</media:description>
+      <media:keywords>agua, Italia, Maradona, Brasil, Diego,
+      Branco, Bilardo, 1990, Italy, pisalo, gatorade, Sedantes,
+      Argentina, Brazil, Masajista, Galindez</media:keywords>
+      <yt:duration seconds='452' />
+      <media:category label='Sports'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Sports</media:category>
+      <media:content url='http://www.youtube.com/v/AZC2IQr6OUg'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='452'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=190b6210afa3948&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='452' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=AZC2IQr6OUg' />
+      <media:thumbnail url='http://img.youtube.com/vi/AZC2IQr6OUg/2.jpg'
+      height='97' width='130' time='00:03:46' />
+      <media:thumbnail url='http://img.youtube.com/vi/AZC2IQr6OUg/1.jpg'
+      height='97' width='130' time='00:01:53' />
+      <media:thumbnail url='http://img.youtube.com/vi/AZC2IQr6OUg/3.jpg'
+      height='97' width='130' time='00:05:39' />
+      <media:thumbnail url='http://img.youtube.com/vi/AZC2IQr6OUg/0.jpg'
+      height='240' width='320' time='00:03:46' />
+    </media:group>
+    <yt:statistics viewCount='24605' />
+    <gd:rating min='1' max='5' numRaters='47' average='4.91' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/AZC2IQr6OUg/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/svEx6iCV1s8</id>
+    <published>2007-05-28T10:05:32.000-07:00</published>
+    <updated>2007-11-20T11:12:42.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Germany' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='fifa' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='cup' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='napoli' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='world' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='rom' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='roma' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Sports' label='Sports' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='football' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Deutschland' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='hymn' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='uefa' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='del' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='1990' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='copa' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='mondo' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='10' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='coppa' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='soccer' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='argentina' />
+    <title>Argentinian National Anthem in Italia '90 final</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=svEx6iCV1s8"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/svEx6iCV1s8/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=svEx6iCV1s8"&gt;Argentinian
+    National Anthem in Italia &amp;#39;90 final&lt;/a&gt;
+    &lt;br&gt;&lt;/div&gt; &lt;div style="font-size: 12px; margin:
+    3px 0px;"&gt;&lt;span&gt;Diego Maradona has something to say to
+    the italian fans in front of the camera Himno Nacional
+    Argentino Hijos de puta !!!&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td style="font-size: 11px; line-height: 1.4em;
+    padding-left: 20px; padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=boupap"&gt;boupap&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 29832&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;43 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;01:41&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=17"&gt;Sports&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/svEx6iCV1s8' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=svEx6iCV1s8' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/svEx6iCV1s8/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/svEx6iCV1s8/related' />
+    <author>
+      <name>boupap</name>
+      <uri>http://gdata.youtube.com/feeds/users/boupap</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Argentinian National Anthem in
+      Italia '90 final</media:title>
+      <media:description type='plain'>Diego Maradona has something
+      to say to the italian fans in front of the camera Himno
+      Nacional Argentino Hijos de puta !!!</media:description>
+      <media:keywords>cup, hymn, uefa, mondo, fifa, argentina,
+      coppa, napoli, del, soccer, rom, 1990, roma, 10, football,
+      copa, Deutschland, Germany, world</media:keywords>
+      <yt:duration seconds='101' />
+      <media:category label='Sports'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Sports</media:category>
+      <media:content url='http://www.youtube.com/v/svEx6iCV1s8'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='101'
+      yt:format='5' />
+      <media:player url='http://www.youtube.com/watch?v=svEx6iCV1s8' />
+      <media:thumbnail url='http://img.youtube.com/vi/svEx6iCV1s8/2.jpg'
+      height='97' width='130' time='00:00:50.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/svEx6iCV1s8/1.jpg'
+      height='97' width='130' time='00:00:25.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/svEx6iCV1s8/3.jpg'
+      height='97' width='130' time='00:01:15.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/svEx6iCV1s8/0.jpg'
+      height='240' width='320' time='00:00:50.500' />
+    </media:group>
+    <yt:statistics viewCount='29832' />
+    <gd:rating min='1' max='5' numRaters='43' average='4.67' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/svEx6iCV1s8/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/i_QABS88nDc</id>
+    <published>2006-12-23T11:50:49.000-08:00</published>
+    <updated>2007-11-20T11:24:57.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='edith' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Piaf' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Music' label='Music' />
+    <title>Edith Piaf - Non je ne regrette rien</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=i_QABS88nDc"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/i_QABS88nDc/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=i_QABS88nDc"&gt;Edith Piaf
+    - Non je ne regrette rien&lt;/a&gt; &lt;br&gt;&lt;/div&gt;
+    &lt;div style="font-size: 12px; margin: 3px
+    0px;"&gt;&lt;span&gt;clip&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td style="font-size: 11px; line-height: 1.4em;
+    padding-left: 20px; padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=CafeDaria"&gt;CafeDaria&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 722424&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;1702 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;02:05&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=10"&gt;Music&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/i_QABS88nDc' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=i_QABS88nDc' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/i_QABS88nDc/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/i_QABS88nDc/related' />
+    <author>
+      <name>CafeDaria</name>
+      <uri>http://gdata.youtube.com/feeds/users/cafedaria</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Edith Piaf - Non je ne regrette
+      rien</media:title>
+      <media:description type='plain'>clip</media:description>
+      <media:keywords>Piaf, edith</media:keywords>
+      <yt:duration seconds='125' />
+      <media:category label='Music'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Music</media:category>
+      <media:content url='http://www.youtube.com/v/i_QABS88nDc'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='125'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=8bf400052f3c9c37&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='125' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=i_QABS88nDc' />
+      <media:thumbnail url='http://img.youtube.com/vi/i_QABS88nDc/2.jpg'
+      height='97' width='130' time='00:01:02.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/i_QABS88nDc/1.jpg'
+      height='97' width='130' time='00:00:31.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/i_QABS88nDc/3.jpg'
+      height='97' width='130' time='00:01:33.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/i_QABS88nDc/0.jpg'
+      height='240' width='320' time='00:01:02.500' />
+    </media:group>
+    <yt:statistics viewCount='722424' />
+    <gd:rating min='1' max='5' numRaters='1702' average='4.87' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/i_QABS88nDc/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/ut_K4oeM4SM</id>
+    <published>2006-08-13T13:35:55.000-07:00</published>
+    <updated>2007-11-20T10:08:15.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='my' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Entertainment' label='Entertainment' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='way' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='1977' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='live' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='elvis' />
+    <title>My Way - Elvis Presley</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=ut_K4oeM4SM"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/ut_K4oeM4SM/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=ut_K4oeM4SM"&gt;My Way -
+    Elvis Presley&lt;/a&gt; &lt;br&gt;&lt;/div&gt; &lt;div
+    style="font-size: 12px; margin: 3px 0px;"&gt;&lt;span&gt;Elvis
+    Presley singing &amp;quot;My Way&amp;quot; live 2 months before
+    his death. This particular version is extracted from the 1981
+    documentary &amp;quot;This is Elvis.&amp;quot; Includes a
+    retrospective look throughout the second
+    verse.&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=diversedevotion"&gt;diversedevotion&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 1030223&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;2210 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;04:20&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=24"&gt;Entertainment&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/ut_K4oeM4SM' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=ut_K4oeM4SM' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/ut_K4oeM4SM/related' />
+    <author>
+      <name>diversedevotion</name>
+      <uri>
+      http://gdata.youtube.com/feeds/users/diversedevotion</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>My Way - Elvis
+      Presley</media:title>
+      <media:description type='plain'>Elvis Presley singing "My
+      Way" live 2 months before his death. This particular version
+      is extracted from the 1981 documentary "This is Elvis."
+      Includes a retrospective look throughout the second
+      verse.</media:description>
+      <media:keywords>elvis, 1977, way, my, live</media:keywords>
+      <yt:duration seconds='260' />
+      <media:category label='Entertainment'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Entertainment</media:category>
+      <media:content url='http://www.youtube.com/v/ut_K4oeM4SM'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='260'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=badfcae2878ce123&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='260' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=ut_K4oeM4SM' />
+      <media:thumbnail url='http://img.youtube.com/vi/ut_K4oeM4SM/2.jpg'
+      height='97' width='130' time='00:02:10' />
+      <media:thumbnail url='http://img.youtube.com/vi/ut_K4oeM4SM/1.jpg'
+      height='97' width='130' time='00:01:05' />
+      <media:thumbnail url='http://img.youtube.com/vi/ut_K4oeM4SM/3.jpg'
+      height='97' width='130' time='00:03:15' />
+      <media:thumbnail url='http://img.youtube.com/vi/ut_K4oeM4SM/0.jpg'
+      height='240' width='320' time='00:02:10' />
+    </media:group>
+    <yt:statistics viewCount='1030223' />
+    <gd:rating min='1' max='5' numRaters='2210' average='4.89' />
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/vnRqYMTpXHc</id>
+    <published>2006-12-29T16:51:01.000-08:00</published>
+    <updated>2007-11-20T14:17:19.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='louis' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='armstrong' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Music' label='Music' />
+    <title>What a Wonderful World - Louis Armstrong</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=vnRqYMTpXHc"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/vnRqYMTpXHc/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=vnRqYMTpXHc"&gt;What a
+    Wonderful World - Louis Armstrong&lt;/a&gt;
+    &lt;br&gt;&lt;/div&gt; &lt;div style="font-size: 12px; margin:
+    3px 0px;"&gt;&lt;span&gt;Impressive. One of this video watcher
+    a &amp;quot;live book&amp;quot; about Armstrong. His message:
+    ------------------------------------- Hi David, Sorry for
+    taking so long to reply. I&amp;#39;m not on that video nor was
+    I there. I&amp;#39;m a life-long Louis Armstrong nut so I know
+    when he did everything. There are two books that I get my
+    information about videos from, &amp;quot;All Of Me-The Complete
+    Discography of Louis Armstrong&amp;quot; by Jos Willems
+    &amp;amp; &amp;quot;Louis Armstrong On The Screen&amp;quot; by
+    Dr. Klaus Stratemann. The Louis clip you posted is from the
+    first of two BBC-TV shows. Each show was 45 minutes &amp;amp;
+    they were taped on the same day, July 2, 1968. Aside from Louis
+    the rest of the band is Tyree Glenn-trombone, Joe
+    Muranyi-clarinet, Marty Napoleon-piano, Buddy Catlett-bass
+    &amp;amp; Danny Barcelona-drums. Louis died three years later,
+    on July 6, 1971. He was only on the road full time for another
+    two months after this clip. By mid September of 1968 he was
+    seriously ill in the hospital &amp;amp; was out of commisiion
+    for most of 1969. I hope that&amp;#39;s enough information for
+    you. Best wishes, Phil ------------------------------ Phil, I
+    am very been thankful by the information. Thank you so
+    much.&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=davidnob"&gt;davidnob&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 2171863&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;8230 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;02:18&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=10"&gt;Music&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/vnRqYMTpXHc' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=vnRqYMTpXHc' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/vnRqYMTpXHc/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/vnRqYMTpXHc/related' />
+    <author>
+      <name>davidnob</name>
+      <uri>http://gdata.youtube.com/feeds/users/davidnob</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>What a Wonderful World - Louis
+      Armstrong</media:title>
+      <media:description type='plain'>Impressive. One of this video
+      watcher a "live book" about Armstrong. His message:
+      ------------------------------------- Hi David, Sorry for
+      taking so long to reply. I'm not on that video nor was I
+      there. I'm a life-long Louis Armstrong nut so I know when he
+      did everything. There are two books that I get my information
+      about videos from, "All Of Me-The Complete Discography of
+      Louis Armstrong" by Jos Willems &amp; "Louis Armstrong On The
+      Screen" by Dr. Klaus Stratemann. The Louis clip you posted is
+      from the first of two BBC-TV shows. Each show was 45 minutes
+      &amp; they were taped on the same day, July 2, 1968. Aside
+      from Louis the rest of the band is Tyree Glenn-trombone, Joe
+      Muranyi-clarinet, Marty Napoleon-piano, Buddy Catlett-bass
+      &amp; Danny Barcelona-drums. Louis died three years later, on
+      July 6, 1971. He was only on the road full time for another
+      two months after this clip. By mid September of 1968 he was
+      seriously ill in the hospital &amp; was out of commisiion for
+      most of 1969. I hope that's enough information for you. Best
+      wishes, Phil ------------------------------ Phil, I am very
+      been thankful by the information. Thank you so
+      much.</media:description>
+      <media:keywords>louis, armstrong</media:keywords>
+      <yt:duration seconds='138' />
+      <media:category label='Music'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Music</media:category>
+      <media:content url='http://www.youtube.com/v/vnRqYMTpXHc'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='138'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=be746a60c4e95c77&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='138' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=vnRqYMTpXHc' />
+      <media:thumbnail url='http://img.youtube.com/vi/vnRqYMTpXHc/2.jpg'
+      height='97' width='130' time='00:01:09' />
+      <media:thumbnail url='http://img.youtube.com/vi/vnRqYMTpXHc/1.jpg'
+      height='97' width='130' time='00:00:34.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/vnRqYMTpXHc/3.jpg'
+      height='97' width='130' time='00:01:43.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/vnRqYMTpXHc/0.jpg'
+      height='240' width='320' time='00:01:09' />
+    </media:group>
+    <yt:statistics viewCount='2171863' />
+    <gd:rating min='1' max='5' numRaters='8230' average='4.90' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/vnRqYMTpXHc/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/D3uSRnpCr-k</id>
+    <published>2007-08-06T18:41:36.000-07:00</published>
+    <updated>2007-11-20T12:59:58.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='gizmodo' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='bros' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Entertainment' label='Entertainment' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='mario' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='techguru' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='NES' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='wii' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Emulator' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='iPhone' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='engadget' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='unlock' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Apple' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Nintendo' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='iphones' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='brasil' />
+    <title>iPhone Nintendo Emulator!</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=D3uSRnpCr-k"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/D3uSRnpCr-k/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=D3uSRnpCr-k"&gt;iPhone
+    Nintendo Emulator!&lt;/a&gt; &lt;br&gt;&lt;/div&gt; &lt;div
+    style="font-size: 12px; margin: 3px
+    0px;"&gt;&lt;span&gt;http://www.techguru.com.br Published by
+    Phelipe Hamoui all credits to stepwhite Download now!
+    http://code.google.com/p/iphonenes/&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td style="font-size: 11px; line-height: 1.4em;
+    padding-left: 20px; padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=phamoui"&gt;phamoui&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 18632&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_empty_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;16 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;00:56&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=24"&gt;Entertainment&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/D3uSRnpCr-k' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=D3uSRnpCr-k' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/D3uSRnpCr-k/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/D3uSRnpCr-k/related' />
+    <author>
+      <name>phamoui</name>
+      <uri>http://gdata.youtube.com/feeds/users/phamoui</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>iPhone Nintendo
+      Emulator!</media:title>
+      <media:description type='plain'>http://www.techguru.com.br
+      Published by Phelipe Hamoui all credits to stepwhite Download
+      now! http://code.google.com/p/iphonenes/</media:description>
+      <media:keywords>wii, techguru, unlock, NES, mario, iphones,
+      Emulator, Apple, Nintendo, brasil, gizmodo, iPhone, engadget,
+      bros</media:keywords>
+      <yt:duration seconds='56' />
+      <media:category label='Entertainment'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Entertainment</media:category>
+      <media:content url='http://www.youtube.com/v/D3uSRnpCr-k'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='56'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=f7b92467a42afe9&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='56' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=D3uSRnpCr-k' />
+      <media:thumbnail url='http://img.youtube.com/vi/D3uSRnpCr-k/2.jpg'
+      height='97' width='130' time='00:00:28' />
+      <media:thumbnail url='http://img.youtube.com/vi/D3uSRnpCr-k/1.jpg'
+      height='97' width='130' time='00:00:14' />
+      <media:thumbnail url='http://img.youtube.com/vi/D3uSRnpCr-k/3.jpg'
+      height='97' width='130' time='00:00:42' />
+      <media:thumbnail url='http://img.youtube.com/vi/D3uSRnpCr-k/0.jpg'
+      height='240' width='320' time='00:00:28' />
+    </media:group>
+    <yt:statistics viewCount='18632' />
+    <gd:rating min='1' max='5' numRaters='16' average='4.00' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/D3uSRnpCr-k/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/kCr3lOhMJCg</id>
+    <published>2007-01-15T19:07:12.000-08:00</published>
+    <updated>2007-11-20T09:09:22.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='engine' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='neo' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='alternative' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='motor' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='energy' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Howto' label='Howto &amp; Style' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='calloway' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='magnet' />
+    <title>Magnet Motor - Calloway V Gate : 01</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=kCr3lOhMJCg"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/kCr3lOhMJCg/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=kCr3lOhMJCg"&gt;Magnet
+    Motor - Calloway V Gate : 01&lt;/a&gt; &lt;br&gt;&lt;/div&gt;
+    &lt;div style="font-size: 12px; margin: 3px
+    0px;"&gt;&lt;span&gt;Calloway V Gate on a skateboard wheel. For
+    more info please visit http://www.callowayengines.com Brought
+    to you by http://www.dust-aid.com - seeking simple solutions
+    for a better world.&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=DustAid"&gt;DustAid&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 188525&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;143 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;03:57&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=26"&gt;Howto
+    &amp;amp;
+    Style&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/kCr3lOhMJCg' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=kCr3lOhMJCg' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/kCr3lOhMJCg/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/kCr3lOhMJCg/related' />
+    <author>
+      <name>DustAid</name>
+      <uri>http://gdata.youtube.com/feeds/users/dustaid</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Magnet Motor - Calloway V Gate :
+      01</media:title>
+      <media:description type='plain'>Calloway V Gate on a
+      skateboard wheel. For more info please visit
+      http://www.callowayengines.com Brought to you by
+      http://www.dust-aid.com - seeking simple solutions for a
+      better world.</media:description>
+      <media:keywords>engine, motor, calloway, neo, alternative,
+      magnet, energy</media:keywords>
+      <yt:duration seconds='237' />
+      <media:category label='Howto &amp; Style'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Howto</media:category>
+      <media:content url='http://www.youtube.com/v/kCr3lOhMJCg'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='237'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=902af794e84c2428&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='237' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=kCr3lOhMJCg' />
+      <media:thumbnail url='http://img.youtube.com/vi/kCr3lOhMJCg/2.jpg'
+      height='97' width='130' time='00:01:58.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/kCr3lOhMJCg/1.jpg'
+      height='97' width='130' time='00:00:59.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/kCr3lOhMJCg/3.jpg'
+      height='97' width='130' time='00:02:57.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/kCr3lOhMJCg/0.jpg'
+      height='240' width='320' time='00:01:58.500' />
+    </media:group>
+    <yt:statistics viewCount='188525' />
+    <gd:rating min='1' max='5' numRaters='143' average='4.54' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/kCr3lOhMJCg/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/3ihyj1xhOvM</id>
+    <published>2007-06-14T11:25:52.000-07:00</published>
+    <updated>2007-11-20T13:54:45.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Game' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='japan' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='run' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='treadmill' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='show' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Comedy' label='Comedy' />
+    <title>Japanese Treadmill Run TV Show</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=3ihyj1xhOvM"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/3ihyj1xhOvM/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=3ihyj1xhOvM"&gt;Japanese
+    Treadmill Run TV Show&lt;/a&gt; &lt;br&gt;&lt;/div&gt; &lt;div
+    style="font-size: 12px; margin: 3px
+    0px;"&gt;&lt;span&gt;further proof that Japanese TV is light
+    years beyond American TV.&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td style="font-size: 11px; line-height: 1.4em;
+    padding-left: 20px; padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=nirvanafighter"&gt;nirvanafighter&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 31754&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;31 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;04:25&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=23"&gt;Comedy&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/3ihyj1xhOvM' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=3ihyj1xhOvM' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/3ihyj1xhOvM/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/3ihyj1xhOvM/related' />
+    <author>
+      <name>nirvanafighter</name>
+      <uri>
+      http://gdata.youtube.com/feeds/users/nirvanafighter</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Japanese Treadmill Run TV
+      Show</media:title>
+      <media:description type='plain'>further proof that Japanese
+      TV is light years beyond American TV.</media:description>
+      <media:keywords>japan, Game, treadmill, show,
+      run</media:keywords>
+      <yt:duration seconds='265' />
+      <media:category label='Comedy'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Comedy</media:category>
+      <media:content url='http://www.youtube.com/v/3ihyj1xhOvM'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='265'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=de28728f5c613af3&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='265' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=3ihyj1xhOvM' />
+      <media:thumbnail url='http://img.youtube.com/vi/3ihyj1xhOvM/2.jpg'
+      height='97' width='130' time='00:02:12.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/3ihyj1xhOvM/1.jpg'
+      height='97' width='130' time='00:01:06.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/3ihyj1xhOvM/3.jpg'
+      height='97' width='130' time='00:03:18.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/3ihyj1xhOvM/0.jpg'
+      height='240' width='320' time='00:02:12.500' />
+    </media:group>
+    <yt:statistics viewCount='31754' />
+    <gd:rating min='1' max='5' numRaters='31' average='4.74' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/3ihyj1xhOvM/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/sRv953XZX6Y</id>
+    <published>2007-04-16T17:58:04.000-07:00</published>
+    <updated>2007-11-20T14:15:43.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='firewalled' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='limewire' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='mp4' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='download' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='torrents' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='free' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='azureus' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='dvd' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='dl' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='isos' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Howto' label='Howto &amp; Style' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='movies' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='wii' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='pirated' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='mp3' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='burn' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='emule' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='rip' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='online' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='roms' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='ps2' />
+    <title>Google is better than Limewire for downloading Music
+    mp3s dl</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=sRv953XZX6Y"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/sRv953XZX6Y/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=sRv953XZX6Y"&gt;Google is
+    better than Limewire for downloading Music mp3s dl&lt;/a&gt;
+    &lt;br&gt;&lt;/div&gt; &lt;div style="font-size: 12px; margin:
+    3px 0px;"&gt;&lt;span&gt;. . . See New video .
+    http://www.youtube.com/watch?v=pbMMFcOYgGs
+    http://youtube.jimmyr.com/ to request tutorials This video was
+    apparently noted on several high ranking news sites
+    http://www.jimmyr.com/blog/Me_on_FT_com_and_Cnet_194_2007.php
+    download mp3 mp4 and video files using this old google hack.
+    Right click _text_ _link_ select save as to save. Quit asking
+    intitle:&amp;quot;index.of&amp;quot; (mp4|mp3|avi) no.one.knows
+    -asp -htm -html -cf -jsp quit pointing out I have my email as
+    if you found something special. go to
+    http://www.jimmyr.com/blog/ , it&amp;#39;s on every page of my
+    site. %%p2p&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=jimmyrcom"&gt;jimmyrcom&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 1169753&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;2919 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;08:53&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=26"&gt;Howto
+    &amp;amp;
+    Style&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/sRv953XZX6Y' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=sRv953XZX6Y' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/sRv953XZX6Y/related' />
+    <author>
+      <name>jimmyrcom</name>
+      <uri>http://gdata.youtube.com/feeds/users/jimmyrcom</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Google is better than Limewire for
+      downloading Music mp3s dl</media:title>
+      <media:description type='plain'>. . . See New video .
+      http://www.youtube.com/watch?v=pbMMFcOYgGs
+      http://youtube.jimmyr.com/ to request tutorials This video
+      was apparently noted on several high ranking news sites
+      http://www.jimmyr.com/blog/Me_on_FT_com_and_Cnet_194_2007.php
+      download mp3 mp4 and video files using this old google hack.
+      Right click _text_ _link_ select save as to save. Quit asking
+      intitle:"index.of" (mp4|mp3|avi) no.one.knows -asp -htm -html
+      -cf -jsp quit pointing out I have my email as if you found
+      something special. go to http://www.jimmyr.com/blog/ , it's
+      on every page of my site. %%p2p</media:description>
+      <media:keywords>roms, movies, mp4, mp3, download, online,
+      emule, free, pirated, isos, limewire, ps2, dl, rip, wii, dvd,
+      torrents, azureus, burn, firewalled</media:keywords>
+      <yt:duration seconds='533' />
+      <media:category label='Howto &amp; Style'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Howto</media:category>
+      <media:content url='http://www.youtube.com/v/sRv953XZX6Y'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='533'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=b11bfde775d95fa6&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='533' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=sRv953XZX6Y' />
+      <media:thumbnail url='http://img.youtube.com/vi/sRv953XZX6Y/2.jpg'
+      height='97' width='130' time='00:04:26.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/sRv953XZX6Y/1.jpg'
+      height='97' width='130' time='00:02:13.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/sRv953XZX6Y/3.jpg'
+      height='97' width='130' time='00:06:39.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/sRv953XZX6Y/0.jpg'
+      height='240' width='320' time='00:04:26.500' />
+    </media:group>
+    <yt:statistics viewCount='1169753' />
+    <gd:rating min='1' max='5' numRaters='2919' average='4.78' />
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/GIqk4agzKPE</id>
+    <published>2007-02-25T09:23:21.000-08:00</published>
+    <updated>2007-11-20T08:59:07.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='News' label='News &amp; Politics' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Living' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Times' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Exponential' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='in' />
+    <title>Did You Know....?</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=GIqk4agzKPE"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/GIqk4agzKPE/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=GIqk4agzKPE"&gt;Did You
+    Know....?&lt;/a&gt; &lt;br&gt;&lt;/div&gt; &lt;div
+    style="font-size: 12px; margin: 3px 0px;"&gt;&lt;span&gt;Living
+    in Exponential Times.&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td style="font-size: 11px; line-height: 1.4em;
+    padding-left: 20px; padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=ThePatriotsMaxim"&gt;ThePatriotsMaxim&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 454208&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;3379 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;06:06&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=25"&gt;News
+    &amp;amp;
+    Politics&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/GIqk4agzKPE' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=GIqk4agzKPE' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/GIqk4agzKPE/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/GIqk4agzKPE/related' />
+    <author>
+      <name>ThePatriotsMaxim</name>
+      <uri>
+      http://gdata.youtube.com/feeds/users/thepatriotsmaxim</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Did You Know....?</media:title>
+      <media:description type='plain'>Living in Exponential
+      Times.</media:description>
+      <media:keywords>Times, Exponential, Living,
+      in</media:keywords>
+      <yt:duration seconds='366' />
+      <media:category label='News &amp; Politics'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      News</media:category>
+      <media:content url='http://www.youtube.com/v/GIqk4agzKPE'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='366'
+      yt:format='5' />
+      <media:player url='http://www.youtube.com/watch?v=GIqk4agzKPE' />
+      <media:thumbnail url='http://img.youtube.com/vi/GIqk4agzKPE/2.jpg'
+      height='97' width='130' time='00:03:03' />
+      <media:thumbnail url='http://img.youtube.com/vi/GIqk4agzKPE/1.jpg'
+      height='97' width='130' time='00:01:31.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/GIqk4agzKPE/3.jpg'
+      height='97' width='130' time='00:04:34.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/GIqk4agzKPE/0.jpg'
+      height='240' width='320' time='00:03:03' />
+    </media:group>
+    <yt:statistics viewCount='454208' />
+    <gd:rating min='1' max='5' numRaters='3379' average='4.53' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/GIqk4agzKPE/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/0vXYf1FxaEw</id>
+    <published>2007-03-02T09:48:07.000-08:00</published>
+    <updated>2007-11-20T06:36:39.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='anime' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='japan' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='asian' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Film' label='Film &amp; Animation' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='movie' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='cinema' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='paprika' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='trailer' />
+    <title>Paprika (trailer)</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=0vXYf1FxaEw"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/0vXYf1FxaEw/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=0vXYf1FxaEw"&gt;Paprika
+    (trailer)&lt;/a&gt; &lt;br&gt;&lt;/div&gt; &lt;div
+    style="font-size: 12px; margin: 3px 0px;"&gt;&lt;span&gt;29
+    year old Dr. Atsuko Chiba is an attractive but modest Japanese
+    research psychotherapist whose work is on the cutting edge of
+    her field. Her alter-ego is a stunning and fearless 18 year old
+    &amp;quot;dream detective,&amp;quot; code named PAPRIKA, who
+    can enter into people&amp;#39;s dreams and synchronize with
+    their unconscious to help uncover the source of their anxiety
+    or neurosis.&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=Ostkreutz"&gt;Ostkreutz&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 6127&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;25 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;01:19&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=1"&gt;Film
+    &amp;amp;
+    Animation&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/0vXYf1FxaEw' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=0vXYf1FxaEw' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/0vXYf1FxaEw/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/0vXYf1FxaEw/related' />
+    <author>
+      <name>Ostkreutz</name>
+      <uri>http://gdata.youtube.com/feeds/users/ostkreutz</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Paprika (trailer)</media:title>
+      <media:description type='plain'>29 year old Dr. Atsuko Chiba
+      is an attractive but modest Japanese research psychotherapist
+      whose work is on the cutting edge of her field. Her alter-ego
+      is a stunning and fearless 18 year old "dream detective,"
+      code named PAPRIKA, who can enter into people's dreams and
+      synchronize with their unconscious to help uncover the source
+      of their anxiety or neurosis.</media:description>
+      <media:keywords>trailer, paprika, japan, cinema, movie,
+      anime, asian</media:keywords>
+      <yt:duration seconds='79' />
+      <media:category label='Film &amp; Animation'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Film</media:category>
+      <media:content url='http://www.youtube.com/v/0vXYf1FxaEw'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='79'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=d2f5d87f5171684c&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='79' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=0vXYf1FxaEw' />
+      <media:thumbnail url='http://img.youtube.com/vi/0vXYf1FxaEw/2.jpg'
+      height='97' width='130' time='00:00:39.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/0vXYf1FxaEw/1.jpg'
+      height='97' width='130' time='00:00:19.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/0vXYf1FxaEw/3.jpg'
+      height='97' width='130' time='00:00:59.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/0vXYf1FxaEw/0.jpg'
+      height='240' width='320' time='00:00:39.500' />
+    </media:group>
+    <yt:statistics viewCount='6127' />
+    <gd:rating min='1' max='5' numRaters='25' average='5.00' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/0vXYf1FxaEw/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/nLzT85W-Op4</id>
+    <published>2007-03-18T11:37:22.000-07:00</published>
+    <updated>2007-11-20T00:12:39.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='2007' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Adidas' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Sports' label='Sports' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Margarets' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Spot' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='is' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Impossible' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='St' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='Nothing' />
+    <title>Spot Adidas 2007 - Impossible is Nothing - St
+    Margarets</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=nLzT85W-Op4"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/nLzT85W-Op4/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=nLzT85W-Op4"&gt;Spot
+    Adidas 2007 - Impossible is Nothing - St Margarets&lt;/a&gt;
+    &lt;br&gt;&lt;/div&gt; &lt;div style="font-size: 12px; margin:
+    3px 0px;"&gt;&lt;span&gt;Spot Adidas 2007 - Impossible is
+    Nothing - St Margarets&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td style="font-size: 11px; line-height: 1.4em;
+    padding-left: 20px; padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=Ronin26"&gt;Ronin26&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 30206&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;43 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;00:31&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=17"&gt;Sports&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/nLzT85W-Op4' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=nLzT85W-Op4' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/nLzT85W-Op4/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/nLzT85W-Op4/related' />
+    <author>
+      <name>Ronin26</name>
+      <uri>http://gdata.youtube.com/feeds/users/ronin26</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Spot Adidas 2007 - Impossible is
+      Nothing - St Margarets</media:title>
+      <media:description type='plain'>Spot Adidas 2007 - Impossible
+      is Nothing - St Margarets</media:description>
+      <media:keywords>is, 2007, Adidas, Nothing, Margarets, St,
+      Spot, Impossible</media:keywords>
+      <yt:duration seconds='31' />
+      <media:category label='Sports'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Sports</media:category>
+      <media:content url='http://www.youtube.com/v/nLzT85W-Op4'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='31'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=9cbcd3f395be3a9e&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='31' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=nLzT85W-Op4' />
+      <media:thumbnail url='http://img.youtube.com/vi/nLzT85W-Op4/2.jpg'
+      height='97' width='130' time='00:00:15.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/nLzT85W-Op4/1.jpg'
+      height='97' width='130' time='00:00:07.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/nLzT85W-Op4/3.jpg'
+      height='97' width='130' time='00:00:23.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/nLzT85W-Op4/0.jpg'
+      height='240' width='320' time='00:00:15.500' />
+    </media:group>
+    <yt:statistics viewCount='30206' />
+    <gd:rating min='1' max='5' numRaters='43' average='4.65' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/nLzT85W-Op4/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/AxW6-_Qx1JA</id>
+    <published>2006-07-11T10:02:47.000-07:00</published>
+    <updated>2007-11-20T11:55:02.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='clash' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='street' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Entertainment' label='Entertainment' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='elmo' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='leno' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='mcmanus' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='sesame' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='live' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='rove' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='kevin' />
+    <title>Rove talks to Sesame Street's Elmo - ROVE LIVE</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=AxW6-_Qx1JA"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/AxW6-_Qx1JA/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=AxW6-_Qx1JA"&gt;Rove talks
+    to Sesame Street&amp;#39;s Elmo - ROVE LIVE&lt;/a&gt;
+    &lt;br&gt;&lt;/div&gt; &lt;div style="font-size: 12px; margin:
+    3px 0px;"&gt;&lt;span&gt;Television host Rove McManus has a
+    chat with Sesame Street&amp;#39;s Elmo on &amp;#39;Rove
+    Live&amp;#39; Rove Live - (Roving Enterprises - Network Ten
+    Australia) Official site @ http://rovelive.com - More
+    &amp;#39;Rove Live&amp;#39; clips available - Just click on the
+    &amp;#39;GivesYouWings&amp;#39; profile link Brought to you by
+    - http://www.RoveOnline.com Rove will be on The Tonight Show
+    with Jay Leno this July 24 - Don&amp;#39;t forget to tune
+    in&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td style="font-size:
+    11px; line-height: 1.4em; padding-left: 20px; padding-top:
+    1px;" width="146" valign="top"&gt;&lt;div&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;From:&lt;/span&gt;
+    &lt;a
+    href="http://www.youtube.com/profile?user=GivesYouWings"&gt;GivesYouWings&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 745860&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;1760 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;09:57&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=24"&gt;Entertainment&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/AxW6-_Qx1JA' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=AxW6-_Qx1JA' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/AxW6-_Qx1JA/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/AxW6-_Qx1JA/related' />
+    <author>
+      <name>GivesYouWings</name>
+      <uri>http://gdata.youtube.com/feeds/users/givesyouwings</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Rove talks to Sesame Street's Elmo
+      - ROVE LIVE</media:title>
+      <media:description type='plain'>Television host Rove McManus
+      has a chat with Sesame Street's Elmo on 'Rove Live' Rove Live
+      - (Roving Enterprises - Network Ten Australia) Official site
+      @ http://rovelive.com - More 'Rove Live' clips available -
+      Just click on the 'GivesYouWings' profile link Brought to you
+      by - http://www.RoveOnline.com Rove will be on The Tonight
+      Show with Jay Leno this July 24 - Don't forget to tune
+      in</media:description>
+      <media:keywords>street, elmo, leno, kevin, sesame, rove,
+      clash, mcmanus, live</media:keywords>
+      <yt:duration seconds='597' />
+      <media:category label='Entertainment'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Entertainment</media:category>
+      <media:content url='http://www.youtube.com/v/AxW6-_Qx1JA'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='597'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=315bafbf431d490&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='597' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=AxW6-_Qx1JA' />
+      <media:thumbnail url='http://img.youtube.com/vi/AxW6-_Qx1JA/2.jpg'
+      height='97' width='130' time='00:04:58.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/AxW6-_Qx1JA/1.jpg'
+      height='97' width='130' time='00:02:29.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/AxW6-_Qx1JA/3.jpg'
+      height='97' width='130' time='00:07:27.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/AxW6-_Qx1JA/0.jpg'
+      height='240' width='320' time='00:04:58.500' />
+    </media:group>
+    <yt:statistics viewCount='745860' />
+    <gd:rating min='1' max='5' numRaters='1760' average='4.87' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/AxW6-_Qx1JA/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/SrF9vVoqmRM</id>
+    <published>2007-02-28T20:58:51.000-08:00</published>
+    <updated>2007-11-18T05:51:08.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='backstage' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='invierno07' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='aires' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Entertainment' label='Entertainment' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='kukla' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='super8' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='fotos' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='fashion' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='buenos' />
+    <title>kukla backstage invierno 2007</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=SrF9vVoqmRM"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/SrF9vVoqmRM/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=SrF9vVoqmRM"&gt;kukla
+    backstage invierno 2007&lt;/a&gt; &lt;br&gt;&lt;/div&gt;
+    &lt;div style="font-size: 12px; margin: 3px
+    0px;"&gt;&lt;span&gt;super 8 film footage of backstage at fall/
+    winter 2007 photoshoot footage by felipe carosella, josefina
+    azulay, isabel palandjoglou montage by felipe
+    carosella&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=kuklaonline"&gt;kuklaonline&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 871&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_empty_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_empty_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;3 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;02:35&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=24"&gt;Entertainment&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/SrF9vVoqmRM' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=SrF9vVoqmRM' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/SrF9vVoqmRM/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/SrF9vVoqmRM/related' />
+    <author>
+      <name>kuklaonline</name>
+      <uri>http://gdata.youtube.com/feeds/users/kuklaonline</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>kukla backstage invierno
+      2007</media:title>
+      <media:description type='plain'>super 8 film footage of
+      backstage at fall/ winter 2007 photoshoot footage by felipe
+      carosella, josefina azulay, isabel palandjoglou montage by
+      felipe carosella</media:description>
+      <media:keywords>fashion, invierno07, kukla, super8, aires,
+      buenos, fotos, backstage</media:keywords>
+      <yt:duration seconds='155' />
+      <media:category label='Entertainment'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Entertainment</media:category>
+      <media:content url='http://www.youtube.com/v/SrF9vVoqmRM'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='155'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=4ab17dbd5a2a9913&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='155' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=SrF9vVoqmRM' />
+      <media:thumbnail url='http://img.youtube.com/vi/SrF9vVoqmRM/2.jpg'
+      height='97' width='130' time='00:01:17.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/SrF9vVoqmRM/1.jpg'
+      height='97' width='130' time='00:00:38.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/SrF9vVoqmRM/3.jpg'
+      height='97' width='130' time='00:01:56.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/SrF9vVoqmRM/0.jpg'
+      height='240' width='320' time='00:01:17.500' />
+    </media:group>
+    <yt:statistics viewCount='871' />
+    <gd:rating min='1' max='5' numRaters='3' average='3.33' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/SrF9vVoqmRM/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/lrBZeWjGjl8</id>
+    <published>2006-05-11T03:46:14.000-07:00</published>
+    <updated>2007-11-20T14:34:03.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='canada' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='boards' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Music' label='Music' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='of' />
+    <title>boards of canada - dayvan cowboy</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=lrBZeWjGjl8"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/lrBZeWjGjl8/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=lrBZeWjGjl8"&gt;boards of
+    canada - dayvan cowboy&lt;/a&gt; &lt;br&gt;&lt;/div&gt; &lt;div
+    style="font-size: 12px; margin: 3px 0px;"&gt;&lt;span&gt;brand
+    new video by boards of canada from &amp;quot;the campfire
+    headphase&amp;quot; album&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td style="font-size: 11px; line-height: 1.4em;
+    padding-left: 20px; padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=gassis"&gt;gassis&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 240709&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;867 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;04:36&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=10"&gt;Music&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/lrBZeWjGjl8' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=lrBZeWjGjl8' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/lrBZeWjGjl8/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/lrBZeWjGjl8/related' />
+    <author>
+      <name>gassis</name>
+      <uri>http://gdata.youtube.com/feeds/users/gassis</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>boards of canada - dayvan
+      cowboy</media:title>
+      <media:description type='plain'>brand new video by boards of
+      canada from "the campfire headphase"
+      album</media:description>
+      <media:keywords>of, canada, boards</media:keywords>
+      <yt:duration seconds='276' />
+      <media:category label='Music'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Music</media:category>
+      <media:content url='http://www.youtube.com/v/lrBZeWjGjl8'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='276'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=96b0597968c68e5f&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='276' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=lrBZeWjGjl8' />
+      <media:thumbnail url='http://img.youtube.com/vi/lrBZeWjGjl8/2.jpg'
+      height='97' width='130' time='00:02:18' />
+      <media:thumbnail url='http://img.youtube.com/vi/lrBZeWjGjl8/1.jpg'
+      height='97' width='130' time='00:01:09' />
+      <media:thumbnail url='http://img.youtube.com/vi/lrBZeWjGjl8/3.jpg'
+      height='97' width='130' time='00:03:27' />
+      <media:thumbnail url='http://img.youtube.com/vi/lrBZeWjGjl8/0.jpg'
+      height='240' width='320' time='00:02:18' />
+    </media:group>
+    <yt:statistics viewCount='240709' />
+    <gd:rating min='1' max='5' numRaters='867' average='4.86' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/lrBZeWjGjl8/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/3WdS4TscWH8</id>
+    <published>2006-12-11T11:33:01.000-08:00</published>
+    <updated>2007-11-15T20:32:07.000-08:00</updated>
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='apple' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Howto' label='Howto &amp; Style' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='futureshock' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='knowledgenavigator' />
+    <title>Apple Futureshock</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=3WdS4TscWH8"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/3WdS4TscWH8/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=3WdS4TscWH8"&gt;Apple
+    Futureshock&lt;/a&gt; &lt;br&gt;&lt;/div&gt; &lt;div
+    style="font-size: 12px; margin: 3px
+    0px;"&gt;&lt;span&gt;Concept video showing off the applications
+    behind Apple&amp;#39;s &amp;quot;Futureshock&amp;quot;
+    Knowledge Navigator concept device from
+    1987.&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=jpurnell"&gt;jpurnell&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 17592&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;22 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;05:45&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=26"&gt;Howto
+    &amp;amp;
+    Style&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/3WdS4TscWH8' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=3WdS4TscWH8' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/3WdS4TscWH8/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/3WdS4TscWH8/related' />
+    <author>
+      <name>jpurnell</name>
+      <uri>http://gdata.youtube.com/feeds/users/jpurnell</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Apple Futureshock</media:title>
+      <media:description type='plain'>Concept video showing off the
+      applications behind Apple's "Futureshock" Knowledge Navigator
+      concept device from 1987.</media:description>
+      <media:keywords>knowledgenavigator, apple,
+      futureshock</media:keywords>
+      <yt:duration seconds='345' />
+      <media:category label='Howto &amp; Style'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Howto</media:category>
+      <media:content url='http://www.youtube.com/v/3WdS4TscWH8'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='345'
+      yt:format='5' />
+      <media:player url='http://www.youtube.com/watch?v=3WdS4TscWH8' />
+      <media:thumbnail url='http://img.youtube.com/vi/3WdS4TscWH8/2.jpg'
+      height='97' width='130' time='00:02:52.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/3WdS4TscWH8/1.jpg'
+      height='97' width='130' time='00:01:26.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/3WdS4TscWH8/3.jpg'
+      height='97' width='130' time='00:04:18.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/3WdS4TscWH8/0.jpg'
+      height='240' width='320' time='00:02:52.500' />
+    </media:group>
+    <yt:statistics viewCount='17592' />
+    <gd:rating min='1' max='5' numRaters='22' average='4.64' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/3WdS4TscWH8/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/El6OVFhipwM</id>
+    <published>2007-02-01T10:21:41.000-08:00</published>
+    <updated>2007-11-20T09:05:36.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='nissan' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='crossover' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='skateboard' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='qashqai' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='commercial' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Autos' label='Autos &amp; Vehicles' />
+    <title>Nissan Qashqai</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=El6OVFhipwM"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/El6OVFhipwM/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=El6OVFhipwM"&gt;Nissan
+    Qashqai&lt;/a&gt; &lt;br&gt;&lt;/div&gt; &lt;div
+    style="font-size: 12px; margin: 3px 0px;"&gt;&lt;span&gt;Nissan
+    strikes again...&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=chevalblanc61"&gt;chevalblanc61&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 840212&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;548 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;00:41&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=2"&gt;Autos
+    &amp;amp;
+    Vehicles&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/El6OVFhipwM' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=El6OVFhipwM' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/El6OVFhipwM/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/El6OVFhipwM/related' />
+    <author>
+      <name>chevalblanc61</name>
+      <uri>http://gdata.youtube.com/feeds/users/chevalblanc61</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Nissan Qashqai</media:title>
+      <media:description type='plain'>Nissan strikes
+      again...</media:description>
+      <media:keywords>crossover, nissan, skateboard, commercial,
+      qashqai</media:keywords>
+      <yt:duration seconds='41' />
+      <media:category label='Autos &amp; Vehicles'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Autos</media:category>
+      <media:content url='http://www.youtube.com/v/El6OVFhipwM'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='41'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=125e8e545862a703&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='41' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=El6OVFhipwM' />
+      <media:thumbnail url='http://img.youtube.com/vi/El6OVFhipwM/2.jpg'
+      height='97' width='130' time='00:00:20.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/El6OVFhipwM/1.jpg'
+      height='97' width='130' time='00:00:10.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/El6OVFhipwM/3.jpg'
+      height='97' width='130' time='00:00:30.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/El6OVFhipwM/0.jpg'
+      height='240' width='320' time='00:00:20.500' />
+    </media:group>
+    <yt:statistics viewCount='840212' />
+    <gd:rating min='1' max='5' numRaters='548' average='4.69' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/El6OVFhipwM/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/_V4K7FepKw4</id>
+    <published>2006-06-02T09:41:55.000-07:00</published>
+    <updated>2007-11-20T09:43:30.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='psychedelic' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='acid' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='weird' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='legal' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='high' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='kid' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='leary' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Howto' label='Howto &amp; Style' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='timothy' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='LSD' />
+    <title>Kid on LSD</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=_V4K7FepKw4"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/_V4K7FepKw4/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=_V4K7FepKw4"&gt;Kid on
+    LSD&lt;/a&gt; &lt;br&gt;&lt;/div&gt; &lt;div style="font-size:
+    12px; margin: 3px 0px;"&gt;&lt;span&gt;A young kid on LSD,
+    taken while legal. If you watch the whole video, they state
+    that people as young as 9 were given
+    LSD.&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=kl0wn"&gt;kl0wn&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 1068101&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;987 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;00:39&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=26"&gt;Howto
+    &amp;amp;
+    Style&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/_V4K7FepKw4' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=_V4K7FepKw4' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/_V4K7FepKw4/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/_V4K7FepKw4/related' />
+    <author>
+      <name>kl0wn</name>
+      <uri>http://gdata.youtube.com/feeds/users/kl0wn</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Kid on LSD</media:title>
+      <media:description type='plain'>A young kid on LSD, taken
+      while legal. If you watch the whole video, they state that
+      people as young as 9 were given LSD.</media:description>
+      <media:keywords>legal, leary, kid, acid, psychedelic, LSD,
+      timothy, high, weird</media:keywords>
+      <yt:duration seconds='39' />
+      <media:category label='Howto &amp; Style'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Howto</media:category>
+      <media:content url='http://www.youtube.com/v/_V4K7FepKw4'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='39'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=fd5e0aec57a92b0e&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='39' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=_V4K7FepKw4' />
+      <media:thumbnail url='http://img.youtube.com/vi/_V4K7FepKw4/2.jpg'
+      height='97' width='130' time='00:00:19.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/_V4K7FepKw4/1.jpg'
+      height='97' width='130' time='00:00:09.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/_V4K7FepKw4/3.jpg'
+      height='97' width='130' time='00:00:29.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/_V4K7FepKw4/0.jpg'
+      height='240' width='320' time='00:00:19.500' />
+    </media:group>
+    <yt:statistics viewCount='1068101' />
+    <gd:rating min='1' max='5' numRaters='987' average='4.51' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/_V4K7FepKw4/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/6gmP4nk0EOE</id>
+    <published>2007-01-31T11:00:48.000-08:00</published>
+    <updated>2007-11-20T11:37:20.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='hypermedia' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='ethnography' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Howto' label='Howto &amp; Style' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='anthropology' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='ksudigg' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='digital' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='web2.0' />
+    <title>Web 2.0 ... The Machine is Us/ing Us</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=6gmP4nk0EOE"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/6gmP4nk0EOE/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=6gmP4nk0EOE"&gt;Web 2.0
+    ... The Machine is Us/ing Us&lt;/a&gt; &lt;br&gt;&lt;/div&gt;
+    &lt;div style="font-size: 12px; margin: 3px
+    0px;"&gt;&lt;span&gt;Final version now available!
+    http://youtube.com/watch?v=NLlGopyXT_g
+    http://mediatedcultures.net Web 2.0 in just under 5 minutes.
+    This is the 2nd draft, and I plan on doing one more final
+    draft. Please leave comments on what could be changed or
+    improved, or what needs to be excluded or included. Subscribe
+    if you want to be notified when the revision is released.
+    UPDATE: I just added this video to Mojiti where you can
+    actually write your comments into the video itself. It is an
+    exciting experiment in &amp;quot;Video 2.0&amp;quot;. Go check
+    it out at http://mojiti.com/kan/2024/3313 and add your voice!
+    Transcripts are now available as well:
+    http://mediatedcultures.net/ksudigg/?p=78 A couple of people
+    have noted that the statement, &amp;quot;XML was created to do
+    just that&amp;quot; (separate form from content) is misleading
+    because CSS enables the same effect with HTML. I tried to
+    integrate CSS into the video, but it ruined the flow. Perhaps
+    in the next draft. My statement on XML is based on the
+    following from xml.com: &amp;quot;In order to appreciate XML,
+    it is important to understand why it was created. XML was
+    created so that richly structured documents could be used over
+    the web. The only viable alternatives, HTML and SGML, are not
+    practical for this purpose. HTML, as we&amp;#39;ve already
+    discussed, comes bound with a set of semantics and does not
+    provide arbitrary structure.&amp;quot; Thank you all for the
+    comments. With your help the next draft will be cleaned up and
+    hopefully free of factual errors. A higher quality version is
+    available for download here:
+    http://www.mediafire.com/?6duzg3zioyd Please note that this is
+    the second draft and the final version will not be available
+    until late February after I review all comments and revise the
+    video. Please return for a new download link at that time. The
+    song is &amp;quot;There&amp;#39;s Nothing Impossible&amp;quot;
+    by Deus, available for free at
+    http://www.jamendo.com/en/album/103/ Deus offers music under a
+    Creative Commons Attribution-NonCommercial-ShareAlike 2.0
+    license, yet one more example of the interlinking of people
+    sharing and collaborating this video is attempting to
+    illustrate. CC:
+    http://creativecommons.org/licenses/by-nc-sa/2.5/ Michael Wesch
+    Assistant Professor of Cultural Anthropology Kansas State
+    University&lt;/span&gt;&lt;/div&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; line-height: 1.4em; padding-left: 20px;
+    padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=mwesch"&gt;mwesch&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 3769296&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;17303 &lt;span
+    style="color: #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;04:31&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=26"&gt;Howto
+    &amp;amp;
+    Style&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/6gmP4nk0EOE' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=6gmP4nk0EOE' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/6gmP4nk0EOE/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/6gmP4nk0EOE/related' />
+    <author>
+      <name>mwesch</name>
+      <uri>http://gdata.youtube.com/feeds/users/mwesch</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Web 2.0 ... The Machine is Us/ing
+      Us</media:title>
+      <media:description type='plain'>Final version now available!
+      http://youtube.com/watch?v=NLlGopyXT_g
+      http://mediatedcultures.net Web 2.0 in just under 5 minutes.
+      This is the 2nd draft, and I plan on doing one more final
+      draft. Please leave comments on what could be changed or
+      improved, or what needs to be excluded or included. Subscribe
+      if you want to be notified when the revision is released.
+      UPDATE: I just added this video to Mojiti where you can
+      actually write your comments into the video itself. It is an
+      exciting experiment in "Video 2.0". Go check it out at
+      http://mojiti.com/kan/2024/3313 and add your voice!
+      Transcripts are now available as well:
+      http://mediatedcultures.net/ksudigg/?p=78 A couple of people
+      have noted that the statement, "XML was created to do just
+      that" (separate form from content) is misleading because CSS
+      enables the same effect with HTML. I tried to integrate CSS
+      into the video, but it ruined the flow. Perhaps in the next
+      draft. My statement on XML is based on the following from
+      xml.com: "In order to appreciate XML, it is important to
+      understand why it was created. XML was created so that richly
+      structured documents could be used over the web. The only
+      viable alternatives, HTML and SGML, are not practical for
+      this purpose. HTML, as we've already discussed, comes bound
+      with a set of semantics and does not provide arbitrary
+      structure." Thank you all for the comments. With your help
+      the next draft will be cleaned up and hopefully free of
+      factual errors. A higher quality version is available for
+      download here: http://www.mediafire.com/?6duzg3zioyd Please
+      note that this is the second draft and the final version will
+      not be available until late February after I review all
+      comments and revise the video. Please return for a new
+      download link at that time. The song is "There's Nothing
+      Impossible" by Deus, available for free at
+      http://www.jamendo.com/en/album/103/ Deus offers music under
+      a Creative Commons Attribution-NonCommercial-ShareAlike 2.0
+      license, yet one more example of the interlinking of people
+      sharing and collaborating this video is attempting to
+      illustrate. CC:
+      http://creativecommons.org/licenses/by-nc-sa/2.5/ Michael
+      Wesch Assistant Professor of Cultural Anthropology Kansas
+      State University</media:description>
+      <media:keywords>ksudigg, hypermedia, anthropology, web2.0,
+      digital, ethnography</media:keywords>
+      <yt:duration seconds='271' />
+      <media:category label='Howto &amp; Style'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Howto</media:category>
+      <media:content url='http://www.youtube.com/v/6gmP4nk0EOE'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='271'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=ea098fe2793410e1&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='271' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=6gmP4nk0EOE' />
+      <media:thumbnail url='http://img.youtube.com/vi/6gmP4nk0EOE/2.jpg'
+      height='97' width='130' time='00:02:15.500' />
+      <media:thumbnail url='http://img.youtube.com/vi/6gmP4nk0EOE/1.jpg'
+      height='97' width='130' time='00:01:07.750' />
+      <media:thumbnail url='http://img.youtube.com/vi/6gmP4nk0EOE/3.jpg'
+      height='97' width='130' time='00:03:23.250' />
+      <media:thumbnail url='http://img.youtube.com/vi/6gmP4nk0EOE/0.jpg'
+      height='240' width='320' time='00:02:15.500' />
+    </media:group>
+    <yt:statistics viewCount='3769296' />
+    <gd:rating min='1' max='5' numRaters='17303' average='4.74' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/6gmP4nk0EOE/comments' />
+    </gd:comments>
+  </entry>
+  <entry>
+    <id>http://gdata.youtube.com/feeds/videos/XTa_RQC8ZxA</id>
+    <published>2006-06-05T12:49:37.000-07:00</published>
+    <updated>2007-11-20T09:43:17.000-08:00</updated>
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='camera' />
+    <category scheme='http://schemas.google.com/g/2005#kind'
+    term='http://gdata.youtube.com/schemas/2007#video' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='obscura"' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='obscura' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/keywords.cat'
+    term='"camera' />
+    <category scheme='http://gdata.youtube.com/schemas/2007/categories.cat'
+    term='Music' label='Music' />
+    <title>Camera Obscura - Lloyd I'm Ready To Be
+    Heartbroken</title>
+    <content type='html'>&lt;div style="color: #000000;font-family:
+    Arial, Helvetica, sans-serif; font-size:12px; font-size: 12px;
+    width: 555px;"&gt; &lt;table cellspacing="0" cellpadding="0"
+    border="0"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width="140"
+    valign="top" rowspan="2"&gt;&lt;div style="border: 1px solid
+    #999999; margin: 0px 10px 5px 0px;"&gt;&lt;a
+    href="http://www.youtube.com/watch?v=XTa_RQC8ZxA"&gt;&lt;img
+    alt=""
+    src="http://img.youtube.com/vi/XTa_RQC8ZxA/2.jpg"&gt;&lt;/a&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td width="256" valign="top"&gt;&lt;div style="font-size:
+    12px; font-weight: bold;"&gt;&lt;a style="font-size: 15px;
+    font-weight: bold; font-decoration: none;"
+    href="http://www.youtube.com/watch?v=XTa_RQC8ZxA"&gt;Camera
+    Obscura - Lloyd I&amp;#39;m Ready To Be Heartbroken&lt;/a&gt;
+    &lt;br&gt;&lt;/div&gt; &lt;div style="font-size: 12px; margin:
+    3px 0px;"&gt;&lt;span&gt;Camera Obscura - Lloyd I&amp;#39;m
+    Ready To Be Heartbroken&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td style="font-size: 11px; line-height: 1.4em;
+    padding-left: 20px; padding-top: 1px;" width="146"
+    valign="top"&gt;&lt;div&gt;&lt;span style="color: #666666;
+    font-size: 11px;"&gt;From:&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/profile?user=whitecollarboy"&gt;whitecollarboy&lt;/a&gt;&lt;/div&gt;
+    &lt;div&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Views:&lt;/span&gt; 205915&lt;/div&gt; &lt;div
+    style="white-space: nowrap;text-align: left"&gt;&lt;img
+    style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_full_11x11.gif"&gt;
+    &lt;img style="border: 0px none; margin: 0px; padding: 0px;
+    vertical-align: middle; font-size: 11px;" align="top" alt=""
+    src="http://gdata.youtube.com/static/images/icn_star_half_11x11.gif"&gt;&lt;/div&gt;
+    &lt;div style="font-size: 11px;"&gt;504 &lt;span style="color:
+    #666666; font-size:
+    11px;"&gt;ratings&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;
+    &lt;tr&gt;&lt;td&gt;&lt;span style="color: #666666; font-size:
+    11px;"&gt;Time:&lt;/span&gt; &lt;span style="color: #000000;
+    font-size: 11px; font-weight:
+    bold;"&gt;03:44&lt;/span&gt;&lt;/td&gt; &lt;td
+    style="font-size: 11px; padding-left: 20px;"&gt;&lt;span
+    style="color: #666666; font-size: 11px;"&gt;More
+    in&lt;/span&gt; &lt;a
+    href="http://www.youtube.com/categories_portal?c=10"&gt;Music&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;</content>
+    <link rel='self' type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/XTa_RQC8ZxA' />
+    <link rel='alternate' type='text/html'
+    href='http://www.youtube.com/watch?v=XTa_RQC8ZxA' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.responses'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/XTa_RQC8ZxA/responses' />
+    <link rel='http://gdata.youtube.com/schemas/2007#video.related'
+    type='application/atom+xml'
+    href='http://gdata.youtube.com/feeds/videos/XTa_RQC8ZxA/related' />
+    <author>
+      <name>whitecollarboy</name>
+      <uri>
+      http://gdata.youtube.com/feeds/users/whitecollarboy</uri>
+    </author>
+    <media:group>
+      <media:title type='plain'>Camera Obscura - Lloyd I'm Ready To
+      Be Heartbroken</media:title>
+      <media:description type='plain'>Camera Obscura - Lloyd I'm
+      Ready To Be Heartbroken</media:description>
+      <media:keywords>obscura", "camera, obscura,
+      camera</media:keywords>
+      <yt:duration seconds='224' />
+      <media:category label='Music'
+      scheme='http://gdata.youtube.com/schemas/2007/categories.cat'>
+      Music</media:category>
+      <media:content url='http://www.youtube.com/v/XTa_RQC8ZxA'
+      type='application/x-shockwave-flash' medium='video'
+      isDefault='true' expression='full' duration='224'
+      yt:format='5' />
+      <media:content url='rtsp://rtsp2.youtube.com/video.3gp?cid=5d36bf4500bc6710&amp;fmt=13'
+      type='video/3gpp' medium='video' expression='full'
+      duration='224' yt:format='1' />
+      <media:player url='http://www.youtube.com/watch?v=XTa_RQC8ZxA' />
+      <media:thumbnail url='http://img.youtube.com/vi/XTa_RQC8ZxA/2.jpg'
+      height='97' width='130' time='00:01:52' />
+      <media:thumbnail url='http://img.youtube.com/vi/XTa_RQC8ZxA/1.jpg'
+      height='97' width='130' time='00:00:56' />
+      <media:thumbnail url='http://img.youtube.com/vi/XTa_RQC8ZxA/3.jpg'
+      height='97' width='130' time='00:02:48' />
+      <media:thumbnail url='http://img.youtube.com/vi/XTa_RQC8ZxA/0.jpg'
+      height='240' width='320' time='00:01:52' />
+    </media:group>
+    <yt:statistics viewCount='205915' />
+    <gd:rating min='1' max='5' numRaters='504' average='4.80' />
+    <gd:comments>
+      <gd:feedLink href='http://gdata.youtube.com/feeds/videos/XTa_RQC8ZxA/comments' />
+    </gd:comments>
+  </entry>
+</feed>

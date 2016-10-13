@@ -1,0 +1,20 @@
+/********************************
+ ** Widget Theme: 4d8000 para IE6
+ ** Base Color: #4d8000
+ *******************************/
+#popcard.dialog .content,
+#popcard.dialog .t,
+#popcard.dialog .b,
+#popcard.dialog .b div {
+	_background: none;
+}
+
+#popcard.dialog .content .wrapper_pink {
+	/* IE */	
+	_height: 1px; /* Para que se active isLayout y se acomode */
+	_padding:23px 12px 20px 0px;
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + Popego.Env.baseUrl + "/images/widget/card_background_4d8000.png', sizingMethod='scale')"
+    );
+}

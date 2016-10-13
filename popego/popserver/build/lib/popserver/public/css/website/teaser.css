@@ -1,0 +1,435 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/********* General ************/
+/***************************/
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	
+	font-family: Arial, Helvetica, Tahoma, FreeSans, sans-serif;
+	margin:0px;
+	/*background-color:#64B2C5;*/
+	background:#efefef;
+	color:#727272;
+	font-size:16px;
+}
+
+a {
+	text-decoration:none;
+	color:#17C7E1;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+h1,h2,h3,h4,h5 {
+	color:#000;
+	font-weight:normal;
+	margin:15px 0;
+}
+
+h4 {
+	font-size:16px;
+	color:#666;
+}
+
+h5 {
+	font-size:12px;
+	color:#b0b0b0;
+}
+
+img {
+	vertical-align:middle;	
+	border:0;
+}
+
+h2 strong {
+	font-weight:normal;
+	color:#e12c31;
+}
+
+
+/********* Forms ************/
+
+input, select, textarea {
+	font-family: Arial, Helvetica, Tahoma, FreeSans, sans-serif;
+	
+	background-color:#FFF;
+	color:#737373;
+	
+	height:20px;
+	font-size:14px;
+	width:280px;
+	
+	padding:6px 4px 0px 4px;
+	border:1px solid #a9a9a9;
+	
+}
+
+input:focus, textarea:focus {
+	/*color:#333333;*/
+	color:#333;
+}
+
+form {
+	/*margin:14px 0 4px 0;*/
+	/*width:432px;*/
+	margin:0px;
+}
+
+form p {
+	margin:4px 0;
+}
+
+/********* Background ************/
+/***************************/
+
+.background {
+	background:#FFF url(../../images/website/teaser_background.jpg) no-repeat top center;	
+	max-width:1178px; 
+	min-height:630px;
+	margin:0 auto;
+	border-left:1px #737373 solid;
+	border-right:1px #737373 solid;
+	/*padding-top:400px;*/
+	height:100%;
+	
+	/* IE */
+	_width: 83%;
+}
+
+.wave {
+	/*background:url(../../images/website/teaser_background_curve.png) repeat-x bottom left;*/
+	height:350px;
+	width:100%;
+}
+
+.topbar {
+	/*background:url(../../images/website/teaser_background_topbar.png) repeat-x top center ;*/
+	width:100%;
+	height:53px;
+	text-align:center;
+}
+
+
+.content {
+	width:815px;
+	margin: 0 auto;
+	/*padding-top:300px;*/
+	height:100%;
+}
+
+/********* Widgets ************/
+/***************************/
+
+.teaser_widget {
+	position:relative;
+	margin-top:112px;
+	width:266px;
+	float:left;
+}
+
+.hello_box {
+	display:block; 
+	position:relative; 
+	_padding-top:4px;
+}
+
+.teaser_popcard {
+	position:relative;
+	/*background:url(../../images/website/teaser_popcard.png) no-repeat top left;*/
+	width:469px;
+	height:430px;
+	margin-top:98px;
+	margin-left:-30px;
+	float:left;
+	padding:32px 35px 20px 55px;
+}
+
+.signup_extended_form,
+.explanation_box {
+	position:relative;
+	top:10px;
+	font-size:14px;
+	line-height:26px;
+	border-top:dashed 1px #cccccc;
+	padding:10px 0;
+	
+	/* IE */
+	_padding:1px 0;
+}
+
+.signup_extended_form {
+	/* IE 6&7 */
+	*padding-left:10px;
+	*padding-top:5px;
+}
+
+.explanation_box ul {
+	list-style:none;
+	padding:0px;
+	margin:0;
+	display:table;
+	white-space:nowrap;
+}
+
+.explanation_box p {
+	clear:both;
+}
+
+.explanation_box li {
+	float:left;
+	position:relative;
+	margin:4px 6px;	
+	line-height:6px;
+}
+
+.explanation_box li img {
+	width:16px;
+	height:16px;
+}
+
+.dialog {
+/*	margin-top:16px;
+	background:url(../../images/website/signup_form.png) no-repeat top left;
+	
+	height:152px;
+	padding:20px;*/
+	font-size:11px;
+	max-width:463px;
+	margin-top:12px;
+	margin-left:12px;
+}
+
+.signup_extended_form .dialog {
+	font-size:12px;
+	line-height:20px;
+	margin-top:0;
+	
+}
+
+.signup_extended_form h1 {
+	font-size:18px;	
+	font-weight:bold;
+}
+
+.signup_extended_form h3 {
+	color:#00aa66;	
+	padding:0;
+}
+
+.short {
+	width:162px;
+	margin-right:4px;
+}
+
+.dialog p {
+	padding:5px 0;
+}
+
+.signup_extended_form .dialog form {
+	margin:4px 0 0 10px;
+	
+	/* IE */
+	_margin:0;
+}
+
+.dialog {
+	margin-top:20px;
+}
+
+.signup_extended_form .dialog {
+	margin-top:12px;
+}
+
+.signup_extended_form .dialog p {
+	padding:0;
+}
+
+.dialog label {
+	display:block;
+	font-size:11px;
+}
+
+.signup_extended_form li {
+	display:table-cell;	
+	float:left;
+	margin-right:10px;
+}
+
+.signup_extended_form ul {
+	/*float:left;*/
+	display:table;
+	padding:0;
+	margin:2px 0;
+	clear:both;
+}
+
+.checkbox {
+	margin:8px 0;
+	width:16px;
+	height:16px;
+}
+
+.side_label {
+	margin-top:-29px;
+	_margin-top:-26px;
+	margin-left:24px;
+}
+
+.dialog .bubble {
+	padding-left:8px;
+}
+
+.signup_button_small,
+.signup_button {
+	border:0;
+	float:left;
+	color:#fff;
+	text-align:center;
+	font-size:16px;
+}
+
+.signup_button {
+	margin-top:-65px;
+	background:url(/images/website/signup_button.png) no-repeat top left;
+	width:126px;
+	height:72px;
+	padding-bottom:32px;
+	float:right;
+	cursor:pointer;
+	
+	/* IE 6 */
+	_background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/website/signup_button.png', sizingMethod='image');
+}
+
+.signup_button_small {
+	background:url(../../images/website/signup_button_small.png) no-repeat top left;	
+	width:200px;
+	height:44px;	
+	padding-bottom:9px;
+	margin-top:5px;
+	cursor: pointer;
+	
+	/* IE */
+	_background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/website/signup_button_small.png', sizingMethod='image');
+}
+
+.signup_button_small:hover,
+.signup_button:hover {
+	background:url(../../images/website/signup_button_hover.png) no-repeat top left;
+}
+
+.signup_button_small:hover {
+	background:url(../../images/website/signup_button_small.png) no-repeat top left;
+	text-decoration:underline;
+}
+
+/****** Final Links ******/
+
+.final_links,
+.final_links_alt {
+	float:right;
+	font-size:12px;	
+	color:#999;
+	position:relative;
+	text-align:center;
+	margin-top:-10px;
+	
+}
+
+.final_links_alt {
+	width:210px;
+	padding-top:2px;
+}
+
+.final_links ,
+.final_links a {
+	padding-left:10px;
+	text-align:right;	
+	margin:20px 0;
+	margin-right:60px;
+}
+
+.final_links a {
+	border-left-style:solid;
+	border-left-color:#909090;
+	border-left-width:1px;
+	margin:0 5px;	
+}
+
+/******* error ***********/
+.error {
+	color: #ff3366;
+	font-size: 11px;
+}
+
+.error ul {
+	display: block;
+	padding: 0;
+	margin-top: 0;
+	
+	/* IE */
+	_margin-left:0px;
+	_margin-bottom:5px;
+}
+
+.error li {
+	display: block;
+	float: none;
+	line-height: 15px;
+}
+
+
+
+.dialog .bubble,
+.dialog .t,
+.dialog .b,
+.dialog .b div {
+    background:transparent url(/images/website/box_alpha_low.png) no-repeat top right; 
+    /* _background-image:url(dialog2-blue.gif);*/
+}
+
+.dialog .t {
+ /* top+left vertical slice */
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:18px; /* top slice width */
+    margin-left:-18px;
+    height:100%; _height:1600px; /* arbitrary long height, IE 6 */
+    background-position:top left;
+}
+
+.dialog .bubble {
+    position:relative;
+    zoom:1;
+    _overflow-y:hidden;
+    padding:10px 18px 0px 0px;
+	max-height:680px;
+}
+
+.dialog .b {
+    background-position:bottom right;
+}
+
+.dialog .b,
+.dialog .b div {
+    height:18px; /* height of bottom cap/shade */
+    font-size:1px;
+}
+
+.dialog .b div {
+    position:relative;
+    width:18px; /* bottom corner width */
+    margin-left:-18px;
+    background-position:bottom left;
+}

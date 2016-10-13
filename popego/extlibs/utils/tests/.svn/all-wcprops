@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/private/popego/main/!svn/ver/1922/trunk/extlibs/utils/tests
+END
+test_reflection.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/1922/trunk/extlibs/utils/tests/test_reflection.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/private/popego/main/!svn/ver/1773/trunk/extlibs/utils/tests/__init__.py
+END
+test_decorator.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/private/popego/main/!svn/ver/1773/trunk/extlibs/utils/tests/test_decorator.py
+END

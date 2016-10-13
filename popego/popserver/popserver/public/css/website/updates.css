@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/******* Home Popego Updates **************/
+.popego_feed {
+	width:100%;
+	float:left;
+}
+
+.popego_feed .databox {
+	max-width:100%;
+}
+
+.popego_feed ul {
+	margin-top:-14px;
+}
+
+.popego_updates {
+	list-style:none;
+	padding:0px;
+	margin-left:0px;
+}
+
+.popego_updates li {
+	border-bottom:1px #ccc dotted;
+	/*padding:20px 0;*/
+	margin-left: 0px;
+	background:#fff;	
+}
+
+.link_comment,
+.popego_updates h2,
+.popego_updates h5 {
+	color:#8f8f8f;
+}
+
+.popego_updates h5 img {
+	vertical-align:-2px;
+} 
+
+.popego_updates p {
+	margin:10px 0px;
+}
+
+.item_source {
+	float:right;
+	font-size:11px;
+}
+
+.poplink {
+	vertical-align:-3px;
+	margin:1px -1px;	
+	width:15px;
+	height:15px;
+}
+
+
+
+/******* List Items **************/
+
+.music .thumbnail,
+.video .thumbnail,
+.photo .thumbnail {
+	width:75px;
+	height:75px;
+	border:#999 1px solid;
+	margin-right:4px;
+	padding:4px;
+	background:#fff;
+}
+
+.music .thumbnail,
+.video .thumbnail {
+	width:96px;
+	height:96px;
+}
+
+.quote h2 {
+	display:block;
+	margin:10px 0;
+	line-height:28px;
+}
+
+.quotepic {
+	margin:-4px 4px 0px;	
+}
+
+.postlink {
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.show_more_updates {
+	font-size:18px;
+	margin:20px 0pt 35px;
+}
+
+.date_separator {
+	width:100%;
+	border-bottom:2px solid;
+	margin:15px 0pt 0px;
+	padding:3px 2px;
+	font-size:12px;	
+}
+
+
+/******* Popego Avatars **********/
+
+.popego_avatar_thumbnail {
+	width:42px;
+	margin:6px;
+	text-align:center;
+	font-size:11px;
+	float:left;
+}
+
+.popego_avatar_thumbnail a {
+	color:#5f5f5f;
+}
+
+.popego_avatar_thumbnail:hover {
+	cursor:pointer;
+}
+
+.popego_avatar_thumbnail a:hover {
+	text-decoration:none;
+}
+
+.popego_avatar_thumbnail img {
+	width:40px;
+	height:40px;
+	margin-bottom:5px;
+	border:1px solid #666;
+}
+
+.pop_stats {
+	margin:0;
+	padding:15px;
+}
+
+.pop_stats li {
+	margin-bottom:15px;
+}
+
+
+/******* Thumbnail Icons **********/
+
+.thumb_icon {
+	display:inline;
+	margin:-72px 46px 0pt -68px;
+	width:96px;
+	height:96px;
+}
+
+
+.updated_popego_thumb img {
+	width:16px;
+	height:16px;
+	border:0;
+}
+
+.updated_popego_thumb {
+	position:absolute;
+	margin-top:-78px;
+	margin-left:34px;
+}
+
+/********** Widgets *************/
+
+.popego_updates .palette li {
+	padding:0;
+	border:0;
+}
+
+.widget_settings {
+	float:left;
+	width:350px;
+	margin-top:-24px;
+}
+
+.widget_preview p,
+.widget_settings p {
+	margin:24px 0pt 12px;
+}
+
+.widget_settings textarea {
+	margin:0 0 5px;
+	width:326px;
+	font-family:Monospace;
+}
+
+.configuration label,
+.configuration {
+	font-size:11px;
+	margin:-5px 0pt 5px;
+}
+
+.widget_preview {
+	margin-top:-24px;
+	float:right;
+}
+
+.canvas {
+	margin-top:-10px;
+	width:460px;
+	height:280px;
+	padding:20px;
+	border:1px #ccc solid;
+	text-align:center;
+}
+
+.popego_widgets {
+	line-height:22px;
+}

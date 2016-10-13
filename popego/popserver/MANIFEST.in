@@ -1,0 +1,2 @@
+recursive-include popserver/public *
+recursive-include popserver/templates *

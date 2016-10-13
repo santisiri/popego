@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+<photo id="1460569161" secret="b356b14da6" server="1357" farm="2" dateuploaded="1191123283" isfavorite="0" license="0" rotation="0" originalsecret="486a46656a" originalformat="jpg">
+	<owner nsid="15234225@N00" username="jazzido" realname="" location="" />
+	<title>Estandares Web</title>
+	<description />
+	<visibility ispublic="1" isfriend="0" isfamily="0" />
+	<dates posted="1191123283" taken="2007-09-27 10:31:43" takengranularity="0" lastupdate="1191412024" />
+	<editability cancomment="0" canaddmeta="0" />
+	<usage candownload="0" canblog="0" canprint="0" />
+	<comments>1</comments>
+	<notes>
+		<note id="72157602234077097" author="15234225@N00" authorname="jazzido" x="370" y="209" w="86" h="60">Pasmosa mayoría de Macintoshes en Microsoft</note>
+	</notes>
+	<tags>
+		<tag id="199178-1460569161-15729443" author="15234225@N00" raw="barcampba" machine_tag="0">barcampba</tag>
+		<tag id="199178-1460569161-15449443" author="10534549@N00" raw="wiouldvefsckedu" machine_tag="0">wiouldvefsckedu</tag>
+	</tags>
+	<urls>
+		<url type="photopage">http://www.flickr.com/photos/jazzido/1460569161/</url>
+	</urls>
+</photo>
+</rsp> 

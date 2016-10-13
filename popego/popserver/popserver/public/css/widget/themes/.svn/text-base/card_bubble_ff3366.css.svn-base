@@ -1,0 +1,13 @@
+/*******************************
+ ** Widget Theme: ff3366 
+ ** Base Color: #ff3366
+ ******************************/
+#popcard.dialog .content,
+#popcard.dialog .t,
+#popcard.dialog .b,
+#popcard.dialog .b div {
+	background:transparent url(/images/widget/card_background_ff3366.png) no-repeat top right;
+}
+#popcard .menu {
+	color: #ff3366;
+}

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/tests/agents
+END
+test_flickr.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/private/popego/main/!svn/ver/916/trunk/popserver/popserver/tests/agents/test_flickr.py
+END
+test_youtube.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/private/popego/main/!svn/ver/993/trunk/popserver/popserver/tests/agents/test_youtube.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/private/popego/main/!svn/ver/252/trunk/popserver/popserver/tests/agents/__init__.py
+END
+test_delicious.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/private/popego/main/!svn/ver/989/trunk/popserver/popserver/tests/agents/test_delicious.py
+END
+test_picasa.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/private/popego/main/!svn/ver/989/trunk/popserver/popserver/tests/agents/test_picasa.py
+END
+test_twitter.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/1064/trunk/popserver/popserver/tests/agents/test_twitter.py
+END
+test_blog.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/tests/agents/test_blog.py
+END
+test_lastfm.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/private/popego/main/!svn/ver/989/trunk/popserver/popserver/tests/agents/test_lastfm.py
+END

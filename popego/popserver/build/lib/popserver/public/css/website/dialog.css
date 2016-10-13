@@ -1,0 +1,112 @@
+/* 
+  -- Even more rounded corners with CSS: Base stylesheet --
+*/
+
+#highlight a {
+	color:#fff;
+	text-decoration:underline;
+}
+
+.dialog {
+    position:relative;
+    margin:0px auto;
+    width: 100%;
+    min-width:230px;
+    max-width:420px; /* based on image dimensions - not quite consistent with drip styles yet */
+    /* color:#fff;*/
+    z-index:1;
+    margin-left:8px; /* default, width of left corner */
+    margin-bottom:0.5em; /* spacing under dialog */
+}
+
+.dialog .bubble,
+.dialog .t,
+.dialog .b,
+.dialog .b div {
+    background:transparent url(/images/website/box_lightgrey_low.png) no-repeat top right;
+}
+
+#highlight .dialog .bubble,
+#highlight .dialog .t,
+#highlight .dialog .b,
+#highlight .dialog .b div {
+    background:transparent url(/images/website/box_highlight_low.png) no-repeat top right;
+	color:#fff;
+	/* IE */
+}
+
+#highlight .dialog .bubble,
+.dialog .bubble {
+    position:relative;
+    zoom:1;
+    padding:12px 12px 0px 0px;
+	max-height:680px;
+	
+	/* IE6 */
+	_overflow-y:hidden;
+}
+
+#highlight .dialog .t,
+.dialog .t {
+ /* top+left vertical slice */
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:12px; /* top slice width */
+    margin-left:-12px;
+    height:100%; _height:1600px; /* arbitrary long height, IE 6 */
+    background-position:top left;
+}
+
+
+.dialog .b {
+    /* bottom */
+    position:relative;
+	width:100%;
+}
+
+.dialog .iefix{
+	/* fix para el dialog de top tags en services */
+	*width:229px;
+}
+
+.dialog .b,
+.dialog .b div {
+    height:12px; /* height of bottom cap/shade */
+    font-size:1px;
+}
+
+#highlight .dialog .b,
+.dialog .b {
+    background-position:bottom right;
+}
+
+#highlight .dialog .b div,
+.dialog .b div {
+    position:relative;
+    width:12px; /* bottom corner width */
+    margin-left:-12px;
+    background-position:bottom left;
+}
+
+.dialog .hd,
+.dialog .bd,
+.dialog .ft {
+    position:relative;
+}
+
+.dialog .wrapper {
+    /* extra content protector - preventing vertical overflow (past background) */
+    position:static;
+    max-height:1000px;
+    overflow:auto; /* note that overflow:auto causes a rather annoying redraw "lag" in Firefox 2, and may degrade performance. Might be worth trying without if you aren't worried about height/overflow issues. */
+}
+
+.dialog h1,
+.dialog p {
+    margin:0px; /* margins will blow out backgrounds, leaving whitespace. */
+    padding:0.5em 0px 0.5em 0px;   
+}
+.dialog h1 {
+    padding-bottom:0px;
+}

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/agents
+END
+agents.ini
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/private/popego/main/!svn/ver/75/trunk/popserver/popserver/agents/agents.ini
+END
+flickr_agent.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/private/popego/main/!svn/ver/808/trunk/popserver/popserver/agents/flickr_agent.py
+END
+youtube_agent.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/private/popego/main/!svn/ver/932/trunk/popserver/popserver/agents/youtube_agent.py
+END
+delicious_agent.py
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/private/popego/main/!svn/ver/889/trunk/popserver/popserver/agents/delicious_agent.py
+END
+picasa_agent.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/private/popego/main/!svn/ver/989/trunk/popserver/popserver/agents/picasa_agent.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/private/popego/main/!svn/ver/442/trunk/popserver/popserver/agents/__init__.py
+END
+twitter_agent.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/private/popego/main/!svn/ver/1064/trunk/popserver/popserver/agents/twitter_agent.py
+END
+blog_agent.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/agents/blog_agent.py
+END
+lastfm_agent.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/private/popego/main/!svn/ver/793/trunk/popserver/popserver/agents/lastfm_agent.py
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/private/popego/main/!svn/ver/1666/trunk/jq/jq/queue
+END
+producerend.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/private/popego/main/!svn/ver/1628/trunk/jq/jq/queue/producerend.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/private/popego/main/!svn/ver/380/trunk/jq/jq/queue/__init__.py
+END
+control.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/private/popego/main/!svn/ver/384/trunk/jq/jq/queue/control.py
+END
+model.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/private/popego/main/!svn/ver/1628/trunk/jq/jq/queue/model.py
+END
+error_rss.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/private/popego/main/!svn/ver/1666/trunk/jq/jq/queue/error_rss.py
+END
+consumerend.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/private/popego/main/!svn/ver/1628/trunk/jq/jq/queue/consumerend.py
+END
+dbclasses.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/private/popego/main/!svn/ver/1657/trunk/jq/jq/queue/dbclasses.py
+END

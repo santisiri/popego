@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/model
+END
+ai.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/private/popego/main/!svn/ver/916/trunk/popserver/popserver/model/ai.py
+END
+reputation.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/531/trunk/popserver/popserver/model/reputation.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/private/popego/main/!svn/ver/1058/trunk/popserver/popserver/model/__init__.py
+END
+exceptions.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/594/trunk/popserver/popserver/model/exceptions.py
+END
+items.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/popego/main/!svn/ver/1064/trunk/popserver/popserver/model/items.py
+END
+users.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/model/users.py
+END
+services.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/private/popego/main/!svn/ver/989/trunk/popserver/popserver/model/services.py
+END
+cache.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/popego/main/!svn/ver/1058/trunk/popserver/popserver/model/cache.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/popego/main/!svn/ver/697/trunk/popserver/popserver/model/config.py
+END

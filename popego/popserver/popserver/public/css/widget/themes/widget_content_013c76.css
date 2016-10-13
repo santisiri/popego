@@ -1,0 +1,19 @@
+/*******************************
+ ** Widget Theme: 013c76 
+ ** Base Color: #013c76
+ ******************************/
+.frame {
+	background:url(/images/widget/widget_frame_013c76.png) top left no-repeat;
+	/* IE */
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/widget/widget_frame_013c76.png', sizingMethod='scale')",
+		this.style.height = "147px"
+    );
+}
+
+.fact,
+.user_login,
+.user_encounter {
+	background: #013c76;
+}

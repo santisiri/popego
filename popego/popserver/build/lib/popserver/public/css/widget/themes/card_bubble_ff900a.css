@@ -1,0 +1,13 @@
+/*******************************
+ ** Widget Theme: ff900a 
+ ** Base Color: #ff900a
+ ******************************/
+#popcard.dialog .content,
+#popcard.dialog .t,
+#popcard.dialog .b,
+#popcard.dialog .b div {
+	background:transparent url(/images/widget/card_background_ff900a.png) no-repeat top right;
+}
+#popcard .menu {
+	color: #ff900a;
+}

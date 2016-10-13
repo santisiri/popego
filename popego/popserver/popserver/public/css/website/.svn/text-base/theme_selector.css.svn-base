@@ -1,0 +1,50 @@
+/* Styles for Theme Selector */
+
+.palette ol {
+	list-style: none;
+	padding: 0;
+	padding-bottom: 30px;
+	margin-left: 0px;
+}
+
+.palette li {
+	height: 30px;
+	width: 13px;
+	float: left;
+	margin: 2px;
+	background-color: transparent;
+}
+
+.palette li a {
+	display: block;
+	float: left;
+	width: 13px;
+	height: 13px;
+	padding:0;
+	_font-size:10px;
+	background-color: #999;
+	padding-bottom: -15px;
+}
+
+.palette li:hover {
+	cursor: pointer;
+	background: no-repeat url(/images/website/palette_arrow_over.png);
+	background-position: bottom center; 
+}
+
+.palette li.picked_color {
+	background: no-repeat url(/images/website/palette_arrow_selected.png);
+	background-position: bottom center; 
+}
+
+.palette li a.red { background-color: #CC0000; }
+.palette li a.dodgerblue { background-color: #0099FF; }
+.palette li a.olive { background-color: #669900; }
+.palette li a.orangered { background-color: #FF6600; }
+.palette li a.darkslategray { background-color: #333333; }
+.palette li a.lightgrey { background-color: #CCCCCC; }
+.palette li a.deeppink { background-color: #FF3366; }
+.palette li a.teal { background-color: #006699; }
+.palette li a.yellowgreen { background-color: #99CC00; }
+.palette li a.gold { background-color: #FFCC00; }
+

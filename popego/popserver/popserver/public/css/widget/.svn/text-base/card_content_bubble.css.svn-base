@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/********* Dynamic Bubble Design ************/
+
+
+/* 
+  -- Even more rounded corners with CSS: Base stylesheet --
+*/
+
+#popbubble.dialog {
+	position:absolute;
+	clear:both;
+	width:416px;
+	/*height:404px; _height: 410px;*/
+	min-width:300px;
+	max-width:515px; /* based on image dimensions - not quite consistent with drip styles yet */
+	max-height:640px;
+	margin:0 0 0 7px;
+	color:#fff;
+	display:block;
+	z-index:9998;
+	
+	/* IE 6 */
+	_margin:9px -6px -46px 5px;
+	_width:450px;
+	_height:495px;
+}
+
+#popbubble .content {
+	height:100%;
+}
+
+#popbubble.dialog .content,
+#popbubble.dialog .t,
+#popbubble.dialog .b,
+#popbubble.dialog .b div {
+	background:transparent url(/images/widget/card_background_white.png) no-repeat top right;
+}
+
+#popbubble.dialog .content {
+	position: relative;
+}
+
+#popbubble.dialog .content .wrapper_white {
+	height: 438px;
+	
+	/* IE 6 */	
+	_height: 1px; /* Para que se active isLayout y se acomode */
+	_padding:23px 12px 20px 5px;
+}
+
+#popbubble.dialog .t {
+	/* top+left vertical slice */
+	position: absolute;
+	left:0px;
+	top:0px;
+	width:35px; /* top slice width */
+	margin-left:-35px;
+	height:100%;
+	background-position:top left;
+}
+
+#popbubble.dialog .b {
+	/* bottom */
+	position:absolute;
+	width:100%;
+}
+
+#popbubble.dialog .b,
+#popbubble.dialog .b div {
+	height:33px; /* height of bottom cap/shade */
+	font-size:1px;
+}
+
+#popbubble.dialog .b {
+	background-position:bottom right;
+}
+
+#popbubble.dialog .b div {
+	position:relative;
+	width:35px; /* bottom corner width */
+	margin-left:-35px;
+	background-position:bottom left;
+}
+
+#popbubble.dialog .header,
+#popbubble.dialog , /*.body*/
+#popbubble.dialog .footer {
+	position:relative;
+}
+
+#popbubble.dialog .wrapper {
+	/* extra content protector - preventing vertical overflow (past background) */
+	position:static;
+	max-height:1000px;
+	overflow:auto; /* note that overflow:auto causes a rather annoying redraw "lag" in Firefox 2, and may degrade performance. Might be worth trying without if you aren't worried about height/overflow issues. */
+}
+
+#popbubble.dialog h1,
+#popbubble.dialog p {
+	margin:0px; /* margins will blow out backgrounds, leaving whitespace. */
+	padding:0.5em 0px 0.5em 0px;
+}
+
+#popbubble.dialog h1 {
+	padding-bottom:0px;
+}

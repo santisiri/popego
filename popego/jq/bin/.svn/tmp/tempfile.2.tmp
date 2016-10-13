@@ -1,0 +1,54 @@
+#!/bin/bash
+
+pid_dir=/var/run/popego
+log_dir=/var/log/popego
+<<<<<<< .mine
+path=/home/popego/popego/jq
+=======
+>>>>>>> .r1132
+
+path=`dirname $0`/..
+
+start() {
+    echo "Starting Consumers..."
+    twistd -y "$path/jq/tacs/alpha-popego-consumer.tac" -l "$log_dir/consumer.log" --pidfile "$pid_dir/consumer.pid"
+    echo "Starting Queue Service"
+    twistd -y "$path/jq/tacs/alpha-popego-queue.tac" -l "$log_dir/queue.log" --pidfile "$pid_dir/queue.pid"
+}
+
+stop() {
+    if (test -a "$pid_dir/consumer.pid"); then \
+	echo "Stopping Consumer Server"
+	kill `cat $pid_dir/consumer.pid`
+    else 
+	echo "Consumer Server is not running"
+    fi
+    
+    if (test -a "$pid_dir/queue.pid"); then \
+	echo "Stopping Queue Server"
+	kill `cat $pid_dir/queue.pid`
+    else 
+	echo "Queue Server is not running"
+    fi
+}
+
+# cargar entorno
+source /home/popego/envs/ALPHA-POPEGO/bin/activate
+
+case "$1" in
+    start)
+	start
+	;;
+    stop)
+	stop
+	;;
+    restart)
+	stop
+	sleep 5
+	start
+	;;
+    *)
+	echo "Usage: $0 start|stop|restart"
+	exit 3
+	;;
+esac

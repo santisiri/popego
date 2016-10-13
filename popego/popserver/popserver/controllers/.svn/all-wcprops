@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/private/popego/main/!svn/ver/1121/trunk/popserver/popserver/controllers
+END
+error.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/private/popego/main/!svn/ver/624/trunk/popserver/popserver/controllers/error.py
+END
+template.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/private/popego/main/!svn/ver/15/trunk/popserver/popserver/controllers/template.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/private/popego/main/!svn/ver/15/trunk/popserver/popserver/controllers/__init__.py
+END
+auth.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/634/trunk/popserver/popserver/controllers/auth.py
+END

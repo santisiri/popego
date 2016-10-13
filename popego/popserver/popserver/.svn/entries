@@ -1,0 +1,124 @@
+8
+
+dir
+1132
+https://svn.popego.com/private/popego/main/trunk/popserver/popserver
+https://svn.popego.com/private/popego/main
+
+
+
+2008-03-04T18:39:25.110365Z
+1130
+manuel
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+acf6466c-6d64-462d-91de-bbf11b5ca8a0
+
+agents
+dir
+
+db
+dir
+
+websetup.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+baf450a5c1febf5f19630f4da17e4a99
+2007-11-22T22:35:53.696593Z
+160
+manuel
+
+__init__.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+ff845ade2f37dbcc9ced61e6cf16357a
+2007-11-28T16:02:22.369571Z
+197
+manuel
+
+ai
+dir
+
+templates
+dir
+
+validators.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+77bfbe38681e86b0c944969aab64ee81
+2008-02-07T20:10:08.860315Z
+838
+santiago
+
+wsgi.py
+file
+
+
+
+
+2008-03-04T19:22:17.000000Z
+4987bcbceb6d7d57d318a239914d2aa7
+2008-03-03T21:01:25.413798Z
+1115
+manuel
+
+model
+dir
+
+cron
+dir
+
+tests
+dir
+
+config
+dir
+
+lib
+dir
+
+controllers
+dir
+
+sync
+dir
+
+forms.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+66d3ea3d06719a351a43eca981b80038
+2008-02-08T15:47:49.779130Z
+839
+fernando
+
+public
+dir
+

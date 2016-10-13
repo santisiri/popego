@@ -1,0 +1,37 @@
+/* Styles for user services page */
+
+a,
+.button,
+.popego_avatar_thumbnail:hover a,
+.date_separator,
+.category strong,
+.label_tooltip {
+	color:#333333;
+}
+	
+input:focus,
+textarea:focus,
+.date_separator,
+.popego_avatar_thumbnail:hover img {
+	border-color:#333333;
+}
+	
+.menu_button_active,
+.menu_closer_active,
+.menu_button_arrow,
+.poplink,
+.category_selected {
+	background-color:#333333;
+}
+	
+.help_box {
+	background-color:#333333;
+}
+
+
+/* Styles for widget */
+
+h2 { color:#333333; }
+.category_selected { background-color:#333333; }
+
+

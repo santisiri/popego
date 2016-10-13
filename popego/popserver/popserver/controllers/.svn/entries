@@ -1,0 +1,82 @@
+8
+
+dir
+1132
+https://svn.popego.com/private/popego/main/trunk/popserver/popserver/controllers
+https://svn.popego.com/private/popego/main
+
+
+
+2008-03-04T00:48:09.863968Z
+1121
+fernando
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+acf6466c-6d64-462d-91de-bbf11b5ca8a0
+
+error.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+7fbaa9f637757882a92723c0dd815b49
+2008-01-23T18:20:36.316639Z
+624
+santiago
+
+website
+dir
+
+template.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+ff99fa77c5502300f506aa561f5133f0
+2007-11-05T18:31:12.228253Z
+15
+mariano
+
+widget
+dir
+
+__init__.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+0f94a86c48fcd17a3341ad755251c3e8
+2007-11-05T18:31:12.228253Z
+15
+mariano
+
+auth.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+45142ce4ebf55b049d21261464fe1dc9
+2008-01-23T20:36:56.503215Z
+634
+victor
+

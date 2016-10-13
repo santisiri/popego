@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+  <photos page="1" pages="36" perpage="10" total="351">
+    <photo id="2075891275" owner="15234225@N00" secret="2e74df62be" server="2417" farm="3" title="Building the next Internet Revolution" ispublic="1" isfriend="0" isfamily="0" />
+    <photo id="1460569161" owner="15234225@N00" secret="b356b14da6" server="1357" farm="2" title="Estandares Web" ispublic="1" isfriend="0" isfamily="0" />
+  </photos>
+</rsp>

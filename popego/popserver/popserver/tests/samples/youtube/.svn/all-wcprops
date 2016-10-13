@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/private/popego/main/!svn/ver/844/trunk/popserver/popserver/tests/samples/youtube
+END
+playlists-empty
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/private/popego/main/!svn/ver/228/trunk/popserver/popserver/tests/samples/youtube/playlists-empty
+END
+favorites
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/popego/main/!svn/ver/318/trunk/popserver/popserver/tests/samples/youtube/favorites
+END
+playlists
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/popego/main/!svn/ver/228/trunk/popserver/popserver/tests/samples/youtube/playlists
+END
+favorites-tidy
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/private/popego/main/!svn/ver/377/trunk/popserver/popserver/tests/samples/youtube/favorites-tidy
+END
+playlists-tidy
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/private/popego/main/!svn/ver/228/trunk/popserver/popserver/tests/samples/youtube/playlists-tidy
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/private/popego/main/!svn/ver/989/trunk/popserver/popserver/tests/samples/picasa
+END
+user_feed
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/private/popego/main/!svn/ver/989/trunk/popserver/popserver/tests/samples/picasa/user_feed
+END
+album_feed
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/popego/main/!svn/ver/989/trunk/popserver/popserver/tests/samples/picasa/album_feed
+END
+user_feed.tidy
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/private/popego/main/!svn/ver/989/trunk/popserver/popserver/tests/samples/picasa/user_feed.tidy
+END
+album_feed.tidy
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/private/popego/main/!svn/ver/989/trunk/popserver/popserver/tests/samples/picasa/album_feed.tidy
+END

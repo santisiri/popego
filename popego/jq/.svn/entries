@@ -1,0 +1,50 @@
+8
+
+dir
+2657
+https://svn.popego.com/private/popego/main/trunk/jq
+https://svn.popego.com/private/popego/main
+
+
+
+2008-06-13T17:20:40.445652Z
+2492
+mariano
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+acf6466c-6d64-462d-91de-bbf11b5ca8a0
+
+sql
+dir
+
+setup.py
+file
+
+
+
+
+2008-03-27T15:09:04.000000Z
+5fa9081895497c1b76788d146eccf4d5
+2008-03-18T22:31:08.070871Z
+1215
+mariano
+has-props
+
+bin
+dir
+
+jq
+dir
+

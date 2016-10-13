@@ -1,0 +1,5 @@
+#!/home/popego/envs/ALPHA-POPEGO/bin/python
+# EASY-INSTALL-SCRIPT: 'numpy==1.0.4','f2py'
+__requires__ = 'numpy==1.0.4'
+import pkg_resources
+pkg_resources.run_script('numpy==1.0.4', 'f2py')

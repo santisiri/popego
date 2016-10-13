@@ -1,0 +1,58 @@
+#!/bin/bash
+
+pid_dir=/var/run/popego
+log_dir=/var/log/popego
+path=/home/popego/popego/jq
+
+
+start() {
+    echo "Starting Consumers..."
+    twistd -y "$path/jq/tacs/alpha-popego-consumer.tac" -l "$log_dir/consumer.log" --pidfile "$pid_dir/consumer.pid"
+    twistd -y "$path/jq/tacs/alpha-popego-consumer2.tac" -l "$log_dir/consumer2.log" --pidfile "$pid_dir/consumer2.pid"
+    twistd -y "$path/jq/tacs/alpha-popego-consumer3.tac" -l "$log_dir/consumer3.log" --pidfile "$pid_dir/consumer3.pid"
+    twistd -y "$path/jq/tacs/alpha-popego-consumer4.tac" -l "$log_dir/consumer4.log" --pidfile "$pid_dir/consumer4.pid"
+    echo "Starting Queue Service"
+    twistd -y "$path/jq/tacs/alpha-popego-queue.tac" -l "$log_dir/queue.log" --pidfile "$pid_dir/queue.pid"
+}
+
+stop() {
+    if (test -a "$pid_dir/consumer.pid"); then \
+	echo "Stopping Consumer Server"
+	kill `cat $pid_dir/consumer.pid`
+        kill `cat $pid_dir/consumer2.pid`
+        kill `cat $pid_dir/consumer3.pid`
+        kill `cat $pid_dir/consumer4.pid`
+    else 
+	echo "Consumer Server is not running"
+    fi
+    
+    if (test -a "$pid_dir/queue.pid"); then \
+	echo "Stopping Queue Server"
+	kill `cat $pid_dir/queue.pid`
+    else 
+	echo "Queue Server is not running"
+    fi
+}
+
+# cd to project root
+cd $path
+# cargar entorno
+source /home/popego/envs/ALPHA-POPEGO/bin/activate
+
+case "$1" in
+    start)
+	start
+	;;
+    stop)
+	stop
+	;;
+    restart)
+	stop
+	sleep 5
+	start
+	;;
+    *)
+	echo "Usage: $0 start|stop|restart"
+	exit 3
+	;;
+esac

@@ -1,0 +1,9 @@
+#!/home/popego/envs/ALPHA-POPEGO/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'PasteScript==1.3.6','console_scripts','paster'
+__requires__ = 'PasteScript==1.3.6'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('PasteScript==1.3.6', 'console_scripts', 'paster')()
+)

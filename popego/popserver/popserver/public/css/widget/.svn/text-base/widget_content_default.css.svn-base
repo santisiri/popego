@@ -1,0 +1,392 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/********* Widget Content ************/
+
+body {
+	font-size:13px;
+	font-family: Arial, Tahoma, FreeSans, sans-serif;
+	color:#fff;
+	padding:0;
+	margin:0;
+	background-position:-5px -5px;
+	background-repeat:no-repeat;
+	padding:5px;
+}
+
+img {
+	vertical-align:middle;
+	border:0;
+}
+
+p {
+	margin:2px 0px;
+}
+
+h1	{
+	font-size:44px;
+	display:inline;
+}
+
+h3 {
+	font-size:12px;
+	display:inline;
+	clear:both;
+}
+
+h5 {
+	font-size:11px;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+}
+
+/********* Avatar ************/
+
+.avatar {
+	width:140px;
+	height:140px;
+	margin-top:5px;
+	z-index:9997;
+	display:block;
+	cursor:pointer;
+}
+
+.username {
+	position: absolute;
+	width: 123px;
+	height: 16px;
+	overflow: hidden;
+	padding-left:0px;
+	margin-top: 2px;
+	
+	/* IE */
+	*margin-left:-4px;
+	*padding-left:2px;
+}
+
+.logo {
+	vertical-align:-6px;
+	margin-right:2px;
+}
+
+.frame {
+	/*background:url(/images/widget/widget_frame_pink.png) top left no-repeat;*/
+	height:150px;
+	width:150px;
+	/* IE */
+	/*_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/widget/widget_frame_pink.png', sizingMethod='scale')",
+		this.style.height = "147px"
+    );*/
+	margin:-145px -5px;
+	z-index:9998;
+	position:absolute;
+}
+
+.wrapper {
+	width:161px;
+	height:251px;
+	position:absolute;
+	z-index:9999;
+	margin:-10px -9px;
+	cursor:pointer;
+}
+
+/********* Flashing Facts ************/
+
+.location,
+.compatibility,
+.media,
+.sponsor,
+.tags {
+	text-align:center;
+}
+
+.location,
+.quotation,
+.sponsor,
+.post,
+.tags {
+	font-size:11px;
+}
+
+.fact {
+	padding-top:5px;
+	height:60px;
+	width:100px;
+}
+
+.compatibility {
+	font-size:12px;
+}
+
+.compatibility p {
+	margin-top:-6px;	
+}
+
+.media img {
+	margin-top:5px;
+	height:35px;
+	width:35px;
+	border:1px solid #ddd;
+}
+
+.media p,
+.sponsor p {
+	margin:0;
+}
+
+.quotation,
+.post {
+	padding:0px 2px;
+	line-height:14px;
+	display: table-cell; vertical-align: middle; position: static;
+	width:135px;
+}
+
+.quotation {
+	margin-top:3px;
+	font-style:italic;
+}
+
+.quotation img {
+	vertical-align:-2px;
+}
+
+.post img {
+	_height:100%;
+	_width:100%;
+	max-height:12px; _height: expression(this.height > 12 ? 12 : true);  /* IE */
+	max-width:12px;  _width: expression(this.width > 12 ? 12 : true);    /* IE */
+}
+
+.post h5 {
+	font-weight:normal;
+	margin:0;
+	text-align:right;
+}
+
+.post strong {
+	text-decoration:underline;	
+}
+
+.tags {
+	/*display: table-cell; vertical-align: middle; position: static;*/
+}
+
+.tags ul {
+	padding:0;	
+	margin:0;
+}
+
+.tags li {
+	display:inline;
+	margin-right:4px;
+}
+
+.tags .hits_top {
+	font-size:12px;
+}
+
+.tags .hits_middle {
+	font-size:11px;
+	opacity:0.8;
+}
+
+.tags .hits_low {
+	font-size:10px;
+	opacity:0.5;
+	filter
+}
+
+#facts div.fact {
+	position: absolute;
+	top: 175px;
+	width: 140px;
+	overflow: hidden;
+}
+
+/********* Form ************/
+#login {
+	_margin-top:-2px; /*IE*/
+}
+
+form {
+	position:absolute;
+	/* IE 6&7 */
+	*margin-top:-2px;
+}
+
+input {
+	font-family: Arial, Helvetica, Tahoma, FreeSans, sans-serif;
+	
+	background-color:#f6f6f6;
+	color:#737373;
+	
+	height:16px;
+	font-size:12px;
+	
+	margin-top:1px;
+	width:80px;
+	
+	padding:2px 4px 0px 4px;
+	border:1px solid #a9a9a9;
+	
+}
+
+input:focus {
+	/*color:#333333;*/
+	background-color:#fff;
+}
+
+.inputs {
+	float:left;
+	width:95px;
+}
+
+.button {
+	background:#f3f3f3;
+	border:2px #fff solid;
+	border-bottom:2px solid #d3d3d3;
+	border-right:2px solid #d3d3d3;
+	height:24px;
+	width:36px;
+	padding:0;
+	margin:0;
+	margin-top:10px;
+}
+
+.button:focus {
+	background:#f3f3f3;
+	border:2px #d3d3d3 solid;
+	border-bottom:2px solid #fff;
+	border-right:2px solid #fff;	
+}
+
+
+/********* Popego Encounter ************/
+
+.follow {
+	background:url(/images/widget/encounter_follow_idle.png);
+	/* IE */
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/widget/encounter_follow_idle.png', sizingMethod='crop')"
+    );
+}
+
+.follow:hover {
+	background:url(/images/widget/encounter_follow_hover.png);
+}
+
+.open {
+	background:url(/images/widget/encounter_open_idle.png);
+	/* IE */
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/widget/encounter_open_idle.png', sizingMethod='crop')"
+    );
+}
+
+.open:hover {
+	background:url(/images/widget/encounter_open_hover.png);
+}
+
+.remove {
+	background:url(/images/widget/encounter_remove_idle.png);
+	/* IE */
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/widget/encounter_remove_idle.png', sizingMethod='crop')"
+    );
+}
+
+.remove:hover {
+	background:url(/images/widget/encounter_remove_hover.png);
+}
+
+.compatible {
+	background:url(/images/widget/encounter_compatible_idle.png);
+	/* IE */
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/widget/encounter_compatible_idle.png', sizingMethod='crop')"
+    );
+}
+
+.compatible:hover {
+	background:url(/images/widget/encounter_compatible_hover.png);
+}
+
+
+.icon_button {
+	height:15px;
+	margin:5px 4px 0 0;
+	cursor:pointer;
+	/*opacity:0.8;*/
+	float:left;
+	font-size:12px;
+	padding-left:18px;
+	margin-right:4px;
+	
+	background-position:top left;
+	background-repeat:no-repeat;
+	
+	/*IE hover*/
+	_over: expression(onmouseover=new Function("this.style.textDecorationUnderline='true'"));
+    _out: expression(onmouseout=new Function("this.style.textDecorationUnderline=''"));
+}
+
+.icon_button:hover {
+	text-decoration:underline;
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+.user_encounter a {
+	text-decoration:none;
+	color:white;
+}
+
+.user_encounter a:hover {
+	text-decoration:underline;
+}
+
+.user_login,
+.user_encounter {
+	position:absolute;
+	top: 175px;
+	z-index:9999;	
+	width:140px;
+	height:65px;
+	padding-left:4px;
+}
+
+.user_login h5,
+.user_encounter h5 {
+	padding:4px 0;
+	margin:0;	
+}
+
+.user_login p,
+.user_encounter p {
+	margin:0;
+	padding:0;
+}
+
+.user_login a,
+.logout a {
+	color:#fff;
+}
+
+.logout {
+	position:absolute;
+	margin-left:95px;
+	margin-top:-14px;
+	
+	/*IE 7 & 6*/
+	*margin-top:0px;
+	*margin-left:68px;
+}

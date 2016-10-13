@@ -1,0 +1,16 @@
+/******* PNG Transparency for IE **************/
+.pngfix {
+	_background-image: expression(
+		this.style.backgroundImage = "none",
+		this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+		this.src = Popego.Env.baseUrl + "/images/widget/blank.gif"
+	);
+}
+
+.pngfix_scale {
+	_background-image: expression(
+		this.style.backgroundImage = "none",
+		this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='scale')",
+		this.src = Popego.Env.baseUrl + "/images/widget/blank.gif"
+	);
+}	

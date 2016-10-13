@@ -1,0 +1,61 @@
+/* Styles for Theme Selector */
+
+.palette ol {
+	list-style: none;
+	padding: 0;
+	padding-bottom: 30px;
+	margin-left: 0px;
+}
+
+.palette li {
+	height: 30px;
+	width: 13px;
+	float: left;
+	margin: 2px;
+	background-color: transparent;
+}
+
+.palette li a {
+	display: block;
+	float: left;
+	width: 13px;
+	height: 13px;
+	padding:0;
+	_font-size:10px;
+	/*background-color: #999;*/
+	padding-bottom: -15px;
+}
+
+.palette li:hover {
+	cursor: pointer;
+	background: no-repeat url(/images/website/palette_arrow_over.png);
+	background-position: bottom center; 
+}
+
+.palette li.picked_color {
+	background: no-repeat url(/images/website/palette_arrow_selected.gif) bottom center;
+}
+
+/* colors */
+.x0d6d6d { background-color: #0d6d6d; }
+.x3d3d3d { background-color: #3d3d3d; }
+.x4d8000 { background-color: #4d8000; }
+.x6aac28 { background-color: #6aac28; }
+.x9e9e9e { background-color: #9e9e9e; }
+.x013c76 { background-color: #013c76; }
+.x129fc2 { background-color: #129fc2; }
+.x0159b1 { background-color: #0159b1; }
+.x666666 { background-color: #666666; }
+.x993300 { background-color: #993300; }
+.xa9d103 { background-color: #a9d103; }
+.xaa0000 { background-color: #aa0000; }
+.xac20ac { background-color: #ac20ac; }
+.xc01258 { background-color: #c01258; }
+.xdddddd { background-color: #dddddd; }
+.xe4e40a { background-color: #e4e40a; }
+.xe23d14 { background-color: #e23d14; }
+.xe72510 { background-color: #e72510; }
+.xff900a { background-color: #ff900a; }
+.xff3366 { background-color: #ff3366; }
+
+

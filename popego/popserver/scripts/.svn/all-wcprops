@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/private/popego/main/!svn/ver/1129/trunk/popserver/scripts
+END
+migrate.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/private/popego/main/!svn/ver/488/trunk/popserver/scripts/migrate.py
+END
+compress_assets.sh
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/private/popego/main/!svn/ver/1118/trunk/popserver/scripts/compress_assets.sh
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/private/popego/main/!svn/ver/488/trunk/popserver/scripts/__init__.py
+END
+import_user_accounts_data.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/private/popego/main/!svn/ver/916/trunk/popserver/scripts/import_user_accounts_data.py
+END
+new_migration.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/private/popego/main/!svn/ver/497/trunk/popserver/scripts/new_migration.py
+END
+generate_migrate.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/private/popego/main/!svn/ver/1058/trunk/popserver/scripts/generate_migrate.py
+END
+gen_popego_config_js.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/private/popego/main/!svn/ver/1129/trunk/popserver/scripts/gen_popego_config_js.py
+END
+bundle_stylesheets.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/773/trunk/popserver/scripts/bundle_stylesheets.py
+END
+cron_dispatcher.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/private/popego/main/!svn/ver/768/trunk/popserver/scripts/cron_dispatcher.py
+END
+continuous_integration.py
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/private/popego/main/!svn/ver/422/trunk/popserver/scripts/continuous_integration.py
+END
+deploy.sh
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/private/popego/main/!svn/ver/773/trunk/popserver/scripts/deploy.sh
+END
+data_migrate.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/private/popego/main/!svn/ver/496/trunk/popserver/scripts/data_migrate.py
+END
+files_setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/private/popego/main/!svn/ver/16/trunk/popserver/scripts/files_setup.py
+END
+create_theme.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/private/popego/main/!svn/ver/707/trunk/popserver/scripts/create_theme.py
+END
+svnmerge.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/private/popego/main/!svn/ver/1064/trunk/popserver/scripts/svnmerge.py
+END
+process_stylesheet.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/773/trunk/popserver/scripts/process_stylesheet.py
+END

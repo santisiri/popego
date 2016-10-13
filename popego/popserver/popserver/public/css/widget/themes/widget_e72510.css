@@ -1,0 +1,14 @@
+/*******************************
+ ** Widget Theme: e72510
+ ** Base Color: #e72510
+ ******************************/
+#popego.widget {
+	background:url(/images/widget/widget_background_e72510.png) top left no-repeat;
+	/* IE */
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + Popego.Env.baseUrl + "/images/widget/widget_background_e72510.png', sizingMethod='scale')",
+		this.style.width = "143px",
+		this.style.height = "235px"
+    );
+}

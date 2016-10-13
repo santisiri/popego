@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/private/popego/main/!svn/ver/844/trunk/popserver/fixture/command/generate
+END
+generate.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/command/generate/generate.py
+END
+template.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/command/generate/template.py
+END
+generate_sqlalchemy.py
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/command/generate/generate_sqlalchemy.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/command/generate/__init__.py
+END
+generate_sqlobject.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/command/generate/generate_sqlobject.py
+END

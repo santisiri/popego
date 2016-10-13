@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/******* Home Popego Updates **************/
+.popego_minicard {
+	float:left;
+	margin:10px 8px 0 0;
+	padding:6px;
+	height:205px;
+	max-width:142px;
+	text-align:left;
+	
+}
+
+.popego_minicard h2 {
+	font-size:14px;
+	color:#000;
+}
+
+.popego_minicard p {
+	margin:6px 0pt -6px;
+}
+
+.frame_130,
+.avatar_130 {
+	width:130px;
+	height:130px;
+	clear:both;
+}
+
+.frame_130 {
+	position:absolute;
+	margin-top:-130px;
+	
+	/* IE */
+	*margin-top:0;
+	*margin-left:-134px;
+
+}
+
+.frame_180 {
+	position:absolute;
+	margin-top:-180px;
+	margin-left:30px;
+	
+	/* IE */
+	_margin-left:-90px;
+}
+
+
+.frame_200 {
+	position:absolute;
+	margin:0;
+	padding:0;
+	top:0;
+	margin-top:294px;
+	margin-left:-1px;
+	border:1px solid white;
+	
+	/* IE */
+	*margin-top:305px;
+}
+
+.follow {
+	font-size:10px;
+}
+
+/*.frame_180,
+.avatar_180 {
+	width:180px;
+	height:180px;	
+	clear:both;
+}
+*/
+.frame_200,
+.avatar_200 {
+	width:200px;
+	height:200px;
+}
+	

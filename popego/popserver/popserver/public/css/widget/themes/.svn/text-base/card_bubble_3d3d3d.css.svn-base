@@ -1,0 +1,13 @@
+/*******************************
+ ** Widget Theme: 3d3d3d 
+ ** Base Color: #3d3d3d
+ ******************************/
+#popcard.dialog .content,
+#popcard.dialog .t,
+#popcard.dialog .b,
+#popcard.dialog .b div {
+	background:transparent url(/images/widget/card_background_3d3d3d.png) no-repeat top right;
+}
+#popcard .menu {
+	color: #3d3d3d;
+}

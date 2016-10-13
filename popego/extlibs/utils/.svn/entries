@@ -1,0 +1,46 @@
+8
+
+dir
+2143
+https://svn.popego.com/private/popego/main/trunk/extlibs/utils
+https://svn.popego.com/private/popego/main
+
+
+
+2008-05-27T19:36:32.596253Z
+2095
+mariano
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+acf6466c-6d64-462d-91de-bbf11b5ca8a0
+
+utils
+dir
+
+tests
+dir
+
+setup.py
+file
+
+
+
+
+2008-05-28T22:07:45.000000Z
+841c31317426fc53dd6e09948e383e16
+2008-04-30T21:49:47.996819Z
+1773
+mariano
+

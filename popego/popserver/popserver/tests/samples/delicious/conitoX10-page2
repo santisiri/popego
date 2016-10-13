@@ -1,0 +1,453 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html id="delicious">
+<head>
+	<title>conito's bookmarks on del.icio.us</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="/delicious.css?v=61E-123"/>
+
+	<script type="text/javascript" src="/ui/static/lib.js?v=61E-123"></script>
+	<script type="text/javascript" src="/ui/static/delicious.js?v=61E-123"></script>
+
+	<link rel="shortcut icon" type="image/x-icon" href="http://del.icio.us/favicon.ico" />
+	<link rel="alternate" type="application/rss+xml" title="RSS feed of conito's bookmarks" href="http://del.icio.us/rss/conito"/>
+	<script type="text/javascript">
+	global_user_flag_private = 1;
+	</script>
+	<link rel="alternate" type="application/rss+xml" title="RSS feed of conito's tags" href="http://del.icio.us/rss/tags/conito"/>
+</head>
+
+<body>
+
+<p class="hide"><a href="#main">skip to content</a></p>
+<div id="header">
+<div id="header-l">
+<h1 class="unauth-h1"><a href="/">del.icio.us</a> /&nbsp;<a href='/conito' id="curr_user">conito</a> /&nbsp;<span id="crumb"></span><script type="text/javascript">if(window.Crumb) Crumb.go('/conito/')</script>
+</h1>
+</div>
+<div id="header-r">
+<p id="header-global-links"><a href="/popular/">popular</a> | <a href="/recent">recent</a></p>
+<p id="header-auth-links"><a href="https://secure.del.icio.us/login"><strong>login</strong></a> | <a href="https://secure.del.icio.us/register"><strong>register</strong></a> | <a href="/help/"><strong>help</strong></a></p>
+</div>
+<div class="cleardiv"></div>
+</div>
+
+
+
+<div id="infobar">
+	<div  class="search-box">
+<form method="get" action="/search/" id="searchform" onSubmit="doSearchType(); return true;"><p class="nom">
+<input type="hidden" name="fr" id="searchfr" value="del_icio_us"/>
+<input type="text" name="p" size="15" value=""/>
+<select id="searchtype" name="type">
+	<option value="all" selected="selected">del.icio.us</option>
+	<option value="web" >the web</option>
+</select>
+<input type="submit" value="search" /></p></form></div>
+
+	<h2 id="page-desc">
+	All conito's items (301)
+
+	</h2>
+</div>
+
+<hr />
+<div id="sidebar" class="list"><div class="sidebar-inner">
+<ul class="bundles">
+
+
+	<li class="bundle fold"><h3 class="label"><span>languages</span></h3>
+		<ul>
+			<li><span>2</span> <a href="/conito/c">c</a></li>
+			<li><span>1</span> <a href="/conito/%22c%2B%2B%22">c++</a></li>
+			<li><span>9</span> <a href="/conito/css">css</a></li>
+			<li><span>33</span> <a href="/conito/haskell">haskell</a></li>
+			<li><span>6</span> <a href="/conito/html">html</a></li>
+			<li><span>21</span> <a href="/conito/java">java</a></li>
+			<li><span>11</span> <a href="/conito/javascript">javascript</a></li>
+			<li><span>15</span> <a href="/conito/lisp">lisp</a></li>
+			<li><span>2</span> <a href="/conito/php">php</a></li>
+			<li><span>31</span> <a href="/conito/python">python</a></li>
+			<li><span>45</span> <a href="/conito/Ruby">Ruby</a></li>
+			<li><span>9</span> <a href="/conito/scheme">scheme</a></li>
+			<li><span>7</span> <a href="/conito/smalltalk">smalltalk</a></li>
+			<li><span>3</span> <a href="/conito/sql">sql</a></li>
+			<li><span>2</span> <a href="/conito/yaml">yaml</a></li>
+		</ul>
+	</li>
+	<li class="bundle fold"><h3 class="label"><span>linux</span></h3>
+		<ul>
+			<li><span>1</span> <a href="/conito/gentoo">gentoo</a></li>
+			<li><span>16</span> <a href="/conito/linux">linux</a></li>
+			<li><span>7</span> <a href="/conito/linux-conf">linux-conf</a></li>
+			<li><span>12</span> <a href="/conito/ubuntu">ubuntu</a></li>
+		</ul>
+	</li>
+	<li class="bundle fold"><h3 class="label"><span>programming</span></h3>
+		<ul>
+			<li><span>3</span> <a href="/conito/ajax">ajax</a></li>
+			<li><span>2</span> <a href="/conito/algorithms">algorithms</a></li>
+			<li><span>1</span> <a href="/conito/continuations">continuations</a></li>
+			<li><span>2</span> <a href="/conito/django">django</a></li>
+			<li><span>41</span> <a href="/conito/functional">functional</a></li>
+			<li><span>1</span> <a href="/conito/idioms">idioms</a></li>
+			<li><span>26</span> <a href="/conito/language">language</a></li>
+			<li><span>5</span> <a href="/conito/language-theory">language-theory</a></li>
+			<li><span>7</span> <a href="/conito/metaprogramming">metaprogramming</a></li>
+			<li><span>3</span> <a href="/conito/oo">oo</a></li>
+			<li><span>4</span> <a href="/conito/opensource">opensource</a></li>
+			<li><span>5</span> <a href="/conito/patterns">patterns</a></li>
+			<li><span>94</span> <a href="/conito/programming">programming</a></li>
+			<li><span>1</span> <a href="/conito/programming-game">programming-game</a></li>
+			<li><span>13</span> <a href="/conito/rails">rails</a></li>
+			<li><span>1</span> <a href="/conito/refactoring">refactoring</a></li>
+			<li><span>4</span> <a href="/conito/tdd">tdd</a></li>
+			<li><span>8</span> <a href="/conito/webdesign">webdesign</a></li>
+			<li><span>9</span> <a href="/conito/webdev">webdev</a></li>
+		</ul>
+	</li>
+	<li class="bundle fold"><h3 class="label"><span>tech</span></h3>
+		<ul>
+			<li><span>1</span> <a href="/conito/alsa">alsa</a></li>
+			<li><span>4</span> <a href="/conito/database">database</a></li>
+			<li><span>1</span> <a href="/conito/debugging">debugging</a></li>
+			<li><span>2</span> <a href="/conito/dev-tools">dev-tools</a></li>
+			<li><span>6</span> <a href="/conito/eclipse">eclipse</a></li>
+			<li><span>1</span> <a href="/conito/Hibernate">Hibernate</a></li>
+			<li><span>2</span> <a href="/conito/j2ee">j2ee</a></li>
+			<li><span>1</span> <a href="/conito/profiler">profiler</a></li>
+			<li><span>94</span> <a href="/conito/programming">programming</a></li>
+			<li><span>1</span> <a href="/conito/programming-game">programming-game</a></li>
+			<li><span>2</span> <a href="/conito/tech">tech</a></li>
+			<li><span>9</span> <a href="/conito/testing">testing</a></li>
+			<li><span>9</span> <a href="/conito/webdev">webdev</a></li>
+		</ul>
+	</li>
+	<li class="bundle fold"><h3 class="label"><span>vacations</span></h3>
+		<ul>
+			<li><span>2</span> <a href="/conito/cedula">cedula</a></li>
+			<li><span>1</span> <a href="/conito/el-sur">el-sur</a></li>
+			<li><span>3</span> <a href="/conito/flights">flights</a></li>
+			<li><span>2</span> <a href="/conito/info-util">info-util</a></li>
+			<li><span>3</span> <a href="/conito/lanin">lanin</a></li>
+			<li><span>3</span> <a href="/conito/pasaporte">pasaporte</a></li>
+			<li><span>14</span> <a href="/conito/tips">tips</a></li>
+			<li><span>1</span> <a href="/conito/train">train</a></li>
+			<li><span>12</span> <a href="/conito/travel">travel</a></li>
+		</ul>
+	</li>
+	<li class="bundle fold"><h3 class="label"><span>whatis</span></h3>
+		<ul>
+			<li><span>4</span> <a href="/conito/%40toread">@toread</a></li>
+			<li><span>1</span> <a href="/conito/appz">appz</a></li>
+			<li><span>29</span> <a href="/conito/articles">articles</a></li>
+			<li><span>1</span> <a href="/conito/barato">barato</a></li>
+			<li><span>6</span> <a href="/conito/books">books</a></li>
+			<li><span>8</span> <a href="/conito/cheatsheet">cheatsheet</a></li>
+			<li><span>5</span> <a href="/conito/comparison">comparison</a></li>
+			<li><span>9</span> <a href="/conito/docs">docs</a></li>
+			<li><span>1</span> <a href="/conito/entrepreneur">entrepreneur</a></li>
+			<li><span>1</span> <a href="/conito/errors">errors</a></li>
+			<li><span>3</span> <a href="/conito/essay">essay</a></li>
+			<li><span>5</span> <a href="/conito/examples">examples</a></li>
+			<li><span>3</span> <a href="/conito/exercises">exercises</a></li>
+			<li><span>4</span> <a href="/conito/funny">funny</a></li>
+			<li><span>9</span> <a href="/conito/games">games</a></li>
+			<li><span>2</span> <a href="/conito/innovation">innovation</a></li>
+			<li><span>4</span> <a href="/conito/inspiration">inspiration</a></li>
+			<li><span>1</span> <a href="/conito/interview">interview</a></li>
+			<li><span>14</span> <a href="/conito/learning">learning</a></li>
+			<li><span>2</span> <a href="/conito/lectures">lectures</a></li>
+			<li><span>1</span> <a href="/conito/magazine">magazine</a></li>
+			<li><span>1</span> <a href="/conito/map">map</a></li>
+			<li><span>1</span> <a href="/conito/motivation">motivation</a></li>
+			<li><span>15</span> <a href="/conito/paper">paper</a></li>
+			<li><span>10</span> <a href="/conito/philosophical">philosophical</a></li>
+			<li><span>61</span> <a href="/conito/reference">reference</a></li>
+			<li><span>7</span> <a href="/conito/research">research</a></li>
+			<li><span>1</span> <a href="/conito/strategic">strategic</a></li>
+			<li><span>8</span> <a href="/conito/tendencies">tendencies</a></li>
+			<li><span>13</span> <a href="/conito/tutorial">tutorial</a></li>
+			<li><span>3</span> <a href="/conito/tutorials">tutorials</a></li>
+		</ul>
+	</li>
+	<li class="bundle fold"><h3 class="label"><span>unbundled tags</span></h3>
+		<ul>
+			<li><span>1</span> <a href="/conito/academic">academic</a></li>
+			<li><span>6</span> <a href="/conito/actionscript">actionscript</a></li>
+			<li><span>11</span> <a href="/conito/agile">agile</a></li>
+			<li><span>1</span> <a href="/conito/animation">animation</a></li>
+			<li><span>7</span> <a href="/conito/api">api</a></li>
+			<li><span>7</span> <a href="/conito/argentina">argentina</a></li>
+			<li><span>6</span> <a href="/conito/article">article</a></li>
+			<li><span>1</span> <a href="/conito/atm">atm</a></li>
+			<li><span>1</span> <a href="/conito/bandwidth">bandwidth</a></li>
+			<li><span>2</span> <a href="/conito/bash">bash</a></li>
+			<li><span>1</span> <a href="/conito/benchmark">benchmark</a></li>
+			<li><span>1</span> <a href="/conito/berkeley">berkeley</a></li>
+			<li><span>1</span> <a href="/conito/beryl">beryl</a></li>
+			<li><span>3</span> <a href="/conito/blog">blog</a></li>
+			<li><span>1</span> <a href="/conito/blogger">blogger</a></li>
+			<li><span>2</span> <a href="/conito/blogs">blogs</a></li>
+			<li><span>1</span> <a href="/conito/board">board</a></li>
+			<li><span>1</span> <a href="/conito/boardgames">boardgames</a></li>
+			<li><span>4</span> <a href="/conito/book">book</a></li>
+			<li><span>1</span> <a href="/conito/browser">browser</a></li>
+			<li><span>4</span> <a href="/conito/bussiness">bussiness</a></li>
+			<li><span>2</span> <a href="/conito/category-theory">category-theory</a></li>
+			<li><span>3</span> <a href="/conito/chinese">chinese</a></li>
+			<li><span>4</span> <a href="/conito/closures">closures</a></li>
+			<li><span>4</span> <a href="/conito/code">code</a></li>
+			<li><span>2</span> <a href="/conito/color">color</a></li>
+			<li><span>2</span> <a href="/conito/command-line">command-line</a></li>
+			<li><span>1</span> <a href="/conito/commands">commands</a></li>
+			<li><span>1</span> <a href="/conito/commication">commication</a></li>
+			<li><span>1</span> <a href="/conito/community">community</a></li>
+			<li><span>1</span> <a href="/conito/compatibility">compatibility</a></li>
+			<li><span>1</span> <a href="/conito/computer-science">computer-science</a></li>
+			<li><span>1</span> <a href="/conito/cookbook">cookbook</a></li>
+			<li><span>1</span> <a href="/conito/creep">creep</a></li>
+			<li><span>1</span> <a href="/conito/critique">critique</a></li>
+			<li><span>1</span> <a href="/conito/dbi">dbi</a></li>
+			<li><span>1</span> <a href="/conito/decorators">decorators</a></li>
+			<li><span>1</span> <a href="/conito/del.icio.us">del.icio.us</a></li>
+			<li><span>1</span> <a href="/conito/delivery">delivery</a></li>
+			<li><span>3</span> <a href="/conito/deploy">deploy</a></li>
+			<li><span>10</span> <a href="/conito/design">design</a></li>
+			<li><span>10</span> <a href="/conito/development">development</a></li>
+			<li><span>1</span> <a href="/conito/diarios">diarios</a></li>
+			<li><span>1</span> <a href="/conito/distributed">distributed</a></li>
+			<li><span>1</span> <a href="/conito/distutils">distutils</a></li>
+			<li><span>9</span> <a href="/conito/documentation">documentation</a></li>
+			<li><span>2</span> <a href="/conito/dsl">dsl</a></li>
+			<li><span>2</span> <a href="/conito/dvorak">dvorak</a></li>
+			<li><span>1</span> <a href="/conito/education">education</a></li>
+			<li><span>1</span> <a href="/conito/eggs">eggs</a></li>
+			<li><span>1</span> <a href="/conito/embed">embed</a></li>
+			<li><span>1</span> <a href="/conito/entry-points">entry-points</a></li>
+			<li><span>1</span> <a href="/conito/facebook">facebook</a></li>
+			<li><span>2</span> <a href="/conito/firefox">firefox</a></li>
+			<li><span>9</span> <a href="/conito/flash">flash</a></li>
+			<li><span>1</span> <a href="/conito/framework">framework</a></li>
+			<li><span>1</span> <a href="/conito/frameworks">frameworks</a></li>
+			<li><span>1</span> <a href="/conito/free">free</a></li>
+			<li><span>2</span> <a href="/conito/geek">geek</a></li>
+			<li><span>4</span> <a href="/conito/google">google</a></li>
+			<li><span>1</span> <a href="/conito/graphics">graphics</a></li>
+			<li><span>1</span> <a href="/conito/gtalk">gtalk</a></li>
+			<li><span>1</span> <a href="/conito/gui">gui</a></li>
+			<li><span>1</span> <a href="/conito/guide">guide</a></li>
+			<li><span>1</span> <a href="/conito/hacking">hacking</a></li>
+			<li><span>1</span> <a href="/conito/hardware">hardware</a></li>
+			<li><span>1</span> <a href="/conito/help">help</a></li>
+			<li><span>6</span> <a href="/conito/history">history</a></li>
+			<li><span>5</span> <a href="/conito/howto">howto</a></li>
+			<li><span>3</span> <a href="/conito/http">http</a></li>
+			<li><span>1</span> <a href="/conito/hugs">hugs</a></li>
+			<li><span>3</span> <a href="/conito/humor">humor</a></li>
+			<li><span>1</span> <a href="/conito/internet">internet</a></li>
+			<li><span>1</span> <a href="/conito/introspection">introspection</a></li>
+			<li><span>1</span> <a href="/conito/ipod">ipod</a></li>
+			<li><span>1</span> <a href="/conito/itunes">itunes</a></li>
+			<li><span>1</span> <a href="/conito/jabber">jabber</a></li>
+			<li><span>1</span> <a href="/conito/jee">jee</a></li>
+			<li><span>2</span> <a href="/conito/kde">kde</a></li>
+			<li><span>1</span> <a href="/conito/kids">kids</a></li>
+			<li><span>2</span> <a href="/conito/languages">languages</a></li>
+			<li><span>3</span> <a href="/conito/latex">latex</a></li>
+			<li><span>1</span> <a href="/conito/lazy">lazy</a></li>
+			<li><span>1</span> <a href="/conito/lenght">lenght</a></li>
+			<li><span>3</span> <a href="/conito/library">library</a></li>
+			<li><span>1</span> <a href="/conito/literatura">literatura</a></li>
+			<li><span>1</span> <a href="/conito/logging">logging</a></li>
+			<li><span>3</span> <a href="/conito/mandarin">mandarin</a></li>
+			<li><span>1</span> <a href="/conito/marketing">marketing</a></li>
+			<li><span>1</span> <a href="/conito/markup">markup</a></li>
+			<li><span>4</span> <a href="/conito/math">math</a></li>
+			<li><span>4</span> <a href="/conito/mathematics">mathematics</a></li>
+			<li><span>1</span> <a href="/conito/memory">memory</a></li>
+			<li><span>1</span> <a href="/conito/memoryleak">memoryleak</a></li>
+			<li><span>1</span> <a href="/conito/mencoder">mencoder</a></li>
+			<li><span>3</span> <a href="/conito/metaclass">metaclass</a></li>
+			<li><span>2</span> <a href="/conito/methodology">methodology</a></li>
+			<li><span>1</span> <a href="/conito/migrations">migrations</a></li>
+			<li><span>2</span> <a href="/conito/mock">mock</a></li>
+			<li><span>1</span> <a href="/conito/monad">monad</a></li>
+			<li><span>2</span> <a href="/conito/monads">monads</a></li>
+			<li><span>1</span> <a href="/conito/nerd">nerd</a></li>
+			<li><span>1</span> <a href="/conito/net">net</a></li>
+			<li><span>2</span> <a href="/conito/netiquette">netiquette</a></li>
+			<li><span>1</span> <a href="/conito/network">network</a></li>
+			<li><span>1</span> <a href="/conito/news">news</a></li>
+			<li><span>1</span> <a href="/conito/number-theory">number-theory</a></li>
+			<li><span>1</span> <a href="/conito/numerics">numerics</a></li>
+			<li><span>1</span> <a href="/conito/opengl">opengl</a></li>
+			<li><span>1</span> <a href="/conito/openoffice">openoffice</a></li>
+			<li><span>1</span> <a href="/conito/optimization">optimization</a></li>
+			<li><span>3</span> <a href="/conito/oracle">oracle</a></li>
+			<li><span>1</span> <a href="/conito/paradigms">paradigms</a></li>
+			<li><span>1</span> <a href="/conito/parallel">parallel</a></li>
+			<li><span>3</span> <a href="/conito/performance">performance</a></li>
+			<li><span>1</span> <a href="/conito/perl">perl</a></li>
+			<li><span>1</span> <a href="/conito/podcast">podcast</a></li>
+			<li><span>1</span> <a href="/conito/poesia">poesia</a></li>
+			<li><span>1</span> <a href="/conito/ports">ports</a></li>
+			<li><span>1</span> <a href="/conito/postmortem">postmortem</a></li>
+			<li><span>1</span> <a href="/conito/probability">probability</a></li>
+			<li><span>3</span> <a href="/conito/pylons">pylons</a></li>
+			<li><span>1</span> <a href="/conito/qt">qt</a></li>
+			<li><span>1</span> <a href="/conito/radiohead">radiohead</a></li>
+			<li><span>2</span> <a href="/conito/rcp">rcp</a></li>
+			<li><span>3</span> <a href="/conito/reflection">reflection</a></li>
+			<li><span>1</span> <a href="/conito/relationships">relationships</a></li>
+			<li><span>1</span> <a href="/conito/resources">resources</a></li>
+			<li><span>2</span> <a href="/conito/rest">rest</a></li>
+			<li><span>1</span> <a href="/conito/review">review</a></li>
+			<li><span>1</span> <a href="/conito/samba">samba</a></li>
+			<li><span>2</span> <a href="/conito/science">science</a></li>
+			<li><span>1</span> <a href="/conito/screencasts">screencasts</a></li>
+			<li><span>1</span> <a href="/conito/search">search</a></li>
+			<li><span>3</span> <a href="/conito/security">security</a></li>
+			<li><span>1</span> <a href="/conito/setuptools">setuptools</a></li>
+			<li><span>2</span> <a href="/conito/shell">shell</a></li>
+			<li><span>3</span> <a href="/conito/slides">slides</a></li>
+			<li><span>1</span> <a href="/conito/socialnetworking">socialnetworking</a></li>
+			<li><span>1</span> <a href="/conito/software">software</a></li>
+			<li><span>1</span> <a href="/conito/speed">speed</a></li>
+			<li><span>1</span> <a href="/conito/speedtest">speedtest</a></li>
+			<li><span>1</span> <a href="/conito/speedup">speedup</a></li>
+			<li><span>1</span> <a href="/conito/sprite">sprite</a></li>
+			<li><span>2</span> <a href="/conito/ssh">ssh</a></li>
+			<li><span>2</span> <a href="/conito/statistics">statistics</a></li>
+			<li><span>1</span> <a href="/conito/system:unfiled">system:unfiled</a></li>
+			<li><span>1</span> <a href="/conito/taxonomy">taxonomy</a></li>
+			<li><span>1</span> <a href="/conito/techniques">techniques</a></li>
+			<li><span>1</span> <a href="/conito/technology">technology</a></li>
+			<li><span>1</span> <a href="/conito/tools">tools</a></li>
+			<li><span>2</span> <a href="/conito/torrents">torrents</a></li>
+			<li><span>1</span> <a href="/conito/tricks">tricks</a></li>
+			<li><span>1</span> <a href="/conito/tshirt">tshirt</a></li>
+			<li><span>1</span> <a href="/conito/turbogears">turbogears</a></li>
+			<li><span>1</span> <a href="/conito/tweaks">tweaks</a></li>
+			<li><span>1</span> <a href="/conito/twill">twill</a></li>
+			<li><span>3</span> <a href="/conito/typing">typing</a></li>
+			<li><span>2</span> <a href="/conito/unix">unix</a></li>
+			<li><span>1</span> <a href="/conito/url">url</a></li>
+			<li><span>5</span> <a href="/conito/vi">vi</a></li>
+			<li><span>4</span> <a href="/conito/video">video</a></li>
+			<li><span>1</span> <a href="/conito/videos">videos</a></li>
+			<li><span>2</span> <a href="/conito/vim">vim</a></li>
+			<li><span>1</span> <a href="/conito/viral">viral</a></li>
+			<li><span>1</span> <a href="/conito/wallpaper">wallpaper</a></li>
+			<li><span>12</span> <a href="/conito/web">web</a></li>
+			<li><span>1</span> <a href="/conito/web.py">web.py</a></li>
+			<li><span>3</span> <a href="/conito/web2.0">web2.0</a></li>
+			<li><span>1</span> <a href="/conito/webservices">webservices</a></li>
+			<li><span>1</span> <a href="/conito/widget">widget</a></li>
+			<li><span>1</span> <a href="/conito/wifi">wifi</a></li>
+			<li><span>1</span> <a href="/conito/windows-mobile">windows-mobile</a></li>
+			<li><span>1</span> <a href="/conito/wine">wine</a></li>
+			<li><span>2</span> <a href="/conito/wsgi">wsgi</a></li>
+			<li><span>2</span> <a href="/conito/xml">xml</a></li>
+			<li><span>1</span> <a href="/conito/xml-rpc">xml-rpc</a></li>
+			<li><span>1</span> <a href="/conito/XP">XP</a></li>
+			<li><span>1</span> <a href="/conito/xpath">xpath</a></li>
+			<li><span>1</span> <a href="/conito/youtube">youtube</a></li>
+			<li><span>1</span> <a href="/conito/zauber">zauber</a></li>
+			<li><span>1</span> <a href="/conito/zope">zope</a></li>
+		</ul>
+	</li>
+
+<li class="bundle fold options"><h3 class="label"><span>tag options</span></h3>
+<ul>
+<li><span>&raquo; </span>view as <a href="?settagview=cloud">cloud</a> | list</li>
+<li><span>&raquo; </span>sort by alpha | <a href="?settagsort=freq">freq</a></li>
+<li><span>&raquo; </span> use minimum: 1, <a href="?setminposts=2">2</a>, <a href="?setminposts=5">5</a></li>
+<li><span>&raquo; </span>show | <a href="?setbundleview=hide">hide</a> bundles</li>
+</ul>
+</li>
+
+</ul>
+</div></div>
+
+
+ <script type="text/javascript"> if(window.Fold) { Fold.go() } </script>
+
+
+<div id="main"><script type="text/javascript"><!--
+addLoadEvent(function(){if($id('main') && $id('sidebar')){$id('main').style.marginRight=($id('sidebar').clientWidth+6)+'px';$id('main').style.paddingRight='1em';}})
+--></script>
+
+
+
+
+<p class="pager"><span class="grey"><a rel="prev" accesskey="e" href="/conito?page=2">&laquo; earlier</a> | later &raquo; </span>&nbsp; &nbsp; &nbsp; page 2 of 2 </p>
+<ol class="posts">
+<li class="post" key="4c3432c14eead8ed081643faa67aa646">
+ <h4 class="desc"><a href="http://wine-review.blogspot.com/2007/10/itunes-73-on-linux-with-wine.html" rel="nofollow">Wine Review: iTunes 7.3 on Linux with Wine</a>
+ </h4>
+ <div class="commands"> &nbsp;<a save href="/post?url=http%3A%2F%2Fwine-review.blogspot.com%2F2007%2F10%2Fitunes-73-on-linux-with-wine.html&amp;title=Wine%20Review%3A%20iTunes%207.3%20on%20Linux%20with%20Wine&amp;copyuser=conito&amp;copytags=itunes%2Bwine%2Blinux%2Bhowto&amp;jump=no&amp;partner=del" class="copy" rel="nofollow">save this</a></div> <div class="meta">to <a class="tag" href="/conito/itunes">itunes</a> <a class="tag" href="/conito/wine">wine</a> <a class="tag" href="/conito/linux">linux</a> <a class="tag" href="/conito/howto">howto</a> ... <a class="pop" href="/url/27c86026483d844764d74857ffaf4695" style="padding: 0 0.2em; background-color: rgb(100%, 79%, 79%);">saved by 63 other people</a> <span class="date" title="2007-12-04T20:20:04Z">... 1 day ago</span> </div>
+</li>
+<li class="post" key="9ed2dadf569920763897747db575f925">
+ <h4 class="desc"><a href="http://help.blogger.com/bin/answer.py?answer=53219" rel="nofollow">How do I create new widgets for other people to add to their layouts?</a>
+ </h4>
+ <div class="commands"> &nbsp;<a save href="/post?url=http%3A%2F%2Fhelp.blogger.com%2Fbin%2Fanswer.py%3Fanswer%3D53219&amp;title=How%20do%20I%20create%20new%20widgets%20for%20other%20people%20to%20add%20to%20their%20layouts%3F&amp;copyuser=conito&amp;copytags=blogger%2Bwidget%2Bapi&amp;jump=no&amp;partner=del" class="copy" rel="nofollow">save this</a></div> <div class="meta">to <a class="tag" href="/conito/blogger">blogger</a> <a class="tag" href="/conito/widget">widget</a> <a class="tag" href="/conito/api">api</a> ... <a class="pop" href="/url/0e37d1255bc121d5c03d4a02c825b088" style="padding: 0 0.2em; background-color: rgb(100%, 81%, 81%);">saved by 43 other people</a> <span class="date" title="2007-12-04T14:09:24Z">... 1 day ago</span> </div>
+</li>
+<li class="post" key="f9096fbfea12ebcdeae17edff09fb963">
+ <h4 class="desc"><a href="http://www.simplehelp.net/2007/07/08/10-alternatives-to-itunes-for-managing-your-ipod/" rel="nofollow">10 Alternatives to iTunes for managing your iPod - Simplehelp</a>
+ </h4>
+ <div class="commands"> &nbsp;<a save href="/post?url=http%3A%2F%2Fwww.simplehelp.net%2F2007%2F07%2F08%2F10-alternatives-to-itunes-for-managing-your-ipod%2F&amp;title=10%20Alternatives%20to%20iTunes%20for%20managing%20your%20iPod%20-%20Simplehelp&amp;copyuser=conito&amp;copytags=ipod%2Bsoftware%2Blinux&amp;jump=no&amp;partner=del" class="copy" rel="nofollow">save this</a></div> <div class="meta">to <a class="tag" href="/conito/ipod">ipod</a> <a class="tag" href="/conito/software">software</a> <a class="tag" href="/conito/linux">linux</a> ... <a class="pop" href="/url/cd1ce5f124b4eb6fe1743553366aa62d" style="padding: 0 0.2em; background-color: rgb(100%, 71%, 71%);">saved by 307 other people</a> <span class="date" title="2007-12-03T22:48:12Z">... 1 day ago</span> </div>
+</li>
+<li class="post" key="ed1fe99d5bca0304c4deafe1fbf09759">
+ <h4 class="desc"><a href="http://wingolog.org/archives/2007/11/27/reducing-the-footprint-of-python-applications" rel="nofollow">reducing the footprint of python applications -- andy wingo</a>
+ </h4>
+ <div class="commands"> &nbsp;<a save href="/post?url=http%3A%2F%2Fwingolog.org%2Farchives%2F2007%2F11%2F27%2Freducing-the-footprint-of-python-applications&amp;title=reducing%20the%20footprint%20of%20python%20applications%20--%20andy%20wingo&amp;copyuser=conito&amp;copytags=python%2Bmemory%2Boptimization%2Bprogramming%2Bperformance&amp;jump=no&amp;partner=del" class="copy" rel="nofollow">save this</a></div> <div class="meta">to <a class="tag" href="/conito/python">python</a> <a class="tag" href="/conito/memory">memory</a> <a class="tag" href="/conito/optimization">optimization</a> <a class="tag" href="/conito/programming">programming</a> <a class="tag" href="/conito/performance">performance</a> ... <a class="pop" href="/url/8f1955415e5508773214fe75b5a30465" style="padding: 0 0.2em; background-color: rgb(100%, 74%, 74%);">saved by 191 other people</a> <span class="date" title="2007-11-27T20:07:03Z">... on nov 27</span> </div>
+</li>
+<li class="post" key="de543727870f758805aa7ebc1ccfdb65">
+ <h4 class="desc"><a href="http://www.pyglet.org/" rel="nofollow">pyglet</a>
+ </h4>
+ <div class="commands"> &nbsp;<a save href="/post?url=http%3A%2F%2Fwww.pyglet.org%2F&amp;title=pyglet&amp;copyuser=conito&amp;copytags=python%2Bgraphics%2Bprogramming%2Blibrary%2Bopengl&amp;jump=no&amp;partner=del" class="copy" rel="nofollow">save this</a></div> <div class="meta">to <a class="tag" href="/conito/python">python</a> <a class="tag" href="/conito/graphics">graphics</a> <a class="tag" href="/conito/programming">programming</a> <a class="tag" href="/conito/library">library</a> <a class="tag" href="/conito/opengl">opengl</a> ... <a class="pop" href="/url/25dcef5a2bba6b6344b353ea28f139ee" style="padding: 0 0.2em; background-color: rgb(100%, 74%, 74%);">saved by 174 other people</a> <span class="date" title="2007-11-21T16:22:03Z">... on nov 21</span> </div>
+</li>
+<li class="post" key="6fdafc7a1b074546fb183e16cbe34d61">
+ <h4 class="desc"><a href="http://www.cafepy.com/article/python_types_and_objects/" rel="nofollow">Python Types and Objects</a>
+ </h4>
+ <div class="commands"> &nbsp;<a save href="/post?url=http%3A%2F%2Fwww.cafepy.com%2Farticle%2Fpython_types_and_objects%2F&amp;title=Python%20Types%20and%20Objects&amp;copyuser=conito&amp;copytags=python%2Bmetaclass%2Bintrospection%2Breflection&amp;jump=no&amp;partner=del" class="copy" rel="nofollow">save this</a></div> <div class="meta">to <a class="tag" href="/conito/python">python</a> <a class="tag" href="/conito/metaclass">metaclass</a> <a class="tag" href="/conito/introspection">introspection</a> <a class="tag" href="/conito/reflection">reflection</a> ... <a class="pop" href="/url/c176ff9a3199f811eb1d3bbdd603d59e" style="padding: 0 0.2em; background-color: rgb(100%, 80%, 80%);">saved by 60 other people</a> <span class="date" title="2007-11-20T18:35:56Z">... on nov 20</span> </div>
+</li>
+<li class="post" key="f37a701c9840b43c678c09f024547e8f">
+ <h4 class="desc"><a href="http://www.boutell.com/newfaq/misc/urllength.html" rel="nofollow">WWW FAQs: What is the maximum length of a URL?</a>
+ </h4>
+ <div class="commands"> &nbsp;<a save href="/post?url=http%3A%2F%2Fwww.boutell.com%2Fnewfaq%2Fmisc%2Furllength.html&amp;title=WWW%20FAQs%3A%20What%20is%20the%20maximum%20length%20of%20a%20URL%3F&amp;copyuser=conito&amp;copytags=url%2Blenght%2Bweb%2Bbrowser%2Bhttp%2Bprogramming%2Bdevelopment&amp;jump=no&amp;partner=del" class="copy" rel="nofollow">save this</a></div> <div class="meta">to <a class="tag" href="/conito/url">url</a> <a class="tag" href="/conito/lenght">lenght</a> <a class="tag" href="/conito/web">web</a> <a class="tag" href="/conito/browser">browser</a> <a class="tag" href="/conito/http">http</a> <a class="tag" href="/conito/programming">programming</a> <a class="tag" href="/conito/development">development</a> ... <a class="pop" href="/url/d2b95de9147b861039f85db169e28322" style="padding: 0 0.2em; background-color: rgb(100%, 78%, 78%);">saved by 83 other people</a> <span class="date" title="2007-11-20T17:45:02Z">... on nov 20</span> </div>
+</li>
+<li class="post" key="bac71990dabd5b274c4ad0365e624574">
+ <h4 class="desc"><a href="http://www.randsinrepose.com/archives/2007/11/11/the_nerd_handbook.html" rel="nofollow">Rands In Repose: The Nerd Handbook</a>
+ </h4>
+ <div class="commands"> &nbsp;<a save href="/post?url=http%3A%2F%2Fwww.randsinrepose.com%2Farchives%2F2007%2F11%2F11%2Fthe_nerd_handbook.html&amp;title=Rands%20In%20Repose%3A%20The%20Nerd%20Handbook&amp;copyuser=conito&amp;copytags=blog%2Bfunny%2Brelationships%2Bhumor%2Bgeek%2Bnerd&amp;jump=no&amp;partner=del" class="copy" rel="nofollow">save this</a></div> <div class="meta">to <a class="tag" href="/conito/blog">blog</a> <a class="tag" href="/conito/funny">funny</a> <a class="tag" href="/conito/relationships">relationships</a> <a class="tag" href="/conito/humor">humor</a> <a class="tag" href="/conito/geek">geek</a> <a class="tag" href="/conito/nerd">nerd</a> ... <a class="pop" href="/url/c4b516ee8c34895f57df9174eb9fec4f" style="padding: 0 0.2em; background-color: rgb(100%, 63%, 63%);">saved by 1575 other people</a> <span class="date" title="2007-11-13T21:43:03Z">... on nov 13</span> </div>
+</li>
+<li class="post" key="53b9b0abe260938d6065358d4e7dd492">
+ <h4 class="desc"><a href="http://mootools.net/" rel="nofollow">mootools - home</a>
+ </h4>
+ <div class="commands"> &nbsp;<a save href="/post?url=http%3A%2F%2Fmootools.net%2F&amp;title=mootools%20-%20home&amp;copyuser=conito&amp;copytags=ajax%2Bjavascript%2Bwebdesign%2Bprogramming%2Bdevelopment%2Bdocumentation&amp;jump=no&amp;partner=del" class="copy" rel="nofollow">save this</a></div> <div class="meta">to <a class="tag" href="/conito/ajax">ajax</a> <a class="tag" href="/conito/javascript">javascript</a> <a class="tag" href="/conito/webdesign">webdesign</a> <a class="tag" href="/conito/programming">programming</a> <a class="tag" href="/conito/development">development</a> <a class="tag" href="/conito/documentation">documentation</a> ... <a class="pop" href="/url/ef475c24b0bf34dbf9534a30f008b5e7" style="padding: 0 0.2em; background-color: rgb(100%, 56%, 56%);">saved by 7313 other people</a> <span class="date" title="2007-11-12T17:26:10Z">... on nov 12</span> </div>
+</li>
+<li class="post" key="9d547f3e80cf1ea24c12964d481d75b9">
+ <h4 class="desc"><a href="http://omega.albany.edu:8008/JaynesBook.html" rel="nofollow">PROBABILITY THEORY -- THE LOGIC OF SCIENCE</a>
+ </h4>
+ <div class="commands"> &nbsp;<a save href="/post?url=http%3A%2F%2Fomega.albany.edu%3A8008%2FJaynesBook.html&amp;title=PROBABILITY%20THEORY%20--%20THE%20LOGIC%20OF%20SCIENCE&amp;copyuser=conito&amp;copytags=probability%2Bstatistics%2Bbooks%2Bbook%2Bscience%2Bmathematics%2Bmath&amp;jump=no&amp;partner=del" class="copy" rel="nofollow">save this</a></div> <div class="meta">to <a class="tag" href="/conito/probability">probability</a> <a class="tag" href="/conito/statistics">statistics</a> <a class="tag" href="/conito/books">books</a> <a class="tag" href="/conito/book">book</a> <a class="tag" href="/conito/science">science</a> <a class="tag" href="/conito/mathematics">mathematics</a> <a class="tag" href="/conito/math">math</a> ... <a class="pop" href="/url/ae67652cd97857bd3ebe0fac73078783" style="padding: 0 0.2em; background-color: rgb(100%, 76%, 76%);">saved by 120 other people</a> <span class="date" title="2007-11-11T18:13:25Z">... on nov 11</span> </div>
+</li>
+</ol>
+<script type ="text/javascript">if(Mp3.go) Mp3.go()</script>
+<p class="pager"><span class="grey"><a rel="prev" accesskey="e" href="/conito?page=2">&laquo; earlier</a> | later &raquo; </span>&nbsp; &nbsp; &nbsp; page 2 of 2 </p>
+
+</div>
+
+<script type="text/javascript">document.write('<div id="bottom">&nbsp;<\/div><div style="visibility:hidden">')</script>
+<div id="footer"><div id="footer-inner">
+<p id="items-per-page">&raquo; showing <strong>10</strong>, <a href='?setcount=25'>25</a>, <a href='?setcount=50'>50</a>, <a href='?setcount=100'>100</a> items per page</p>
+<div id="footer-hr"><hr /></div>
+<ul>
+<li class="first"><img src="http://images.del.icio.us/static/img/delicious.small.gif" width="10" height="10" alt="" /> <a href="http://del.icio.us/">del.icio.us</a></li><li><a href="http://del.icio.us/about">about</a></li><li><a href="http://blog.del.icio.us/">blog</a></li><li><a href="http://del.icio.us/help/terms">terms of service</a></li><li><a href="http://del.icio.us/help/privacy">privacy policy</a></li><li><a href="http://del.icio.us/help/copyright">copyright policy</a></li><li><a href="http://del.icio.us/help/support">support</a></li><li><a class="rss" href="/rss/conito" title="RSS feed of conito's bookmarks"><img src="http://images.del.icio.us/static/img/rss.gif" width="36" height="14" alt="RSS feed of conito's bookmarks" /></a> feed for this page</li></ul>
+</div></div>
+<script type="text/javascript">document.write('<\/div>'); window.onresize = footer; footer()</script>
+<div style="clear:both"><!-- ie bugfix --></div>
+
+
+</body>
+</html>

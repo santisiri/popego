@@ -1,0 +1,395 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/db
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/private/popego/main/!svn/ver/33/trunk/popserver/popserver/db/__init__.py
+END
+migration_002.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/488/trunk/popserver/popserver/db/migration_002.py
+END
+migration_012.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/201/trunk/popserver/popserver/db/migration_012.py
+END
+migration_022.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/488/trunk/popserver/popserver/db/migration_022.py
+END
+migration_032.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/507/trunk/popserver/popserver/db/migration_032.py
+END
+migration_042.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/499/trunk/popserver/popserver/db/migration_042.py
+END
+migration_006.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/172/trunk/popserver/popserver/db/migration_006.py
+END
+migration_016.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/247/trunk/popserver/popserver/db/migration_016.py
+END
+migration_052.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/702/trunk/popserver/popserver/db/migration_052.py
+END
+migration_026.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/361/trunk/popserver/popserver/db/migration_026.py
+END
+migration_062.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/private/popego/main/!svn/ver/1064/trunk/popserver/popserver/db/migration_062.py
+END
+migration_036.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/507/trunk/popserver/popserver/db/migration_036.py
+END
+migration_046.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/542/trunk/popserver/popserver/db/migration_046.py
+END
+migration_056.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/776/trunk/popserver/popserver/db/migration_056.py
+END
+migration_001.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/private/popego/main/!svn/ver/33/trunk/popserver/popserver/db/migration_001.py
+END
+migration_011.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/200/trunk/popserver/popserver/db/migration_011.py
+END
+migration_021.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/312/trunk/popserver/popserver/db/migration_021.py
+END
+migration_031.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/507/trunk/popserver/popserver/db/migration_031.py
+END
+migration_041.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/488/trunk/popserver/popserver/db/migration_041.py
+END
+migration_005.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/168/trunk/popserver/popserver/db/migration_005.py
+END
+migration_051.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/685/trunk/popserver/popserver/db/migration_051.py
+END
+migration_015.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/488/trunk/popserver/popserver/db/migration_015.py
+END
+migration_061.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/private/popego/main/!svn/ver/1064/trunk/popserver/popserver/db/migration_061.py
+END
+migration_025.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/340/trunk/popserver/popserver/db/migration_025.py
+END
+migration_035.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/418/trunk/popserver/popserver/db/migration_035.py
+END
+migration_045.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/527/trunk/popserver/popserver/db/migration_045.py
+END
+migration_009.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/189/trunk/popserver/popserver/db/migration_009.py
+END
+migration_055.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/744/trunk/popserver/popserver/db/migration_055.py
+END
+migration_019.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/488/trunk/popserver/popserver/db/migration_019.py
+END
+migration_029.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/361/trunk/popserver/popserver/db/migration_029.py
+END
+migration_039.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/488/trunk/popserver/popserver/db/migration_039.py
+END
+migration_049.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/594/trunk/popserver/popserver/db/migration_049.py
+END
+migration_059.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/private/popego/main/!svn/ver/1058/trunk/popserver/popserver/db/migration_059.py
+END
+migration_000.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/private/popego/main/!svn/ver/33/trunk/popserver/popserver/db/migration_000.py
+END
+migration_010.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/196/trunk/popserver/popserver/db/migration_010.py
+END
+migration_020.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/292/trunk/popserver/popserver/db/migration_020.py
+END
+migration_030.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/507/trunk/popserver/popserver/db/migration_030.py
+END
+migration_004.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/161/trunk/popserver/popserver/db/migration_004.py
+END
+migration_040.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/488/trunk/popserver/popserver/db/migration_040.py
+END
+migration_014.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/231/trunk/popserver/popserver/db/migration_014.py
+END
+migration_050.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/599/trunk/popserver/popserver/db/migration_050.py
+END
+migration_060.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/private/popego/main/!svn/ver/1058/trunk/popserver/popserver/db/migration_060.py
+END
+migration_024.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/340/trunk/popserver/popserver/db/migration_024.py
+END
+migration_034.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/512/trunk/popserver/popserver/db/migration_034.py
+END
+migration_008.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/183/trunk/popserver/popserver/db/migration_008.py
+END
+migration_044.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/527/trunk/popserver/popserver/db/migration_044.py
+END
+migration_018.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/276/trunk/popserver/popserver/db/migration_018.py
+END
+migration_054.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/737/trunk/popserver/popserver/db/migration_054.py
+END
+migration_028.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/506/trunk/popserver/popserver/db/migration_028.py
+END
+migration_038.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/488/trunk/popserver/popserver/db/migration_038.py
+END
+migration_048.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/558/trunk/popserver/popserver/db/migration_048.py
+END
+migration_058.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/861/trunk/popserver/popserver/db/migration_058.py
+END
+migration_003.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/488/trunk/popserver/popserver/db/migration_003.py
+END
+migration_013.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/211/trunk/popserver/popserver/db/migration_013.py
+END
+migration_023.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/327/trunk/popserver/popserver/db/migration_023.py
+END
+migration_033.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/375/trunk/popserver/popserver/db/migration_033.py
+END
+migration_007.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/182/trunk/popserver/popserver/db/migration_007.py
+END
+migration_043.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/502/trunk/popserver/popserver/db/migration_043.py
+END
+migration_017.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/488/trunk/popserver/popserver/db/migration_017.py
+END
+migration_053.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/729/trunk/popserver/popserver/db/migration_053.py
+END
+migration_063.py
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/db/migration_063.py
+END
+migration_027.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/354/trunk/popserver/popserver/db/migration_027.py
+END
+migration_037.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/455/trunk/popserver/popserver/db/migration_037.py
+END
+migration_047.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/547/trunk/popserver/popserver/db/migration_047.py
+END
+migration_057.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/860/trunk/popserver/popserver/db/migration_057.py
+END

@@ -1,0 +1,19 @@
+/*******************************
+ ** Widget Theme: ff900a 
+ ** Base Color: #ff900a
+ ******************************/
+.frame {
+	background:url(/images/widget/widget_frame_ff900a.png) top left no-repeat;
+	/* IE */
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/widget/widget_frame_ff900a.png', sizingMethod='scale')",
+		this.style.height = "147px"
+    );
+}
+
+.fact,
+.user_login,
+.user_encounter {
+	background: #ff900a;
+}

@@ -1,0 +1,4 @@
+docutils==0.4
+SQLAlchemy==0.4.3
+Elixir==0.5.1
+zope.interface

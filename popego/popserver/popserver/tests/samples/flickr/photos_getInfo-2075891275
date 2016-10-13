@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rsp stat="ok">
+<photo id="2075891275" secret="2e74df62be" server="2417" farm="3" dateuploaded="1196453217" isfavorite="0" license="0" rotation="0" originalsecret="d8e493177b" originalformat="jpg">
+	<owner nsid="15234225@N00" username="jazzido" realname="" location="" />
+	<title>Building the next Internet Revolution</title>
+	<description />
+	<visibility ispublic="1" isfriend="0" isfamily="0" />
+	<dates posted="1196453217" taken="2007-11-30 16:59:20" takengranularity="0" lastupdate="1196478906" />
+	<editability cancomment="0" canaddmeta="0" />
+	<usage candownload="0" canblog="0" canprint="0" />
+	<comments>2</comments>
+	<notes />
+	<tags>
+		<tag id="199178-2075891275-2413" author="15234225@N00" raw="office" machine_tag="0">office</tag>
+		<tag id="199178-2075891275-16012" author="15234225@N00" raw="developers" machine_tag="0">developers</tag>
+		<tag id="199178-2075891275-10578" author="15234225@N00" raw="testing" machine_tag="0">testing</tag>
+	</tags>
+	<urls>
+		<url type="photopage">http://www.flickr.com/photos/jazzido/2075891275/</url>
+	</urls>
+</photo>
+</rsp>

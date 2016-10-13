@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/private/popego/main/!svn/ver/1130/trunk/popserver
+END
+development.ini
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/private/popego/main/!svn/ver/1120/trunk/popserver/development.ini
+END
+clean-popego.wsgi
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/private/popego/main/!svn/ver/494/trunk/popserver/clean-popego.wsgi
+END
+epydoc.ini
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/private/popego/main/!svn/ver/21/trunk/popserver/epydoc.ini
+END
+demo-popego.wsgi
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/private/popego/main/!svn/ver/441/trunk/popserver/demo-popego.wsgi
+END
+Capfile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/private/popego/main/!svn/ver/1129/trunk/popserver/Capfile
+END
+alpha-popego.wsgi
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/private/popego/main/!svn/ver/847/trunk/popserver/alpha-popego.wsgi
+END
+clean-popego.ini
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/private/popego/main/!svn/ver/546/trunk/popserver/clean-popego.ini
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/private/popego/main/!svn/ver/1046/trunk/popserver/setup.py
+END
+demo-popego.ini
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/private/popego/main/!svn/ver/1058/trunk/popserver/demo-popego.ini
+END
+alpha-popego.ini
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/private/popego/main/!svn/ver/1118/trunk/popserver/alpha-popego.ini
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/private/popego/main/!svn/ver/872/trunk/popserver/README.txt
+END
+MANIFEST.in
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/private/popego/main/!svn/ver/3/trunk/popserver/MANIFEST.in
+END
+test.ini
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/private/popego/main/!svn/ver/1058/trunk/popserver/test.ini
+END
+setup.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/private/popego/main/!svn/ver/20/trunk/popserver/setup.cfg
+END

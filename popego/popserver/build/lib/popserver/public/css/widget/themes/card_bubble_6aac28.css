@@ -1,0 +1,13 @@
+/*******************************
+ ** Widget Theme: 6aac28 
+ ** Base Color: #6aac28
+ ******************************/
+#popcard.dialog .content,
+#popcard.dialog .t,
+#popcard.dialog .b,
+#popcard.dialog .b div {
+	background:transparent url(/images/widget/card_background_6aac28.png) no-repeat top right;
+}
+#popcard .menu {
+	color: #6aac28;
+}

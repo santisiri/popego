@@ -1,0 +1,82 @@
+8
+
+dir
+2657
+https://svn.popego.com/private/popego/main/trunk/jq/jq
+https://svn.popego.com/private/popego/main
+
+
+
+2008-06-13T17:20:40.445652Z
+2492
+mariano
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+acf6466c-6d64-462d-91de-bbf11b5ca8a0
+
+common.py
+file
+
+
+
+
+2008-02-18T14:32:09.000000Z
+9d404eb9489b9be7645780cb1dfe0f30
+2008-02-15T15:10:59.907603Z
+886
+fernando
+
+queue
+dir
+
+consumer_startup.py
+file
+
+
+
+
+2008-03-27T15:09:04.000000Z
+d1b00fa3d0bb4e7b98b2dcad45a5a688
+2008-03-17T20:21:08.791663Z
+1205
+mariano
+
+__init__.py
+file
+
+
+
+
+2008-02-14T14:47:34.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2007-12-24T20:40:10.215866Z
+380
+mariano
+
+consumer
+dir
+
+queue_startup.py
+file
+
+
+
+
+2008-04-23T22:55:58.000000Z
+36ae85aa522026fdbe5193cb7903c4ce
+2008-04-23T20:43:53.699145Z
+1628
+mariano
+

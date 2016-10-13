@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/private/popego/main/!svn/ver/1130/trunk/popserver/popserver
+END
+validators.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/private/popego/main/!svn/ver/838/trunk/popserver/popserver/validators.py
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/private/popego/main/!svn/ver/1115/trunk/popserver/popserver/wsgi.py
+END
+websetup.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/private/popego/main/!svn/ver/160/trunk/popserver/popserver/websetup.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/private/popego/main/!svn/ver/197/trunk/popserver/popserver/__init__.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/private/popego/main/!svn/ver/839/trunk/popserver/popserver/forms.py
+END

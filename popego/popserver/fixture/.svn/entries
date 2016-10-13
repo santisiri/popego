@@ -1,0 +1,136 @@
+8
+
+dir
+1132
+https://svn.popego.com/private/popego/main/trunk/popserver/fixture
+https://svn.popego.com/private/popego/main
+
+
+
+2008-02-18T15:59:32.257539Z
+916
+manuel
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+acf6466c-6d64-462d-91de-bbf11b5ca8a0
+
+docs.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+7ef17feded5c9dd5a3286fa9661a52d1
+2007-11-02T19:41:04.827240Z
+8
+manuel
+
+base.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+656f6a76406366579aa82bcba24b21a4
+2007-11-02T19:41:04.827240Z
+8
+manuel
+
+loadable
+dir
+
+setup_cmd
+dir
+
+util.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+e881295bf6d68255a9f77a770726d328
+2007-11-02T19:41:04.827240Z
+8
+manuel
+
+__init__.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+a4f584b35d6115a4e78298e374b3ee83
+2007-11-02T19:41:04.827240Z
+8
+manuel
+
+exc.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+1fe2e50800e84742de709a482533a6ee
+2007-11-02T19:41:04.827240Z
+8
+manuel
+
+style.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+d16920c85ab408d764e0546f933b5f4d
+2007-11-02T19:41:04.827240Z
+8
+manuel
+
+dataset.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+30700fb222ba5dd57fab88881819dfa2
+2007-11-02T19:41:04.827240Z
+8
+manuel
+
+command
+dir
+
+examples
+dir
+
+io.py
+file
+
+
+
+
+2008-02-14T15:00:12.000000Z
+b322a10a67ed7df1f603b353283e4275
+2007-11-02T19:41:04.827240Z
+8
+manuel
+

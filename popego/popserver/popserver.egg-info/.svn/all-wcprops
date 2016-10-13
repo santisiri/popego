@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/private/popego/main/!svn/ver/970/trunk/popserver/popserver.egg-info
+END
+entry_points.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/private/popego/main/!svn/ver/26/trunk/popserver/popserver.egg-info/entry_points.txt
+END
+dependency_links.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/private/popego/main/!svn/ver/26/trunk/popserver/popserver.egg-info/dependency_links.txt
+END
+paster_plugins.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/private/popego/main/!svn/ver/26/trunk/popserver/popserver.egg-info/paster_plugins.txt
+END

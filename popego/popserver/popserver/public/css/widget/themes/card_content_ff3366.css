@@ -1,0 +1,28 @@
+/*******************************
+ ** Widget Theme: ff3366 
+ ** Base Color: #ff3366
+ ******************************/
+h2 { 
+	color:#ff3366; 
+}
+.menu_button_active,
+.menu_closer_active,
+.menu_button_arrow,
+.bigbutton,
+.poplink,
+.buttonbar .selected,
+.buttonbar .selected a,
+.category_selected,
+.help_box,
+.tag_cloud a:hover,
+.homesite_icon {
+	background-color:#ff3366;
+}
+	
+.menu,
+.menu a,
+.accordeon_bar,
+.h2,
+.tag_cloud a {
+	color:#ff3366;
+}

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/controllers/website
+END
+home.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/private/popego/main/!svn/ver/625/trunk/popserver/popserver/controllers/website/home.py
+END
+about.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/private/popego/main/!svn/ver/860/trunk/popserver/popserver/controllers/website/about.py
+END
+socialfeed.py
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/private/popego/main/!svn/ver/813/trunk/popserver/popserver/controllers/website/socialfeed.py
+END
+stats.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/private/popego/main/!svn/ver/790/trunk/popserver/popserver/controllers/website/stats.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/popego/main/!svn/ver/625/trunk/popserver/popserver/controllers/website/__init__.py
+END
+interests.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/private/popego/main/!svn/ver/842/trunk/popserver/popserver/controllers/website/interests.py
+END
+service.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/controllers/website/service.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/controllers/website/settings.py
+END
+users.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/controllers/website/users.py
+END
+widgets.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/controllers/website/widgets.py
+END

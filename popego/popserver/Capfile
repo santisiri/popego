@@ -1,0 +1,93 @@
+load 'deploy'
+
+set :keep_releases, 5
+set :application,   'popserver'
+set :repository,    'https://svn.popego.com/private/popego/main/trunk/popserver'
+set :scm_username,  'ci'
+set :scm_password,  'cipopegopassword'
+set :user,          'popego'
+# set :password,      ''
+#set :deploy_to,     "/home/popego/alpha.popego.com"
+set :deploy_via,    :export
+set :scm,           :subversion
+
+
+desc 'set variables for deploying to alpha.popego.com'
+task :env_alpha do
+  set :deploy_to, '/home/popego/alpha.popego.com'
+  set :app_ini_file, 'alpha-popego.ini'
+  set :activate_environment, 'source /home/popego/envs/ALPHA-POPEGO/bin/activate'
+  role :web, 'alpha.popego.com'
+  role :app, 'alpha.popego.com'
+  role :db, '67.207.139.66'
+  
+  set :use_sudo, false
+end
+
+namespace :popego do
+  # popego specific tasks
+  desc 'minimizar archivos javascript y stylesheets. Tambien procesa los stylesheets para corregir los URLs'
+  task :compress_assets, :roles => :web do
+    run "cd #{latest_release}/popserver/public/javascripts/widget/media-src && ./make.sh"
+    run "cd #{latest_release}/popserver/public/javascripts/widget/embedder-src && ./make.sh"
+    run "#{activate_environment} && python #{latest_release}/scripts/gen_popego_config_js.py #{latest_release}/#{fetch(:app_ini_file)} >> #{latest_release}/popserver/public/javascripts/widget/popego-config.js", :shell => 'bash'
+    run "#{activate_environment} && #{latest_release}/scripts/compress_assets.sh", :shell => 'bash'
+  end
+
+  desc 'symlinkear al directorio de uploaded assets'
+  task :symlink_assets, :roles => :app, :except => { :no_release => true, :no_symlink => true } do
+    run <<-CMD
+      cd #{release_path} &&
+      rm -rf #{release_path}/popserver/public/upload &&
+      ln -nfs #{shared_path}/public/upload #{release_path}/popserver/public/upload
+    CMD
+  end
+end
+
+after 'deploy:update_code', 'popego:compress_assets'
+after 'popego:compress_assets', 'popego:symlink_assets'
+
+namespace :deploy do 
+  after 'deploy:restart', 'deploy:cleanup'
+
+  before 'deploy', 'web:disable'
+  after 'deploy', 'web:enable'
+
+  # redefino task update_code para que no llame a finalize_update
+  task :update_code, :except => { :no_release => true } do
+    on_rollback { run "rm -rf #{release_path}; true" }
+    strategy.deploy!
+  end
+
+  task :migrate, :roles => :app do
+    run "#{activate_environment} && python #{latest_release}/scripts/migrate.py #{latest_release}/#{fetch(:app_ini_file)} -v"
+    run "#{activate_environment} && python #{latest_release}/scripts/data_migrate.py #{latest_release}/#{fetch(:app_ini_file)} -v"
+  end
+
+  desc 'start the application'
+  task :start, :roles => :app do
+    sudo '/etc/init.d/popego-ajp-backends start'
+  end
+
+  desc 'stop the application'
+  task :stop, :roles => :app do
+    sudo '/etc/init.d/popego-ajp-backends stop'
+  end
+
+  desc 'restart the application'
+  task :restart, :roles => :app do
+    sudo '/etc/init.d/popego-ajp-backends restart'
+  end
+end
+
+namespace :web do
+  desc 'deshabilitar el sistema (maintenance.html)'
+  task :disable, :roles => :web, :except => { :no_release => true } do
+    run "cp #{current_path}/popserver/public/system/maintenance.html #{latest_release}/popserver/public/maintenance.html"
+  end
+
+  desc 'habilitar el sistema'
+  task :enable, :roles => :web, :except => { :no_release => true } do
+    run "rm #{current_path}/popserver/public/maintenance.html"
+  end
+end

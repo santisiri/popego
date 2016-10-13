@@ -1,0 +1,139 @@
+8
+
+dir
+1132
+https://svn.popego.com/private/popego/main/trunk/popserver/popserver/tests
+https://svn.popego.com/private/popego/main
+
+
+
+2008-03-03T23:57:50.637873Z
+1120
+fernando
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+acf6466c-6d64-462d-91de-bbf11b5ca8a0
+
+popfixtures.py
+file
+
+
+
+
+2008-03-04T19:22:16.000000Z
+162409fbc5323b999f88b28c4f349d74
+2008-02-28T19:29:28.040685Z
+1049
+mariano
+
+mock.py
+file
+
+
+
+
+2008-02-14T15:00:11.000000Z
+ca9081f1ae3c1c8d70ebe74c6c39740b
+2007-12-03T23:33:25.793042Z
+234
+mariano
+
+agents
+dir
+
+functional
+dir
+
+test_util.py
+file
+
+
+
+
+2008-02-14T15:00:11.000000Z
+4aee5f830063f257b27951be3d505497
+2007-12-07T23:42:09.764984Z
+288
+manuel
+
+samples
+dir
+
+test_funcional.py
+file
+
+
+
+
+2008-02-14T15:00:11.000000Z
+91e6179fd9ae591cb2ac246fd9380f13
+2008-02-04T19:00:22.588010Z
+777
+mariano
+
+__init__.py
+file
+
+
+
+
+2008-03-03T14:27:58.000000Z
+191fdd4aff98b2966c62159dd477c2da
+2008-02-18T15:59:32.257539Z
+916
+manuel
+
+ai
+dir
+
+test_models.py
+file
+
+
+
+
+2008-03-04T19:22:16.000000Z
+9020f01579789e050e3d54166af3b256
+2008-02-28T19:29:28.040685Z
+1049
+mariano
+
+nodb_model.py
+file
+
+
+
+
+2008-03-04T19:22:16.000000Z
+6effa82e9f1afef8c1c8645bcb491ee6
+2008-02-22T21:23:50.378177Z
+989
+mariano
+
+test_cache.py
+file
+
+
+
+
+2008-03-04T19:22:16.000000Z
+691a0cc8c68db13e7f12919c3e283822
+2008-02-29T14:21:52.725658Z
+1058
+manuel
+
+sync
+dir
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/private/popego/main/!svn/ver/844/trunk/popserver/fixture/examples/db
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/examples/db/__init__.py
+END
+sqlalchemy_examples.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/examples/db/sqlalchemy_examples.py
+END
+sqlobject_examples.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/8/trunk/popserver/fixture/examples/db/sqlobject_examples.py
+END

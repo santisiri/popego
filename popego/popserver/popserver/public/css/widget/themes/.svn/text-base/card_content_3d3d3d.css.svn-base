@@ -1,0 +1,28 @@
+/*******************************
+ ** Widget Theme: 3d3d3d 
+ ** Base Color: #3d3d3d
+ ******************************/
+h2 { 
+	color:#3d3d3d; 
+}
+.menu_button_active,
+.menu_closer_active,
+.menu_button_arrow,
+.bigbutton,
+.poplink,
+.buttonbar .selected,
+.buttonbar .selected a,
+.category_selected,
+.help_box,
+.tag_cloud a:hover,
+.homesite_icon {
+	background-color:#3d3d3d;
+}
+	
+.menu,
+.menu a,
+.accordeon_bar,
+.h2,
+.tag_cloud a {
+	color:#3d3d3d;
+}

@@ -1,0 +1,28 @@
+/*******************************
+ ** Widget Theme: 666666 
+ ** Base Color: #666666
+ ******************************/
+h2 { 
+	color:#666666; 
+}
+.menu_button_active,
+.menu_closer_active,
+.menu_button_arrow,
+.bigbutton,
+.poplink,
+.buttonbar .selected,
+.buttonbar .selected a,
+.category_selected,
+.help_box,
+.tag_cloud a:hover,
+.homesite_icon {
+	background-color:#666666;
+}
+	
+.menu,
+.menu a,
+.accordeon_bar,
+.h2,
+.tag_cloud a {
+	color:#666666;
+}

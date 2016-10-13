@@ -1,0 +1,14 @@
+/*******************************
+ ** Widget Theme: ff3366
+ ** Base Color: #ff3366
+ ******************************/
+#popego.widget {
+	background:url(/images/widget/widget_background_ff3366.png) top left no-repeat;
+	/* IE */
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + Popego.Env.baseUrl + "/images/widget/widget_background_ff3366.png', sizingMethod='scale')",
+		this.style.width = "143px",
+		this.style.height = "235px"
+    );
+}

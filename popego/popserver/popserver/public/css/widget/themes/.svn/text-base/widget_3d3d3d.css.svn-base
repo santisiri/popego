@@ -1,0 +1,14 @@
+/*******************************
+ ** Widget Theme: 3d3d3d
+ ** Base Color: #3d3d3d
+ ******************************/
+#popego.widget {
+	background:url(/images/widget/widget_background_3d3d3d.png) top left no-repeat;
+	/* IE */
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + Popego.Env.baseUrl + "/images/widget/widget_background_3d3d3d.png', sizingMethod='scale')",
+		this.style.width = "143px",
+		this.style.height = "235px"
+    );
+}

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/lib
+END
+profiling.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/private/popego/main/!svn/ver/902/trunk/popserver/popserver/lib/profiling.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/private/popego/main/!svn/ver/15/trunk/popserver/popserver/lib/__init__.py
+END
+cache_middleware.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/private/popego/main/!svn/ver/1058/trunk/popserver/popserver/lib/cache_middleware.py
+END
+functional.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/private/popego/main/!svn/ver/1058/trunk/popserver/popserver/lib/functional.py
+END
+helpers.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/popego/main/!svn/ver/1058/trunk/popserver/popserver/lib/helpers.py
+END
+controller_utils.py
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/lib/controller_utils.py
+END
+authkitutil.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/private/popego/main/!svn/ver/820/trunk/popserver/popserver/lib/authkitutil.py
+END
+atomgenerator.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/private/popego/main/!svn/ver/1045/trunk/popserver/popserver/lib/atomgenerator.py
+END
+jq_client.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/private/popego/main/!svn/ver/503/trunk/popserver/popserver/lib/jq_client.py
+END
+mailer.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/private/popego/main/!svn/ver/860/trunk/popserver/popserver/lib/mailer.py
+END
+base.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/private/popego/main/!svn/ver/712/trunk/popserver/popserver/lib/base.py
+END
+template.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/popego/main/!svn/ver/616/trunk/popserver/popserver/lib/template.py
+END
+util.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/private/popego/main/!svn/ver/1090/trunk/popserver/popserver/lib/util.py
+END
+model_setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/private/popego/main/!svn/ver/916/trunk/popserver/popserver/lib/model_setup.py
+END
+app_globals.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/1050/trunk/popserver/popserver/lib/app_globals.py
+END

@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
+  <title>La &#250;ltima curda - Home</title>
+  <id>tag:juan.zauber.com.ar,2008:mephisto/</id>
+  <generator version="0.7.3" uri="http://mephistoblog.com">Mephisto Noh-Varr</generator>
+  <link href="la_utlima_curda.xml" rel="self" type="application/atom+xml"/>
+  <link href="http://juan.zauber.com.ar/" rel="alternate" type="text/html"/>
+  <updated>2008-02-15T01:53:06Z</updated>
+
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2008-02-15:198</id>
+    <published>2008-02-15T01:48:00Z</published>
+    <updated>2008-02-15T01:53:06Z</updated>
+
+    <link href="http://juan.zauber.com.ar/2008/2/15/virtual-hosts-basados-en-nombres-y-multiples-certificados-ssl" rel="alternate" type="text/html"/>
+    <title>Virtual hosts basados en nombres y multiples certificados SSL</title>
+<content type="html">
+            &lt;p&gt;
+Hace como cuatro varios años me encontré con el problema de que no era posible configurar en apache virtual hosts basados en nombre que tuvieran diferentes certificados SSL. El problema es que en el nombre del dominio que se utiliza para resolver viene encriptado dentro del request ssl y para desencriptarlo primero se deben intercambiar las llaves.
+&lt;/p&gt;
+&lt;p&gt;
+Una alternativa que encontré en ese momento (utilizar las solución de raíz al problema en ese momento, era todo un problema) es usar un certificado wildcard (*.dominio.fqdn). Esta práctica no siempre es posible usarla siempre (no todos los CA están dispuesto a firmar certificados con comodines, y por otro lado puede quererse hostear dominos donde un wildcard no es posible *.dominio1.fqdn y *.dominio2.fqdn).
+&lt;/p&gt;
+
+&lt;p&gt;Hoy en día cacert.org  tienen un &lt;a href=&quot;http://wiki.cacert.org/wiki/VhostTaskForce&quot;&gt;excelente compendio&lt;/a&gt;  de como atacar el problema. Un mejor nombre para este problema es el de &lt;strong&gt;S&lt;/strong&gt;erver &lt;strong&gt;N&lt;/strong&gt;ame &lt;strong&gt;I&lt;/strong&gt;ndication (o SNI). El problema se soluciona con unas extensiones a TLS definidas en el &lt;a href=&quot;http://www.ietf.org/rfc/rfc4366.txt&quot;&gt;RFC 4366&lt;/a&gt; (publicado en Abril del 2006). Estas extensiones parecen que son soportadas por la mayoría de los navegadores grandes (salvo por safari).
+
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;a href=&quot;http://openssl.org/&quot;&gt;OpenSSL&lt;/a&gt; agrega soporte para las la extensiones de TLS desde la versión 0.9.8f (que data del 11 de Octubre 2007). (gentoo por ejemplo usa la version 9.8d como estable, kubuntu usa la la 0.9.8c [esperemos que con los parches adecuados :)]). En gentoo desde el &lt;a href=&quot;http://bugs.gentoo.org/show_bug.cgi?id=196191&quot;&gt;ebuild openssl-0.9.8g&lt;/a&gt; se soporta SNI (esto es porque hay que habilitar una opción de en el ./configure).
+
+&lt;/p&gt;
+
+&lt;p&gt;Una vez que OpenSSL soporta SNI, falta que &lt;em&gt;mod_ssl&lt;/em&gt; del &lt;em&gt;apache&lt;/em&gt; lo soporte. Existe un &lt;a href=&quot;http://issues.apache.org/bugzilla/show_bug.cgi?id=34607&quot;&gt;issue en el tracker de apache&lt;/a&gt; con este problema. El issue incluye un parche  que fue &lt;a href=&quot;http://svn.apache.org/viewvc?view=rev&amp;revision=606190&quot;&gt;comiteado&lt;/a&gt; a &lt;em&gt;trunk/&lt;/em&gt; hace 7 semanas (el 21 de diciembre del 2007). Hoy mismo (14 de febrero 2008) ocurrieron unos commits relacionados con SNI.&lt;/p&gt;
+
+&lt;p&gt;Parece que se quiere backportear la funcionalidad hacia la proxima versión (2.2.9). En el archivo &lt;a href=&quot;http://svn.apache.org/repos/asf/httpd/httpd/branches/2.2.x/STATUS&quot;&gt;STATUS del branch&lt;/a&gt; aparece:
+
+&lt;pre&gt;
+PATCHES PROPOSED TO BACKPORT FROM TRUNK:
+....
+   * mod_ssl: Add server name indication (RFC 4366) support (PR 34607).
+      Trunk version of patches:
+         http://svn.apache.org/viewvc?view=rev&amp;revision=606190
+         http://svn.apache.org/viewvc?view=rev&amp;revision=607420
+         http://svn.apache.org/viewvc?view=rev&amp;revision=607425
+         http://svn.apache.org/viewvc?view=rev&amp;revision=611216
+      Backport version for 2.2.x of updated patch:
+         http://people.apache.org/~fuankg/diffs/httpd-2.2.x-sni.diff 
+      +1: fuankg
+      +0: like ssl upgrade of 2.2, perhaps this is a good reason to bring
+          httpd-2.4 to completion? vhost changes could be disruptive to
+          third party module authors.
+      -1: rpluem: jorton found some problems with the trunk version and they
+                  should be fixed / discussed in trunk before we backport.
+---------------8&amp;lt;---------------8&gt;&amp;lt;------------------------&gt;&lt;/pre&gt;
+
+En gentoo,  el ebuild &lt;em&gt;apache-2.2.6-r6&lt;/em&gt; viene con soporte de SNI (en un USE FLAG sni), y &lt;a href=&quot;http://nxdomain.cc/de/comment/reply/5&quot;&gt;parece que funciona&lt;/a&gt;. Tiempos interesantes para SNI!
+&lt;/p&gt;
+          </content>  </entry>
+
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2008-02-06:197</id>
+    <published>2008-02-06T13:14:00Z</published>
+    <updated>2008-02-06T13:20:14Z</updated>
+
+    <link href="http://juan.zauber.com.ar/2008/2/6/popegueado" rel="alternate" type="text/html"/>
+    <title>popegueado</title>
+<content type="html">
+            Fui &lt;a href=&quot;http://blog.popego.com/&quot;&gt;popegueado&lt;/a&gt;. Felicitaciones a todo el equipo, y fuerza!
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2008-02-02:196</id>
+    <published>2008-02-02T21:03:00Z</published>
+    <updated>2008-02-02T21:17:05Z</updated>
+    <link href="http://juan.zauber.com.ar/2008/2/2/amigo-de-un-amigo" rel="alternate" type="text/html"/>
+
+    <title>Amigo de un amigo...</title>
+<content type="html">
+            &lt;p&gt;
+Ayer google &lt;a href=&quot;http://google-code-updates.blogspot.com/2008/02/urls-are-people-too.html&quot;&gt;liberó&lt;/a&gt; su &lt;a href=&quot;http://code.google.com/apis/socialgraph/&quot;&gt;Social Graph API&lt;/a&gt; que permite navegar por información de contactos y servicios codificada en documentos &lt;a href=&quot;http://www.foaf-project.org/&quot;&gt;FOAF&lt;/a&gt; y con &lt;a href=&quot;http://gmpg.org/xfn/&quot;&gt;XFN&lt;/a&gt; (un microformato) sin necesidad de crawlear. Parece muy interesante,  y esperemos que sea un paso más hacia mayor participación de  la web semantica, y las búsquedas &lt;a href=&quot;http://en.wikipedia.org/wiki/SPARQL&quot;&gt;SPARQL&lt;/a&gt; (esta api no puede venir en mejor momento, despues de toda la publicidad que recibio Data Portability hace dos semanas).
+
+&lt;/p&gt;
+
+&lt;p&gt;
+Por lo pronto actualizé los links del blog con atributos XFN (ej: &lt;a href=&quot;http://www.plaxo.com/opensocialgraph.py?url=http://juan.zauber.com.ar&amp;verbose=1&quot;&gt;http://www.plaxo.com/opensocialgraph.py?url=http://juan.zauber.com.ar&amp;verbose=1&lt;/a&gt;) y desde  ahora flof.com.ar  &lt;a href=&quot;http://blog.flof.com.ar/2008/02/el-amigo-de-un-amigo.html&quot;&gt;exporta la red de contactos en documentos FOAF&lt;/a&gt;.
+
+&lt;/p&gt;
+
+&lt;p&gt;PD: &lt;a href=&quot;http://codear.com.ar&quot;&gt;codear&lt;/a&gt; por usar &lt;a href=&quot;http://www.planetplanet.org/&quot;&gt;planet&lt;/a&gt;, tiene su propio documento FOAF: &lt;a href=&quot;http://codear.com.ar/foafroll.xml&quot;&gt;http://codear.com.ar/foafroll.xml&lt;/a&gt; que puede ser visualizado de forma más linda en: &lt;a href=&quot;http://foaf-visualizer.org/?uri=http://codear.com.ar/foafroll.xml&quot;&gt;http://foaf-visualizer.org/?uri=http://codear.com.ar/foafroll.xml&lt;/a&gt;
+
+&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2007-12-04:195</id>
+
+    <published>2007-12-04T11:00:00Z</published>
+    <updated>2007-12-04T13:17:41Z</updated>
+    <link href="http://juan.zauber.com.ar/2007/12/4/release-garfio-0-5" rel="alternate" type="text/html"/>
+    <title>[RELEASE] garfio 0.5</title>
+<content type="html">
+            &lt;p&gt;
+En &lt;a href=&quot;http://www.zauber.com.ar/&quot;&gt;Zauber&lt;/a&gt; estamos muy contentos de poder anunciar el primer release público de  &lt;a href=&quot;http://code.zauber.com.ar/garfio/&quot;&gt;garfio&lt;/a&gt;. La versión &lt;tt&gt;garfio-0.5&lt;/tt&gt; distribuida bajo la licencia &lt;tt&gt;Apache Software License, Version 2.0&lt;/tt&gt;.
+
+&lt;/p&gt;
+&lt;p&gt;
+Se trata de una pequeña aplicación que permite la integración de sistemas de control de versiones (SCM) con herramientas de gestión de tareas (por ejemplo issue trackers), principalmente en el contexto de proyectos de desarrollo de software. 
+&lt;/p&gt;
+&lt;p&gt;
+Es posible descargar &lt;tt&gt;garfio&lt;/tt&gt; y obtener más información en:
+&lt;ul&gt;
+
+   &lt;li&gt;&lt;a href=&quot;http://code.zauber.com.ar/garfio/&quot;&gt;http://code.zauber.com.ar/garfio/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;h3&gt;Motiviación&lt;/h3&gt;
+
+&lt;p&gt;
+Los sistemas de control de versiones (SCM) y las herramientas de gestión de tarea son partes fundamentales en el trabajo de una empresa dedicada al desarrollo de software.
+&lt;/p&gt;
+&lt;p&gt;
+Muchas veces nos encontrábamos escribiendo un mensaje de commit para un SCM; para luego entrar al issue tracker; y copiar éste mismo mensaje en el issue o dejar una referencia al número de revisión del SCM. El objetivo de &lt;tt&gt;garfio&lt;/tt&gt; es evitarle al usuario esta duplicación de acciones, permitiéndole, mediante una sintaxis sencilla, realizarlas desde el mensaje de commit del SCM (o alguna otra fuente).
+&lt;/p&gt;
+&lt;h3&gt;Lista de funcionalidades&lt;/h3&gt;
+
+&lt;p&gt;
+Esta versión de &lt;tt&gt;garfio&lt;/tt&gt; permite:
+&lt;ul&gt;
+   &lt;li&gt;Desde la comodidad de un mensaje de commit SVN se puede especificar un número de issue para poder:
+     &lt;ul&gt;
+       &lt;li&gt;Agregar notas al issue&lt;/li&gt;
+
+       &lt;li&gt; Marcar el issue como resuelto &lt;/li&gt;
+       &lt;li&gt;Sumar horas de esfuerzo incurrido en dicha tarea&lt;/li&gt;
+       &lt;li&gt;Especificar la versión del producto de software en que se resuelve un issue&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;li&gt;No permitir que un commit concluya con exito en caso de que haya algún error (Se especifique un issue inexistente , el usuario no tenga permiso para modificar el issue en cuestión, existan errores de sintaxis)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;&lt;p&gt;
+&lt;tt&gt;Garfio&lt;/tt&gt; soporta trabajar con &lt;a href=&quot;http://www.mantisbt.org/&quot;&gt;Mantis&lt;/a&gt;, tiene soporte parcial para &lt;a href=&quot;http://www.atlassian.com/software/jira/&quot;&gt;Jira&lt;/a&gt;; y está pensando para que sea fácil soportar otros issue trackers.
+
+&lt;/p&gt;
+Página del proyecto:
+&lt;a href=&quot;http://code.zauber.com.ar/garfio/&quot;&gt;http://code.zauber.com.ar/garfio/&lt;/a&gt;
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+
+    </author>
+    <id>tag:juan.zauber.com.ar,2007-11-27:194</id>
+    <published>2007-11-27T15:14:00Z</published>
+    <updated>2007-11-27T15:15:49Z</updated>
+    <link href="http://juan.zauber.com.ar/2007/11/27/calles-de-argentina-en-google-map" rel="alternate" type="text/html"/>
+    <title>Calles de Argentina en google map?</title>
+<content type="html">
+
+            Parece que finalmente la gente de google map agregó las calles de parte de Argentina a google map. Tal vez no es noticia, pero yo recien me doy cuenta. 
+
+&lt;a href=&quot;http://maps.google.com/maps?f=q&amp;hl=en&amp;geocode=&amp;time=&amp;date=&amp;ttype=&amp;q=buenos+aires&amp;ie=UTF8&amp;ll=-34.611736,-58.417225&amp;spn=0.082367,0.156384&amp;t=p&amp;z=13&amp;iwloc=addr&amp;om=1&quot;&gt;Ejemplo&lt;/a&gt;
+
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2007-10-28:169</id>
+    <published>2007-10-28T21:55:00Z</published>
+
+    <updated>2007-11-13T13:00:34Z</updated>
+    <link href="http://juan.zauber.com.ar/2007/10/28/maven-site-twiki" rel="alternate" type="text/html"/>
+    <title>Maven site &amp; TWiki</title>
+<content type="html">
+            &lt;p&gt;
+Some time ago &lt;a href=&quot;http://www.zauber.com.ar/&quot;&gt;we&lt;/a&gt; wrote a &lt;a href=&quot;http://twiki.org/&quot;&gt;TWiki&lt;/a&gt; parser for &lt;a href=&quot;http://maven.apache.org&quot;&gt;Maven&lt;/a&gt;: the &lt;a href=&quot;http://maven.apache.org/doxia/doxia/doxia-modules/doxia-module-twiki/&quot;&gt;doxia-module-twiki&lt;/a&gt;.
+
+
+&lt;/p&gt;
+&lt;p&gt;
+One of the use cases for the plugin was to be able to generate &lt;a href=&quot;http://maven.apache.org/plugins/maven-site-plugin/&quot;&gt;maven site&lt;/a&gt; sites with TWiki pages. These are the instructions to be able to do this:&lt;/p&gt;
+
+&lt;p&gt;
+First you must have a maven-site structure like this:
+
+
+&lt;pre&gt;
+project-site $ tree
+.
+|-- pom.xml
+`-- src
+    `-- site
+        `-- twiki
+            `-- main.twiki
+&lt;/pre&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+Where  the &lt;em&gt;pom.xml&lt;/em&gt; looks like:
+
+&lt;pre&gt;&amp;lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
+  xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd&quot;&amp;gt;
+  &amp;lt;modelVersion&amp;gt;4.0.0&amp;lt;/modelVersion&amp;gt;
+  &amp;lt;parent&amp;gt;
+
+  &amp;lt;name&amp;gt;Project&amp;lt;/name&amp;gt;
+  &amp;lt;artifactId&amp;gt;project-site&amp;lt;/artifactId&amp;gt;
+  &amp;lt;groupId&amp;gt;ar.com....&amp;lt;/groupId&amp;gt;
+  &amp;lt;packaging&amp;gt;pom&amp;lt;/packaging&amp;gt;
+  &amp;lt;description&amp;gt;
+    Documentation for project
+  &amp;lt;/description&amp;gt;
+
+  &amp;lt;pluginRepositories&amp;gt;
+    &amp;lt;pluginRepository&amp;gt;
+      &amp;lt;id&amp;gt;apache.org&amp;lt;/id&amp;gt;
+      &amp;lt;name&amp;gt;Maven Plugin Snapshots&amp;lt;/name&amp;gt;
+      &amp;lt;url&amp;gt;http://people.apache.org/repo/m2-snapshot-repository&amp;lt;/url&amp;gt;
+      &amp;lt;releases&amp;gt;
+        &amp;lt;enabled&amp;gt;false&amp;lt;/enabled&amp;gt;
+      &amp;lt;/releases&amp;gt;
+      &amp;lt;snapshots&amp;gt;
+        &amp;lt;enabled&amp;gt;true&amp;lt;/enabled&amp;gt;
+      &amp;lt;/snapshots&amp;gt;
+    &amp;lt;/pluginRepository&amp;gt;
+  &amp;lt;/pluginRepositories&amp;gt;
+      
+  &amp;lt;build&amp;gt;
+    &amp;lt;plugins&amp;gt;
+        &amp;lt;plugin&amp;gt;
+            &amp;lt;groupId&amp;gt;org.apache.maven.plugins&amp;lt;/groupId&amp;gt;
+            &amp;lt;artifactId&amp;gt;maven-site-plugin&amp;lt;/artifactId&amp;gt;
+            &amp;lt;version&amp;gt;2.0-beta-6-SNAPSHOT&amp;lt;/version&amp;gt;
+            &amp;lt;dependencies&amp;gt;
+                &amp;lt;dependency&amp;gt;
+                    &amp;lt;groupId&amp;gt;org.apache.maven.doxia&amp;lt;/groupId&amp;gt;
+                    &amp;lt;artifactId&amp;gt;doxia-module-twiki&amp;lt;/artifactId&amp;gt;
+                    &amp;lt;version&amp;gt;1.0-alpha-10-SNAPSHOT&amp;lt;/version&amp;gt;
+                &amp;lt;/dependency&amp;gt;
+            &amp;lt;/dependencies&amp;gt;
+        &amp;lt;/plugin&amp;gt;
+    &amp;lt;/plugins&amp;gt;
+  &amp;lt;/build&amp;gt;
+
+&amp;lt;/project&amp;gt;
+&lt;/pre&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt; And  &lt;em&gt;main.twiki&lt;/em&gt; contains TWiki document like:
+&lt;pre&gt;---+ Test
+
+This is a *test*:
+   * item1
+   * item2
+
+&lt;/pre&gt;
+&lt;/p&gt;
+
+&lt;p&gt;If you render the site with the command &lt;em&gt;mvn site&lt;/em&gt; you will get an html version of the twiki page:
+ &lt;img src=&quot;/assets/2007/10/28/twiki.jpg&quot; /&gt;
+
+&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2007-10-20:164</id>
+
+    <published>2007-10-20T19:10:00Z</published>
+    <updated>2007-11-13T14:35:47Z</updated>
+    <link href="http://juan.zauber.com.ar/2007/10/20/scrapper-consumo-movistar" rel="alternate" type="text/html"/>
+    <title>Scrapper Consumo Movistar</title>
+<content type="html">
+            &lt;p&gt;
+He &lt;a href=&quot;https://svn.leak.com.ar/movistar/movistar.py&quot;&gt;aquí&lt;/a&gt; un pequeño scrapper para verificar el consumo de una linea movistar (mi autogestion).
+
+&lt;/p&gt;
+&lt;p&gt;
+Forma de uso: echo password | ./movistar.py 11 5XXXXX
+&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+
+    </author>
+    <id>tag:juan.zauber.com.ar,2007-10-06:123</id>
+    <published>2007-10-06T19:01:00Z</published>
+    <updated>2007-10-20T19:08:32Z</updated>
+    <link href="http://juan.zauber.com.ar/2007/10/6/xrandr" rel="alternate" type="text/html"/>
+    <title>xrandr</title>
+<content type="html">
+
+            &lt;p&gt;
+La semana pasada pasé de usar xorg-xserver-1.2.x a xorg-server-1.3, y me dejó de andar el soporte dual head de la placa de video (monitor de laptop + monitor externo). 
+&lt;/p&gt;
+&lt;p&gt;
+Buscando un poco encontré que no iban a arreglar el &quot;bug&quot; que hacía que no me funcionara el soporte dual-head. La buena noticia es que xorg-server-1.3 tiene mejor soporte de xrand. xrandr es una extensión de X que permite cambiar la configuración de video on-the-fly. Por ejemplo permite rotar la pantalla, agregar displays sin reiniciar X, etc. (antes tenia que reiniciar y cambiar el archivo de configuración cada vez que queria adjuntar un monitor externo, y era un bajón).
+
+&lt;pre&gt;
+juan@dinah ~ $ xrandr
+Screen 0: minimum 320 x 200, current 2720 x 1024, maximum 2720 x 1600
+VGA connected 1280x1024+0+0 (normal left inverted right) 338mm x 270mm
+   1280x1024      60.0*+   75.0     59.9
+   1152x864       75.0
+   1024x768       75.1     70.1     60.0
+   832x624        74.6
+   800x600        72.2     75.0     60.3
+   640x480        75.0     72.8     60.0
+   720x400        70.1
+LVDS connected 1440x900+1280+0 (normal left inverted right) 304mm x 190mm
+   1440x900       60.0*+
+   1024x768       60.0
+   800x600        60.3
+   640x480        59.9
+TV disconnected (normal left inverted right)
+&lt;/pre&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;
+Para tener soporte para dos monitores es tan sencillo como decir:
+ &lt;pre&gt;xrandr --output VGA --left-of LVD&lt;/pre&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Hay un frontend simple llamado grandr que facilita un poco las cosas.
+&lt;/p&gt;&lt;p&gt;
+
+Más ejemplos:
+  &lt;a href=&quot;http://crysol.inf-cr.uclm.es/node/726&quot;&gt;http://crysol.inf-cr.uclm.es/node/726&lt;/a&gt;
+&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+
+    </author>
+    <id>tag:juan.zauber.com.ar,2007-09-18:109</id>
+    <published>2007-09-18T15:44:00Z</published>
+    <updated>2007-09-18T15:45:20Z</updated>
+    <link href="http://juan.zauber.com.ar/2007/9/18/libertad-e-innovaci&#243;n" rel="alternate" type="text/html"/>
+    <title>Libertad e Innovaci&#243;n</title>
+
+<content type="html">
+            &lt;p&gt; 
+Hace más de un año que venimos utilizando los datos que provee el &lt;a href=&quot;http://www.proyectomapear.com.ar/&quot;&gt;proyecto Mapear&lt;/a&gt; y valoramos enormemente la contribución que quienes conforman este proyecto han hecho. Creemos que es impresionante que un proyecto de ese estilo pueda haber nacido en Argentina.&lt;/p&gt;
+&lt;p&gt;
+Sin embargo, ya en reiteradas ocasiones nos encontramos con obstáculos para avanzar en la construcción de herramientas que agreguen valor sobre dicho proyecto (y que también le de valor a dicho proyecto).&lt;/p&gt;
+
+&lt;p&gt;
+El problema radica en que la licencia de Mapear impone una restricción comercial en un cláusula que señala:
+&lt;/p&gt;&lt;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Prohibición de uso comercial&lt;/p&gt;
+&lt;p&gt;
+Bajo la presente Licencia el Usuario NO podrá darle al Software un destino de carácter profesional o comercial. Por destino o uso comercial se entenderá, sin que implique limitación, la obtención de un lucro o beneficio económico directo o indirecto como consecuencia de la utilización o de la venta, entrega o cesión del Software en forma integra o parcial, y/o de los archivos necesarios para la instalación y/o utilización del Software en su totalidad y/o de parte del mismo. Cualquier uso profesional (incluido pero no limitado a uso gubernamental o militar) se encuentra excluido de la presente Licencia. Sin embargo, esta limitación no se aplicará a las distintas dependencias de las Fuerzas Armadas y Fuerzas de Seguridad de la República Argentina, en la medida que el Software se aplique a usos oficiales o como medio auxiliar para el cumplimiento de sus tareas específicas.
+&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;
+Esta restricción intenta proteger los datos y al proyecto, aunque se refiere a un &lt;em&gt;&quot;Software&quot;&lt;/em&gt; (ya que distribuyen datos y no programas). Creemos que el origen de esta cláusula radica en protegerse de la triste &quot;avivada argentina&quot;, de quienes intentan revender estos datos queriendo cobrar por ellos, ocultando el origen real de los mismos y ejerciendo una práctica que en nada beneficia al proyecto ni le retorna directamente o indirectamente valor. 
+&lt;/p&gt;
+
+&lt;p&gt;
+Pero la realidad es que, como efecto colateral, limita las posibilidades de innovación como por ejemplo la construcción de software (soluciones y servicios) que utilice y manipule los datos del proyecto. En muchos casos, la imposibilidad de obtener rédito comercial (directa o indirectamente) derivado de la explotación y procesamiento de los datos del proyecto Mapear obstaculiza la innovación y la investigación aplicada.
+&lt;/p&gt;
+
+&lt;p&gt;
+En nuestro caso concreto, con la experiencia de flof.com.ar incursionamos en el procesamiento y explotación de los datos del proyecto y hemos frenado nuestra investigación dado que no tenemos la posibilidad de explotar comercialmente algunos de nuestros resultados (debido precisamente a las limitaciones que impone la licencia, de la cual siempre fuimos muy
+respetuosos). Precisamente la explotación comercial permite en ocasiones financiar la investigación y destinar cada vez más recursos a la misma, acelerando de esta forma el proceso y logrando más y mejores resultados en menos tiempo. 
+&lt;/p&gt;
+
+&lt;p&gt;
+Desde hace ya varios meses que tenemos implementada parte de una funcionalidad de ruteo sobre &lt;a href=&quot;http://maps.google.com/&quot;&gt;Google Maps&lt;/a&gt; y &lt;a href=&quot;http://flof.com.ar&quot;&gt;flof.com.ar&lt;/a&gt; que permite calcular recorridos a lo largo de toda la extensión del territorio del país, usando los datos del proyecto Mapear (servicio que seguramante será de uso libre). Este trabajo quedó estancado dado que fue perdiendo prioridad frente a otros proyectos que permiten pensar un modelo de negocios por detrás. Creemos que es dañino en todo sentido, tanto para nuestros proyectos como para el proyecto Mapear, que este tipo de innovaciones se vean así frenadas.
+
+
+&amp;lt;center&gt;
+     &lt;a href=&quot;/assets/2007/9/18/rapido.jpg&quot;&gt;&lt;img src=&quot;/assets/2007/9/18/mini_rapido.jpg&quot; /&gt;&lt;/a&gt;
+     &lt;a href=&quot;/assets/2007/9/18/mini_corto_sentido.jpg&quot;&gt;&lt;img src=&quot;/assets/2007/9/18/mini_corto_sentido.jpg&quot; /&gt;&lt;/a&gt;
+
+     &lt;a href=&quot;/assets/2007/9/18/corto_sin_sentidos.jpg&quot;&gt;&lt;img src=&quot;/assets/2007/9/18/mini_corto_sin_sentidos.jpg&quot; /&gt;&lt;/a&gt;
+&amp;lt;/center&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Como caso paradigmático, podemos comentar sobre la &lt;a href=&quot;http://opensource.org/docs/ods&quot;&gt;Open Source Definition&lt;/a&gt; la cual describe qué licencias son open-source (libres) y no casualmente en su primer item señala:
+
+&lt;/p&gt;
+&lt;p&gt;
+&lt;blockquote&gt;
+1. Free Redistribution
+
+The license shall not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license shall not require a royalty or other fee for such sale.
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;br /&gt;
+&lt;p&gt;
+Este ítem es fundamental para que que las iniciativas open-source (que permiten redistribución de trabajos derivados) tengan el crecimiento y potencia que hoy
+tienen (Linux es el caso más ejemplar). Las compañías pueden basarse en algo ya construido e innovar en algún área del producto, y por diferentes razones estratégicas (mantenibilidad, publicidad, etc.), contribuir de vuelta al proyecto. Si las empresas no pudieran obtener algún rédito comercial (directa o indirectamente) esto sería mucho más difícil, ya que las contribuciones se realizarían en tiempos libres y a modo de hobby, con lo cual la velocidad de innovación y crecimiento sería menor. 
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;strong&gt;La realidad es que sólo un mercado comercial sólido puede generar una comunidad open-source fuerte y viceversa. Se trata de un círculo virtuoso.&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+Sinceramente, creemos que con un tipo de licencia mucho más permisiva, el Proyecto Mapear podría beneficiarse mucho con el valor que le retornen otros proyectos construidos sobre él  por grupos fuera de su comunidad (tanto en publicidad, como en herramientas), tal como es el caso de flof.com.ar y otros desarrollos.
+&lt;/p&gt;
+
+&lt;p&gt;
+
+   &lt;em&gt;Juan F. Codagnone.&lt;/em&gt; y &lt;em&gt;Gabriel V. Baños.&lt;/em&gt;
+&lt;/p&gt;
+
+&lt;p&gt;  (estas fueron nuestras opiones personales y no las de nuestros empleadores ni de flof.com.ar).&lt;/p&gt;
+
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2007-07-08:107</id>
+    <published>2007-07-08T20:16:00Z</published>
+
+    <updated>2007-07-08T20:18:27Z</updated>
+    <link href="http://juan.zauber.com.ar/2007/7/8/dejar-de-tocar-la-musica-cuando-no-estoy-en-la-computadora" rel="alternate" type="text/html"/>
+    <title>Apag&#225; la musica cuando no estas en la computadora</title>
+<content type="html">
+            &lt;p&gt;
+Tengo configurado el escritorio (kde) para que pasado cierto tiempo lockee el escritorio y pida una contraseña; y  últimamente me estoy olvidando antes de irme de la computadora de apagar la música. Esto trae vario problemas:
+&lt;ul&gt;
+
+   &lt;li&gt;como los parlantes no tienen perilla para ajustar el volumen, no hay forma de apagar la música (salvo enchufando auriculares)&lt;/li&gt;
+   &lt;li&gt;se arruinan las estadísticas de que escuché y que no escuché&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;
+
+Para evitar este problema escribí un script para el &lt;a href=&quot;http://amarok.kde.org/&quot;&gt;amarok&lt;/a&gt; que cada vez que empieza una nueva canción verifica si el protector de pantalla está corriendo, y si es así, pone en pausa al player. Es muy simple:
+&lt;/p&gt;
+&lt;pre&gt;
+def trackChange( self ):
+    if os.popen('dcop kdesktop KScreensaverIface isBlanked').readlines()[0].strip() == 'true':
+        os.system('dcop amarok player pause')
+&lt;/pre&gt;
+
+Dejé el script, y el tarball listos para instalar en el amarok en &lt;a href=&quot;https://svn.leak.com.ar/scripts/amarok/&quot;&gt;https://svn.leak.com.ar/scripts/amarok/&lt;/a&gt;
+
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2007-06-09:68</id>
+    <published>2007-06-09T22:36:00Z</published>
+
+    <updated>2007-07-08T19:58:14Z</updated>
+    <link href="http://juan.zauber.com.ar/2007/6/9/webpy" rel="alternate" type="text/html"/>
+    <title>web.py + gmap + scrapers = mashup</title>
+<content type="html">
+            &lt;p&gt;Es increible lo incomodas y poco &lt;em&gt;ricas&lt;/em&gt; que son las interfaces de los sitios para buscar inmuebles en Argentina.&lt;/p&gt;
+
+&lt;p&gt;Los sitios online repiten el mismo pecado que los clasificados de papel: arman listados interminables de propiedades, que son difíciles de comparar entre sí y de ubicar en un mapa, y de colaborar con otras personas.&lt;/p&gt;
+
+&lt;p&gt;Si son varias personas las que participan de la decisión de alquilar un lugar la cosa es aún más complicada. Uno debe armar una forma de trabajo ordenada (sobre una wiki?) donde se pueda hacer comentarios y donde se mantenga un estado/workflow (por ejemplo, para marcar si la propiedad ya no está disponible).&lt;/p&gt;
+
+&lt;p&gt;Estas semanas estamos buscando un lugar para alquilar; y decidí encarar uno por uno  los problemas  para mejorar la calidad de esta tarea.&lt;/p&gt;
+
+&lt;p&gt;¿El resultado? Una fría tarde de sábado dio como resultado una aplicación muy útil para la tarea a resolver (buscar lugares); que agregó mucho valor a la resolución de la tarea y algunas cosas para pensar.&lt;/p&gt;
+
+&lt;p&gt;Lo primero que me recordó son las conocidas frases:
+&lt;ul&gt;
+   &lt;li&gt;no hay una herramienta que solucione todos los problemas&lt;/li&gt;
+  &lt;li&gt;cada problema tiene un conjunto de herramientas que resuelven el problema de forma óptima&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/img/2007/06/alquiler.html&quot;&gt;&lt;img src=&quot;/img/2007/06/alquiler.jpg&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;En este caso elegí python para encarar los problemas. Todo el código relacionado a este post, se encuentra en &lt;a href=&quot;https://svn.leak.com.ar/inmuebles/&quot;&gt;https://svn.leak.com.ar/inmuebles/&lt;/a&gt;, bajo la licencia GPL. 
+
+&lt;/p&gt;
+
+&lt;h3&gt;Scrapers&lt;/h3&gt;
+
+&lt;p&gt;
+El primer problema que me encontré fue conseguir los datos de los inmuebles.
+Se le suele llamar &lt;em&gt;scraper&lt;/em&gt;  a las herramientas que convierten contenido orientados a humanos (como páginas web) en contenidos orientados a computadoras (que ellas pueden procesar).
+&lt;/p&gt;
+
+&lt;p&gt;
+ En el pasado &lt;a href=&quot;http://www.leak.com.ar/~juan/code/jiol/&quot;&gt;escribí varios scrapers&lt;/a&gt; en varios lenguajes (bash, c, java) pero esta fue la primera vez que lo hacía con  python. Para eso elegí 
+&lt;a href=&quot;http://www.crummy.com/software/BeautifulSoup/&quot;&gt;BeautifulSoup&lt;/a&gt; con excelentes resultados.
+
+&lt;/p&gt;
+
+Todas la páginas de inmuebles tienen tablas...sólo hay que encontrar la tabla que tiene los datos y recorrerlas.
+Por ejemplo:
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.inmuebles.clarin.com/inm/verAviso.do?idAviso=1440588&quot;&gt;propiedad 1440588 de inmuebles.clarin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.todopropiedades.com/respuesta_propmasinfo.phtml?codinmob=135&amp;codprop=15082&amp;archivo=respuesta_propmasinfo12.shtml&quot;&gt;propiedad 135-15082 de todopropiedades.com&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;
+
+Para el caso de clarin es posible obtener los datos de la propiedad de la siguiente forma:
+&lt;pre&gt;
+        soup = BeautifulSoup(self.pageContentProvider.retriveMain(id),
+                             convertEntities=&quot;html&quot;, smartQuotesTo=&quot;html&quot;)
+        # buscar tabla
+        l = soup.findAll('table', width=&quot;261&quot;)
+        if len(l) == 1:
+            ret = {}
+            for i in table.findAll('tr'):
+                row = []
+                for j in i.findAll('td'):
+                    text = ''.join([e for e in j.recursiveChildGenerator()
+                        if isinstance(e, unicode)]).strip()
+                    row.append(textCleanerStrategy.clean(text))
+                if len(row[0]) != 0:
+                    ret[row[0]] = row[1]
+            return ret
+        .....
+&lt;/pre&gt;
+
+&lt;p&gt;¡Nada mas! Se tarda 10 minutos en armar un nuevo scraper!&lt;/p&gt;
+
+Los scrappers quedaron implementados en &lt;a href=&quot;https://svn.leak.com.ar/inmuebles/scrapper.py&quot;&gt;https://svn.leak.com.ar/inmuebles/scrapper.py&lt;/a&gt; y se puede usar desde la linea de comandos:
+&lt;pre&gt;
+juan@dinah  $ ./scrapper.py
+Usage: ./scrapper.py proveedor id_de_la_propiedad
+
+Example:  ./scrapper.py clarin 1325956
+Example:  ./scrapper.py todopropiedades  135-15082
+Example:  ./scrapper.py argenprop BW38037
+Example:  ./scrapper.py flof 6479
+
+juan@dinah  $ ./scrapper.py clarin 1440588
+                      the_geom: -58.37799 -34.604725
+              Superficie total: 120 m2
+                     Categoría: Oficina
+                        Precio: $ 2000
+             Tipo de propiedad: Locales Comerciales, Oficinas y Consultorios
+                    Antigüedad: 45 años
+                     Operación: Alquiler ofrecido
+        Condición del inmueble: Excelente
+                       Visitas: 79
+          Fecha de publicación: 31/05/2007
+                     Ubicación: Bs. As. Capital Federal Capital Federal Centro ESMERALDA 300
+             Superficie propia: 80 m2
+&lt;/pre&gt;
+
+&lt;p&gt;Los scrappers sólo obtienen información y desconocen de la semántica de cada proveedor de datos. Otra herramienta podría encargarse del vocabulario homegenizar la información&lt;/p&gt;
+
+&lt;h3&gt;Aplicación Web&lt;/h3&gt;
+&lt;p&gt;Ya con la disponibilidad de datos armé una pequeña aplicacion web, usando el excelente  &lt;a href=&quot;http://webpy.org/&quot;&gt;web.py&lt;/a&gt; y google maps. El api de google map ya la conocía (&lt;a href=&quot;http://flof.com.ar/&quot;&gt;flof.com.ar&lt;/a&gt;) y web.py también, pero no dejo de sorprenderme de lo fácil que es hacer una aplicación.&lt;/p&gt;
+
+Recomiendo que prueben web.py!
+
+¿Mi  conclusión? No hay que tener miedo de desarrollar
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2007-03-06:38</id>
+    <published>2007-03-06T01:31:00Z</published>
+
+    <updated>2007-07-08T20:01:12Z</updated>
+    <link href="http://juan.zauber.com.ar/2007/3/6/mantisbt-ldap" rel="alternate" type="text/html"/>
+    <title>MantisBT &amp;&amp; LDAP</title>
+<content type="html">
+            &lt;p&gt; &lt;a href=&quot;http://www.mantisbt.org/&quot;&gt;Mantis&lt;/a&gt; is a full featured issue tracker. It supports authentication using LDAP out of the box, but this support has a shortcoming: The administrator needs to create the user's entry in the database first.&lt;/p&gt;
+
+&lt;p&gt;
+As we think that this deficiency prevents mantis from being deployed in the enterprise, we have developed a patch against 1.0.x to avoid this situation. If the user's credentials are valid, and the user does not exists in the database, the user is created using the ldap information. You can download the patch it &lt;a href=&quot;/img/2007/03/mantis_ldap.diff&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;pre&gt;
+account_page.php | 14 +++++++++++++-
+core/authentication_api.php | 12 ++++++++++--
+core/ldap_api.php | 26 +++++++++++++++++++++++++-
+3 files changed, 48 insertions(+), 4 deletions(-)
+&lt;/pre&gt;
+
+&lt;/p&gt;
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2007-03-04:37</id>
+
+    <published>2007-03-04T19:54:00Z</published>
+    <updated>2007-03-04T20:00:56Z</updated>
+    <link href="http://juan.zauber.com.ar/2007/3/4/mudanza" rel="alternate" type="text/html"/>
+    <title>mudanza</title>
+<content type="html">
+            Mudé el blog de &lt;a href=&quot;http://www.leak.com.ar/~juan/blog/&quot;&gt;http://www.leak.com.ar/~juan/blog/&lt;/a&gt; a &lt;a href=&quot;http://juan.zauber.com.ar/&quot;&gt;http://juan.zauber.com.ar/&lt;/a&gt;. 
+
+Puse redirects en la dirección vieja,  por lo que los agentes  que buscan el feed atom deberían seguir funcionando, pero si no es así,  el nuevo url de feed atom es: &lt;a href=&quot;http://juan.zauber.com.ar/feed/atom.xml&quot;&gt;http://juan.zauber.com.ar/feed/atom.xml&lt;/a&gt;
+
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2007-01-22:26</id>
+    <published>2007-01-22T03:00:00Z</published>
+
+    <updated>2007-01-22T03:00:00Z</updated>
+    <link href="http://juan.zauber.com.ar/2007/1/22/monitoreo-de-aplicaciones-java" rel="alternate" type="text/html"/>
+    <title>monitoreo de aplicaciones java</title>
+<content type="html">
+            Una de las ventajas de correr Java 6 es que cualquier proceso puede ser &lt;a&gt;monitoreado&lt;/a&gt; localmente sin especificar ninguna propiedad especial. Yo ya le encontre utilidad: un programa  estaba consumiendo bastante memoria, el cual ya estaba corriendo, y que no deseaba reiniciar, pude sacar suficientes pistas con poco esfuerzo para resolver un problema de memoria.
+
+Lectura recomendada: &lt;a href=&quot;http://java.sun.com/developer/technicalArticles/J2SE/monitoring/&quot;&gt;http://java.sun.com/developer/technicalArticles/J2SE/monitoring/&lt;/a&gt;.
+
+Por ejemplo, para ver la cantidad de instancias por clases:
+
+&lt;div class=&quot;source&quot;&gt;&lt;pre&gt;
+juan@aretha ~ $ /opt/sun-jdk-1.6.0/bin/jmap -histo:live  22130
+
+num   #instances    #bytes  class name
+--------------------------------------
+  1:     20441     2353200  &amp;lt;constmethodklass&gt;
+  2:     81009     1944216  java.lang.String
+  3:     80867     1728608  [C
+  4:     20441     1639312  &amp;lt;methodklass&gt;
+  5:     33582     1298728  &amp;lt;symbolklass&gt;
+  6:      1780      945704  &amp;lt;constantpoolklass&gt;
+
+  7:      1780      740664  &amp;lt;instanceklassklass&gt;
+  8:      1498      577488  &amp;lt;constantpoolcacheklass&gt;
+  9:     23593      566232  java.util.HashMap$Entry
+ 10:      2568      431944  [B
+ 11:       721      279008  [Ljava.lang.String;
+ 12:      1698      273952  [Ljava.util.HashMap$Entry;
+ 13:      3451      204800  [Ljava.lang.Object;
+ 14:      2018      193728  java.lang.Class
+ 15:      2387      156952  [S
+ 16:      2775      133544  [[I
+ 17:      6815      109040  org.pdfbox.cos.COSInteger
+ 18:      1719       81704  [I
+ 19:      4728       75648  org.pdfbox.cos.COSName 
+...
+&lt;/pre&gt;&lt;/div&gt;
+          </content>  </entry>
+  <entry xml:base="http://juan.zauber.com.ar/">
+
+    <author>
+      <name>juan</name>
+    </author>
+    <id>tag:juan.zauber.com.ar,2006-10-18:25</id>
+    <published>2006-10-18T03:00:00Z</published>
+    <updated>2006-10-18T03:00:00Z</updated>
+    <link href="http://juan.zauber.com.ar/2006/10/18/la-primavera-hizo-florecer-los-blogs" rel="alternate" type="text/html"/>
+
+    <title>La primavera hizo florecer los blogs</title>
+<content type="html">
+            Me pongo contento de ver que la primavera no solo trajo flores sino además trae posts en blogs de tres amigos. Por un lado, el amigo Sergio (of  &lt;a href=&quot;http://www.gledplay.com/&quot;&gt;GledPlay&lt;/a&gt; fame)  está escribiendo en 
+&lt;ul&gt;
+   &lt;li&gt;&lt;a href=&quot;http://desarrolloppc.blogspot.com/&quot;&gt;Programación para Pocket PC&lt;/a&gt;&lt;/li&gt;
+
+   &lt;li&gt;&lt;a href=&quot;http://cstyleguide.blogspot.com/&quot;&gt;Guía de estilo de C / C++&lt;/a&gt;&lt;/li&gt;
+   &lt;li&gt;&lt;a href=&quot;http://proyectosargentinos.blogspot.com/&quot;&gt;Proyectos Argentino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+Mientras que &lt;a href=&quot;http://epere4.blogspot.com/&quot;&gt;Edu Pereda&lt;/a&gt; (of &lt;a href=&quot;http://java2excel.sourceforge.net/&quot;&gt;Java2Excel&lt;/a&gt; fame)  está empezando a escribir más regularmente en su blog (no solo eso, sino que está empezando a construir un mashup sobre &lt;a href=&quot;http://blog.flof.com.ar/&quot;&gt;flof&lt;/a&gt;).
+
+También los muchachos de &lt;a href=&quot;http://bizarro-programming-language.blogspot.com/&quot;&gt; Bizarro Programming Language&lt;/a&gt; (solo reconozco a uno) están escribiendo entradas  &lt;a href=&quot;http://bizarro-programming-language.blogspot.com/2006/10/metodologia-la-ira-del-dragn.html&quot;&gt;
+
+muy divertidas&lt;/a&gt;.
+
+
+Me pone muy contento, y espero que no sea algo estacional. Yo tambien por mi lado  espero poder escribir más seguido.
+          </content>  </entry>
+</feed>

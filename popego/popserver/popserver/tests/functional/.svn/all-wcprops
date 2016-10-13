@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/tests/functional
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/private/popego/main/!svn/ver/15/trunk/popserver/popserver/tests/functional/__init__.py
+END
+test_interests.py
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/private/popego/main/!svn/ver/584/trunk/popserver/popserver/tests/functional/test_interests.py
+END
+test_service.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/private/popego/main/!svn/ver/791/trunk/popserver/popserver/tests/functional/test_service.py
+END
+test_auth.py
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/private/popego/main/!svn/ver/38/trunk/popserver/popserver/tests/functional/test_auth.py
+END
+test_users.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/private/popego/main/!svn/ver/839/trunk/popserver/popserver/tests/functional/test_users.py
+END
+test_widget.py
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/tests/functional/test_widget.py
+END
+test_cache.py
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/tests/functional/test_cache.py
+END
+test_home.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/625/trunk/popserver/popserver/tests/functional/test_home.py
+END
+test_website_widgets.py
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/private/popego/main/!svn/ver/1120/trunk/popserver/popserver/tests/functional/test_website_widgets.py
+END

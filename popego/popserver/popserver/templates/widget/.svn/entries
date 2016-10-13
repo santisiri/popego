@@ -1,0 +1,73 @@
+8
+
+dir
+1132
+https://svn.popego.com/private/popego/main/trunk/popserver/popserver/templates/widget
+https://svn.popego.com/private/popego/main
+
+
+
+2008-03-04T17:36:50.696067Z
+1128
+manuel
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+acf6466c-6d64-462d-91de-bbf11b5ca8a0
+
+media
+dir
+
+content.mako
+file
+
+
+
+
+2008-03-04T19:22:15.000000Z
+9e71ee45a14268aa238d362c5af056be
+2008-03-03T23:57:50.637873Z
+1120
+fernando
+
+base.mako
+file
+
+
+
+
+2008-03-04T19:22:15.000000Z
+8f9174cd8d81a9c60b368d5791b22196
+2008-03-04T14:28:48.000367Z
+1124
+santiago
+
+show.mako
+file
+
+
+
+
+2008-03-04T19:22:15.000000Z
+27fca2b64d880cbbdf297d8330798816
+2008-03-03T23:57:50.637873Z
+1120
+fernando
+
+home
+dir
+
+about
+dir
+

@@ -1,0 +1,1234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+  La última curda 
+  
+    - Home
+  
+  
+</title>
+<link rel="alternate" type="application/atom+xml" title="La última curda feed" href="la_ultima_curda.xml"/>
+<link rel="alternate" type="application/atom+xml" title="La última curda comments feed" href="/feed/all_comments.xml"/>
+<link href="/stylesheets/base.css" rel="stylesheet" type="text/css" />
+<script src="/javascripts/app.js" type="text/javascript"></script>
+<!--[if IE]>
+<link href="/stylesheets/base_ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+</head>
+
+<body class="fixed orange">
+<script type="text/javascript">loadPreferences()</script> 
+
+<div id="wrapper">
+
+<div id="header" class="clearfix">
+<div id="title" class="clearfix">
+  <h1><a href="/">La última curda</a></h1>
+</div>
+<h2>Sections</h2>
+<ul id="menu">
+
+  
+  
+    <li class="selected"><a href="/">Home</a></li>
+  
+  
+
+  
+  
+    
+    <li><a href="/projects">Projects</a></li>
+    
+  
+  
+
+</ul>
+</div>
+
+<div id="contentwrapper" class="clearfix">
+
+<div id="content">
+  
+  <div id="innerwrapper">
+
+<div class="article">
+  <div class="body">
+  <!-- h2>Skittlish Tips'n'Tricks</h2>
+  <ul>
+    <li>Change the classes for the body tag to set your default site style. also change these in the app.js file (line 66).</li>
+    <li>Remove the scripts and the #options div if you don't want the option switcher.</li>
+    <li>The top menu shows the home section and the sections that are not blogs.</li>
+    <li>Email me at <a href="mailto:evil@che.lu">evil@che.lu</a> if you have any questions.</li>
+    <li>Happy hacking!</li>
+  </ul-->
+  </div>
+</div>
+
+<div class="article">
+
+  <h2 class="title"><a href="/2008/2/15/virtual-hosts-basados-en-nombres-y-multiples-certificados-ssl">Virtual hosts basados en nombres y multiples certificados SSL</a></h2>
+  <p class="meta">written by juan on February 14th, 2008 @ 10:48 PM</p>
+  <div class="body">
+    <p align="justify">
+Hace como cuatro varios años me encontré con el problema de que no era posible configurar en apache virtual hosts basados en nombre que tuvieran diferentes certificados SSL. El problema es que en el nombre del dominio que se utiliza para resolver viene encriptado dentro del request ssl y para desencriptarlo primero se deben intercambiar las llaves.
+</p>
+<p align="justify">
+Una alternativa que encontré en ese momento (utilizar las solución de raíz al problema en ese momento, era todo un problema) es usar un certificado wildcard (*.dominio.fqdn). Esta práctica no siempre es posible usarla siempre (no todos los CA están dispuesto a firmar certificados con comodines, y por otro lado puede quererse hostear dominos donde un wildcard no es posible *.dominio1.fqdn y *.dominio2.fqdn).
+</p>
+<p align="justify">Hoy en día cacert.org  tienen un <a href="http://wiki.cacert.org/wiki/VhostTaskForce">excelente compendio</a>  de como atacar el problema. Un mejor nombre para este problema es el de <strong>S</strong>erver <strong>N</strong>ame <strong>I</strong>ndication (o SNI). El problema se soluciona con unas extensiones a TLS definidas en el <a href="http://www.ietf.org/rfc/rfc4366.txt">RFC 4366</a> (publicado en Abril del 2006). Estas extensiones parecen que son soportadas por la mayoría de los navegadores grandes (salvo por safari).
+</p>
+
+<p align="justify">
+<a href="http://openssl.org/">OpenSSL</a> agrega soporte para las la extensiones de TLS desde la versión 0.9.8f (que data del 11 de Octubre 2007). (gentoo por ejemplo usa la version 9.8d como estable, kubuntu usa la la 0.9.8c [esperemos que con los parches adecuados :)]). En gentoo desde el <a href="http://bugs.gentoo.org/show_bug.cgi?id=196191">ebuild openssl-0.9.8g</a> se soporta SNI (esto es porque hay que habilitar una opción de en el ./configure).
+</p>
+
+<p align="justify">Una vez que OpenSSL soporta SNI, falta que <em>mod_ssl</em> del <em>apache</em> lo soporte. Existe un <a href="http://issues.apache.org/bugzilla/show_bug.cgi?id=34607">issue en el tracker de apache</a> con este problema. El issue incluye un parche  que fue <a href="http://svn.apache.org/viewvc?view=rev&revision=606190">comiteado</a> a <em>trunk/</em> hace 7 semanas (el 21 de diciembre del 2007). Hoy mismo (14 de febrero 2008) ocurrieron unos commits relacionados con SNI.</p>
+
+<p align="justify">Parece que se quiere backportear la funcionalidad hacia la proxima versión (2.2.9). En el archivo <a href="http://svn.apache.org/repos/asf/httpd/httpd/branches/2.2.x/STATUS">STATUS del branch</a> aparece:
+
+<pre>
+PATCHES PROPOSED TO BACKPORT FROM TRUNK:
+....
+   * mod_ssl: Add server name indication (RFC 4366) support (PR 34607).
+      Trunk version of patches:
+         http://svn.apache.org/viewvc?view=rev&revision=606190
+         http://svn.apache.org/viewvc?view=rev&revision=607420
+         http://svn.apache.org/viewvc?view=rev&revision=607425
+         http://svn.apache.org/viewvc?view=rev&revision=611216
+      Backport version for 2.2.x of updated patch:
+         http://people.apache.org/~fuankg/diffs/httpd-2.2.x-sni.diff 
+      +1: fuankg
+      +0: like ssl upgrade of 2.2, perhaps this is a good reason to bring
+          httpd-2.4 to completion? vhost changes could be disruptive to
+          third party module authors.
+      -1: rpluem: jorton found some problems with the trunk version and they
+                  should be fixed / discussed in trunk before we backport.
+---------------8<---------------8<------------------------
+</pre>
+
+En gentoo,  el ebuild <em>apache-2.2.6-r6</em> viene con soporte de SNI (en un USE FLAG sni), y <a href="http://nxdomain.cc/de/comment/reply/5">parece que funciona</a>. Tiempos interesantes para SNI!
+</p>
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+  
+    <h4 class="meta">accepting comments</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2008/2/15/virtual-hosts-basados-en-nombres-y-multiples-certificados-ssl#comments">0 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2008/2/6/popegueado">popegueado</a></h2>
+  <p class="meta">written by juan on February 6th, 2008 @ 10:14 AM</p>
+  <div class="body">
+    Fui <a href="http://blog.popego.com/">popegueado</a>. Felicitaciones a todo el equipo, y fuerza!
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+  
+    <h4 class="meta">accepting comments</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2008/2/6/popegueado#comments">0 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2008/2/2/amigo-de-un-amigo">Amigo de un amigo...</a></h2>
+  <p class="meta">written by juan on February 2nd, 2008 @ 06:03 PM</p>
+  <div class="body">
+    <p>
+Ayer google <a href="http://google-code-updates.blogspot.com/2008/02/urls-are-people-too.html">liberó</a> su <a href="http://code.google.com/apis/socialgraph/">Social Graph API</a> que permite navegar por información de contactos y servicios codificada en documentos <a href="http://www.foaf-project.org/">FOAF</a> y con <a href="http://gmpg.org/xfn/">XFN</a> (un microformato) sin necesidad de crawlear. Parece muy interesante,  y esperemos que sea un paso más hacia mayor participación de  la web semantica, y las búsquedas <a href="http://en.wikipedia.org/wiki/SPARQL">SPARQL</a> (esta api no puede venir en mejor momento, despues de toda la publicidad que recibio Data Portability hace dos semanas).
+</p>
+
+<p>
+Por lo pronto actualizé los links del blog con atributos XFN (ej: <a href="http://www.plaxo.com/opensocialgraph.py?url=http://juan.zauber.com.ar&verbose=1" rel="nofollow">http://www.plaxo.com/opensocialgraph.py?url=http://juan.zauber.com.ar&verbose=1</a>) y desde  ahora flof.com.ar  <a href="http://blog.flof.com.ar/2008/02/el-amigo-de-un-amigo.html">exporta la red de contactos en documentos FOAF</a>.
+</p>
+
+<p>PD: <a href="http://codear.com.ar">codear</a> por usar <a href="http://www.planetplanet.org/">planet</a>, tiene su propio documento FOAF: <a href="http://codear.com.ar/foafroll.xml">http://codear.com.ar/foafroll.xml</a> que puede ser visualizado de forma más linda en: <a href="http://foaf-visualizer.org/?uri=http://codear.com.ar/foafroll.xml">http://foaf-visualizer.org/?uri=http://codear.com.ar/foafroll.xml</a>
+</p>
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+    <h4 class="meta">tags: </h4>
+    <p>#<ArticleDrop:0x2abd9e82a830></p>
+  
+  
+    <h4 class="meta">accepting comments</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2008/2/2/amigo-de-un-amigo#comments">0 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2007/12/4/release-garfio-0-5">[RELEASE] garfio 0.5</a></h2>
+  <p class="meta">written by juan on December 4th, 2007 @ 08:00 AM</p>
+  <div class="body">
+    <p>
+En <a href="http://www.zauber.com.ar/">Zauber</a> estamos muy contentos de poder anunciar el primer release público de  <a href="http://code.zauber.com.ar/garfio/">garfio</a>. La versión <tt>garfio-0.5</tt> distribuida bajo la licencia <tt>Apache Software License, Version 2.0</tt>.
+</p>
+<p>
+Se trata de una pequeña aplicación que permite la integración de sistemas de control de versiones (SCM) con herramientas de gestión de tareas (por ejemplo issue trackers), principalmente en el contexto de proyectos de desarrollo de software. 
+</p>
+<p>
+Es posible descargar <tt>garfio</tt> y obtener más información en:
+<ul>
+   <li><a href="http://code.zauber.com.ar/garfio/">http://code.zauber.com.ar/garfio/</a></li>
+</ul>
+</p>
+
+<h3>Motiviación</h3>
+<p>
+Los sistemas de control de versiones (SCM) y las herramientas de gestión de tarea son partes fundamentales en el trabajo de una empresa dedicada al desarrollo de software.
+</p>
+<p>
+Muchas veces nos encontrábamos escribiendo un mensaje de commit para un SCM; para luego entrar al issue tracker; y copiar éste mismo mensaje en el issue o dejar una referencia al número de revisión del SCM. El objetivo de <tt>garfio</tt> es evitarle al usuario esta duplicación de acciones, permitiéndole, mediante una sintaxis sencilla, realizarlas desde el mensaje de commit del SCM (o alguna otra fuente).
+</p>
+<h3>Lista de funcionalidades</h3>
+
+<p>
+Esta versión de <tt>garfio</tt> permite:
+<ul>
+   <li>Desde la comodidad de un mensaje de commit SVN se puede especificar un número de issue para poder:
+     <ul>
+       <li>Agregar notas al issue</li>
+       <li> Marcar el issue como resuelto </li>
+       <li>Sumar horas de esfuerzo incurrido en dicha tarea</li>
+       <li>Especificar la versión del producto de software en que se resuelve un issue</li>
+</ul>
+<li>No permitir que un commit concluya con exito en caso de que haya algún error (Se especifique un issue inexistente , el usuario no tenga permiso para modificar el issue en cuestión, existan errores de sintaxis)</li>
+</ul>
+</p><p>
+<tt>Garfio</tt> soporta trabajar con <a href="http://www.mantisbt.org/">Mantis</a>, tiene soporte parcial para <a href="http://www.atlassian.com/software/jira/">Jira</a>; y está pensando para que sea fácil soportar otros issue trackers.
+</p>
+Página del proyecto:
+<a href="http://code.zauber.com.ar/garfio/">http://code.zauber.com.ar/garfio/</a>
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+    <h4 class="meta">tags: </h4>
+    <p>#<ArticleDrop:0x2abd9e7e3868></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/12/4/release-garfio-0-5#comments">0 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2007/11/27/calles-de-argentina-en-google-map">Calles de Argentina en google map?</a></h2>
+  <p class="meta">written by juan on November 27th, 2007 @ 12:14 PM</p>
+  <div class="body">
+    Parece que finalmente la gente de google map agregó las calles de parte de Argentina a google map. Tal vez no es noticia, pero yo recien me doy cuenta. 
+
+<a href="http://maps.google.com/maps?f=q&hl=en&geocode=&time=&date=&ttype=&q=buenos+aires&ie=UTF8&ll=-34.611736,-58.417225&spn=0.082367,0.156384&t=p&z=13&iwloc=addr&om=1">Ejemplo</a>
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+    <h4 class="meta">tags: </h4>
+    <p>#<ArticleDrop:0x2abd9e7c8b80></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/11/27/calles-de-argentina-en-google-map#comments">0 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2007/10/28/maven-site-twiki">Maven site &amp; TWiki</a></h2>
+  <p class="meta">written by juan on October 28th, 2007 @ 06:55 PM</p>
+  <div class="body">
+    <p>
+Some time ago <a href="http://www.zauber.com.ar/">we</a> wrote a <a href="http://twiki.org/">TWiki</a> parser for <a href="http://maven.apache.org">Maven</a>: the <a href="http://maven.apache.org/doxia/doxia/doxia-modules/doxia-module-twiki/">doxia-module-twiki</a>.
+
+</p>
+<p>
+One of the use cases for the plugin was to be able to generate <a href="http://maven.apache.org/plugins/maven-site-plugin/">maven site</a> sites with TWiki pages. These are the instructions to be able to do this:</p>
+
+<p>
+First you must have a maven-site structure like this:
+
+<pre>
+project-site $ tree
+.
+|-- pom.xml
+`-- src
+    `-- site
+        `-- twiki
+            `-- main.twiki
+</pre>
+</p>
+
+<p>
+
+Where  the <em>pom.xml</em> looks like:
+<pre>&lt;project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"&gt;
+  &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
+  &lt;parent&gt;
+
+  &lt;name&gt;Project&lt;/name&gt;
+  &lt;artifactId&gt;project-site&lt;/artifactId&gt;
+  &lt;groupId&gt;ar.com....&lt;/groupId&gt;
+  &lt;packaging&gt;pom&lt;/packaging&gt;
+  &lt;description&gt;
+    Documentation for project
+  &lt;/description&gt;
+
+  &lt;pluginRepositories&gt;
+    &lt;pluginRepository&gt;
+      &lt;id&gt;apache.org&lt;/id&gt;
+      &lt;name&gt;Maven Plugin Snapshots&lt;/name&gt;
+      &lt;url&gt;http://people.apache.org/repo/m2-snapshot-repository&lt;/url&gt;
+      &lt;releases&gt;
+        &lt;enabled&gt;false&lt;/enabled&gt;
+      &lt;/releases&gt;
+      &lt;snapshots&gt;
+        &lt;enabled&gt;true&lt;/enabled&gt;
+      &lt;/snapshots&gt;
+    &lt;/pluginRepository&gt;
+  &lt;/pluginRepositories&gt;
+      
+  &lt;build&gt;
+    &lt;plugins&gt;
+        &lt;plugin&gt;
+            &lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;
+            &lt;artifactId&gt;maven-site-plugin&lt;/artifactId&gt;
+            &lt;version&gt;2.0-beta-6-SNAPSHOT&lt;/version&gt;
+            &lt;dependencies&gt;
+                &lt;dependency&gt;
+                    &lt;groupId&gt;org.apache.maven.doxia&lt;/groupId&gt;
+                    &lt;artifactId&gt;doxia-module-twiki&lt;/artifactId&gt;
+                    &lt;version&gt;1.0-alpha-10-SNAPSHOT&lt;/version&gt;
+                &lt;/dependency&gt;
+            &lt;/dependencies&gt;
+        &lt;/plugin&gt;
+    &lt;/plugins&gt;
+  &lt;/build&gt;
+&lt;/project&gt;
+</pre>
+
+</p>
+
+<p> And  <em>main.twiki</em> contains TWiki document like:
+<pre>---+ Test
+
+This is a *test*:
+   * item1
+   * item2
+</pre>
+</p>
+
+<p>If you render the site with the command <em>mvn site</em> you will get an html version of the twiki page:
+ <img src="/assets/2007/10/28/twiki.jpg" />
+</p>
+
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+    <h4 class="meta">tags: </h4>
+    <p>#<ArticleDrop:0x2abd9e7aeac8></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/10/28/maven-site-twiki#comments">0 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2007/10/20/scrapper-consumo-movistar">Scrapper Consumo Movistar</a></h2>
+  <p class="meta">written by juan on October 20th, 2007 @ 04:10 PM</p>
+  <div class="body">
+    <p>
+He <a href="https://svn.leak.com.ar/movistar/movistar.py">aquí</a> un pequeño scrapper para verificar el consumo de una linea movistar (mi autogestion).
+</p>
+<p>
+Forma de uso: echo password | ./movistar.py 11 5XXXXX
+</p>
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+    <h4 class="meta">tags: </h4>
+    <p>#<ArticleDrop:0x2abd9e7a1558></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/10/20/scrapper-consumo-movistar#comments">5 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2007/10/6/xrandr">xrandr</a></h2>
+  <p class="meta">written by juan on October 6th, 2007 @ 04:01 PM</p>
+  <div class="body">
+    <p>
+La semana pasada pasé de usar xorg-xserver-1.2.x a xorg-server-1.3, y me dejó de andar el soporte dual head de la placa de video (monitor de laptop + monitor externo). 
+</p>
+<p>
+Buscando un poco encontré que no iban a arreglar el "bug" que hacía que no me funcionara el soporte dual-head. La buena noticia es que xorg-server-1.3 tiene mejor soporte de xrand. xrandr es una extensión de X que permite cambiar la configuración de video on-the-fly. Por ejemplo permite rotar la pantalla, agregar displays sin reiniciar X, etc. (antes tenia que reiniciar y cambiar el archivo de configuración cada vez que queria adjuntar un monitor externo, y era un bajón).
+
+<pre>
+juan@dinah ~ $ xrandr
+Screen 0: minimum 320 x 200, current 2720 x 1024, maximum 2720 x 1600
+VGA connected 1280x1024+0+0 (normal left inverted right) 338mm x 270mm
+   1280x1024      60.0*+   75.0     59.9
+   1152x864       75.0
+   1024x768       75.1     70.1     60.0
+   832x624        74.6
+   800x600        72.2     75.0     60.3
+   640x480        75.0     72.8     60.0
+   720x400        70.1
+LVDS connected 1440x900+1280+0 (normal left inverted right) 304mm x 190mm
+   1440x900       60.0*+
+   1024x768       60.0
+   800x600        60.3
+   640x480        59.9
+TV disconnected (normal left inverted right)
+</pre>
+</p>
+
+<p>
+Para tener soporte para dos monitores es tan sencillo como decir:
+ <pre>xrandr --output VGA --left-of LVD</pre>
+</p>
+<p>
+Hay un frontend simple llamado grandr que facilita un poco las cosas.
+</p><p>
+Más ejemplos:
+  <a href="http://crysol.inf-cr.uclm.es/node/726">http://crysol.inf-cr.uclm.es/node/726</a>
+</p>
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+    <h4 class="meta">tags: </h4>
+    <p>#<ArticleDrop:0x2abd9e79d160></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/10/6/xrandr#comments">0 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2007/9/18/libertad-e-innovación">Libertad e Innovación</a></h2>
+  <p class="meta">written by juan on September 18th, 2007 @ 12:44 PM</p>
+  <div class="body">
+    <p align="justify"> 
+Hace más de un año que venimos utilizando los datos que provee el <a href="http://www.proyectomapear.com.ar/">proyecto Mapear</a> y valoramos enormemente la contribución que quienes conforman este proyecto han hecho. Creemos que es impresionante que un proyecto de ese estilo pueda haber nacido en Argentina.</p>
+<p align="justify">
+Sin embargo, ya en reiteradas ocasiones nos encontramos con obstáculos para avanzar en la construcción de herramientas que agreguen valor sobre dicho proyecto (y que también le de valor a dicho proyecto).</p>
+<p align="justify">
+El problema radica en que la licencia de Mapear impone una restricción comercial en un cláusula que señala:
+</p><p align="justify">
+<blockquote   style="font-family: monospace;">
+<p>Prohibición de uso comercial</p>
+<p align="justify">
+Bajo la presente Licencia el Usuario NO podrá darle al Software un destino de carácter profesional o comercial. Por destino o uso comercial se entenderá, sin que implique limitación, la obtención de un lucro o beneficio económico directo o indirecto como consecuencia de la utilización o de la venta, entrega o cesión del Software en forma integra o parcial, y/o de los archivos necesarios para la instalación y/o utilización del Software en su totalidad y/o de parte del mismo. Cualquier uso profesional (incluido pero no limitado a uso gubernamental o militar) se encuentra excluido de la presente Licencia. Sin embargo, esta limitación no se aplicará a las distintas dependencias de las Fuerzas Armadas y Fuerzas de Seguridad de la República Argentina, en la medida que el Software se aplique a usos oficiales o como medio auxiliar para el cumplimiento de sus tareas específicas.
+</p>
+</blockquote>
+</p>
+<p align="justify">
+Esta restricción intenta proteger los datos y al proyecto, aunque se refiere a un <em>"Software"</em> (ya que distribuyen datos y no programas). Creemos que el origen de esta cláusula radica en protegerse de la triste "avivada argentina", de quienes intentan revender estos datos queriendo cobrar por ellos, ocultando el origen real de los mismos y ejerciendo una práctica que en nada beneficia al proyecto ni le retorna directamente o indirectamente valor. 
+</p>
+
+<p align="justify">
+Pero la realidad es que, como efecto colateral, limita las posibilidades de innovación como por ejemplo la construcción de software (soluciones y servicios) que utilice y manipule los datos del proyecto. En muchos casos, la imposibilidad de obtener rédito comercial (directa o indirectamente) derivado de la explotación y procesamiento de los datos del proyecto Mapear obstaculiza la innovación y la investigación aplicada.
+</p>
+
+<p align="justify">
+En nuestro caso concreto, con la experiencia de flof.com.ar incursionamos en el procesamiento y explotación de los datos del proyecto y hemos frenado nuestra investigación dado que no tenemos la posibilidad de explotar comercialmente algunos de nuestros resultados (debido precisamente a las limitaciones que impone la licencia, de la cual siempre fuimos muy
+respetuosos). Precisamente la explotación comercial permite en ocasiones financiar la investigación y destinar cada vez más recursos a la misma, acelerando de esta forma el proceso y logrando más y mejores resultados en menos tiempo. 
+</p>
+
+<p align="justify">
+Desde hace ya varios meses que tenemos implementada parte de una funcionalidad de ruteo sobre <a href="http://maps.google.com/">Google Maps</a> y <a href="http://flof.com.ar">flof.com.ar</a> que permite calcular recorridos a lo largo de toda la extensión del territorio del país, usando los datos del proyecto Mapear (servicio que seguramante será de uso libre). Este trabajo quedó estancado dado que fue perdiendo prioridad frente a otros proyectos que permiten pensar un modelo de negocios por detrás. Creemos que es dañino en todo sentido, tanto para nuestros proyectos como para el proyecto Mapear, que este tipo de innovaciones se vean así frenadas.
+
+<center>
+     <a href="/assets/2007/9/18/rapido.jpg"><img src="/assets/2007/9/18/mini_rapido.jpg" /></a>
+     <a href="/assets/2007/9/18/mini_corto_sentido.jpg"><img src="/assets/2007/9/18/mini_corto_sentido.jpg" /></a>
+     <a href="/assets/2007/9/18/corto_sin_sentidos.jpg"><img src="/assets/2007/9/18/mini_corto_sin_sentidos.jpg"  /></a>
+</center>
+</p>
+
+<p align="justify">
+Como caso paradigmático, podemos comentar sobre la <a href="http://opensource.org/docs/ods">Open Source Definition</a> la cual describe qué licencias son open-source (libres) y no casualmente en su primer item señala:
+</p>
+<p align="justify">
+<blockquote style="font-family: monospace;">
+1. Free Redistribution
+
+The license shall not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license shall not require a royalty or other fee for such sale.
+</blockquote>
+</p>
+<br/>
+<p align="justify">
+Este ítem es fundamental para que que las iniciativas open-source (que permiten redistribución de trabajos derivados) tengan el crecimiento y potencia que hoy
+tienen (Linux es el caso más ejemplar). Las compañías pueden basarse en algo ya construido e innovar en algún área del producto, y por diferentes razones estratégicas (mantenibilidad, publicidad, etc.), contribuir de vuelta al proyecto. Si las empresas no pudieran obtener algún rédito comercial (directa o indirectamente) esto sería mucho más difícil, ya que las contribuciones se realizarían en tiempos libres y a modo de hobby, con lo cual la velocidad de innovación y crecimiento sería menor. 
+</p>
+
+<p align="justify">
+<strong>La realidad es que sólo un mercado comercial sólido puede generar una comunidad open-source fuerte y viceversa. Se trata de un círculo virtuoso.</strong>
+</p>
+
+<p align="justify">
+Sinceramente, creemos que con un tipo de licencia mucho más permisiva, el Proyecto Mapear podría beneficiarse mucho con el valor que le retornen otros proyectos construidos sobre él  por grupos fuera de su comunidad (tanto en publicidad, como en herramientas), tal como es el caso de flof.com.ar y otros desarrollos.
+</p>
+
+<p>
+   <em>Juan F. Codagnone.</em> y <em>Gabriel V. Baños.</em>
+</p>
+
+<p>  (estas fueron nuestras opiones personales y no las de nuestros empleadores ni de flof.com.ar).</p>
+
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+    <h4 class="meta">tags: </h4>
+    <p>#<ArticleDrop:0x2abd9e77da68></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/9/18/libertad-e-innovación#comments">13 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2007/7/8/dejar-de-tocar-la-musica-cuando-no-estoy-en-la-computadora">Apagá la musica cuando no estas en la computadora</a></h2>
+  <p class="meta">written by juan on July 8th, 2007 @ 05:16 PM</p>
+  <div class="body">
+    <p>
+Tengo configurado el escritorio (kde) para que pasado cierto tiempo lockee el escritorio y pida una contraseña; y  últimamente me estoy olvidando antes de irme de la computadora de apagar la música. Esto trae vario problemas:
+<ul>
+   <li>como los parlantes no tienen perilla para ajustar el volumen, no hay forma de apagar la música (salvo enchufando auriculares)</li>
+   <li>se arruinan las estadísticas de que escuché y que no escuché</li>
+</ul>
+</p>
+
+<p>
+Para evitar este problema escribí un script para el <a href="http://amarok.kde.org/">amarok</a> que cada vez que empieza una nueva canción verifica si el protector de pantalla está corriendo, y si es así, pone en pausa al player. Es muy simple:
+</p>
+<pre>
+def trackChange( self ):
+    if os.popen('dcop kdesktop KScreensaverIface isBlanked').readlines()[0].strip() == 'true':
+        os.system('dcop amarok player pause')
+</pre>
+
+Dejé el script, y el tarball listos para instalar en el amarok en <a href="https://svn.leak.com.ar/scripts/amarok/">https://svn.leak.com.ar/scripts/amarok/</a>
+
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+    <h4 class="meta">tags: </h4>
+    <p>#<ArticleDrop:0x2abd9e775638></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/7/8/dejar-de-tocar-la-musica-cuando-no-estoy-en-la-computadora#comments">0 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2007/6/9/webpy">web.py + gmap + scrapers = mashup</a></h2>
+  <p class="meta">written by juan on June 9th, 2007 @ 07:36 PM</p>
+  <div class="body">
+    <p>Es increible lo incomodas y poco <em>ricas</em> que son las interfaces de los sitios para buscar inmuebles en Argentina.</p>
+
+<p>Los sitios online repiten el mismo pecado que los clasificados de papel: arman listados interminables de propiedades, que son difíciles de comparar entre sí y de ubicar en un mapa, y de colaborar con otras personas.</p>
+
+<p>Si son varias personas las que participan de la decisión de alquilar un lugar la cosa es aún más complicada. Uno debe armar una forma de trabajo ordenada (sobre una wiki?) donde se pueda hacer comentarios y donde se mantenga un estado/workflow (por ejemplo, para marcar si la propiedad ya no está disponible).</p>
+
+<p>Estas semanas estamos buscando un lugar para alquilar; y decidí encarar uno por uno  los problemas  para mejorar la calidad de esta tarea.</p>
+
+<p>¿El resultado? Una fría tarde de sábado dio como resultado una aplicación muy útil para la tarea a resolver (buscar lugares); que agregó mucho valor a la resolución de la tarea y algunas cosas para pensar.</p>
+
+<p>Lo primero que me recordó son las conocidas frases:
+<ul>
+   <li>no hay una herramienta que solucione todos los problemas</li>
+  <li>cada problema tiene un conjunto de herramientas que resuelven el problema de forma óptima</li>
+</ul>
+</p>
+
+<p<a href="/img/2007/06/alquiler.html"><img src="/img/2007/06/alquiler.jpg"></a></p>
+
+<p>En este caso elegí python para encarar los problemas. Todo el código relacionado a este post, se encuentra en <a href="https://svn.leak.com.ar/inmuebles/">https://svn.leak.com.ar/inmuebles/</a>, bajo la licencia GPL. 
+</p>
+
+<h3>Scrapers</h3>
+
+<p>
+El primer problema que me encontré fue conseguir los datos de los inmuebles.
+Se le suele llamar <em>scraper</em>  a las herramientas que convierten contenido orientados a humanos (como páginas web) en contenidos orientados a computadoras (que ellas pueden procesar).
+</p>
+
+<p>
+ En el pasado <a href="http://www.leak.com.ar/~juan/code/jiol/">escribí varios scrapers</a> en varios lenguajes (bash, c, java) pero esta fue la primera vez que lo hacía con  python. Para eso elegí 
+<a href="http://www.crummy.com/software/BeautifulSoup/">BeautifulSoup</a> con excelentes resultados.
+</p>
+
+Todas la páginas de inmuebles tienen tablas...sólo hay que encontrar la tabla que tiene los datos y recorrerlas.
+Por ejemplo:
+<ul>
+  <li><a href="http://www.inmuebles.clarin.com/inm/verAviso.do?idAviso=1440588">propiedad 1440588 de inmuebles.clarin</a></li>
+  <li><a href="http://www.todopropiedades.com/respuesta_propmasinfo.phtml?codinmob=135&codprop=15082&archivo=respuesta_propmasinfo12.shtml">propiedad 135-15082 de todopropiedades.com</a></li>
+</ul>
+
+Para el caso de clarin es posible obtener los datos de la propiedad de la siguiente forma:
+<pre>
+        soup = BeautifulSoup(self.pageContentProvider.retriveMain(id),
+                             convertEntities="html", smartQuotesTo="html")
+        # buscar tabla
+        l = soup.findAll('table', width="261")
+        if len(l) == 1:
+            ret = {}
+            for i in table.findAll('tr'):
+                row = []
+                for j in i.findAll('td'):
+                    text = ''.join([e for e in j.recursiveChildGenerator()
+                        if isinstance(e, unicode)]).strip()
+                    row.append(textCleanerStrategy.clean(text))
+                if len(row[0]) != 0:
+                    ret[row[0]] = row[1]
+            return ret
+        .....
+</pre>
+
+<p>¡Nada mas! Se tarda 10 minutos en armar un nuevo scraper!</p>
+
+Los scrappers quedaron implementados en <a href="https://svn.leak.com.ar/inmuebles/scrapper.py">https://svn.leak.com.ar/inmuebles/scrapper.py</a> y se puede usar desde la linea de comandos:
+<pre>
+juan@dinah  $ ./scrapper.py
+Usage: ./scrapper.py proveedor id_de_la_propiedad
+
+Example:  ./scrapper.py clarin 1325956
+Example:  ./scrapper.py todopropiedades  135-15082
+Example:  ./scrapper.py argenprop BW38037
+Example:  ./scrapper.py flof 6479
+
+juan@dinah  $ ./scrapper.py clarin 1440588
+                      the_geom: -58.37799 -34.604725
+              Superficie total: 120 m2
+                     Categoría: Oficina
+                        Precio: $ 2000
+             Tipo de propiedad: Locales Comerciales, Oficinas y Consultorios
+                    Antigüedad: 45 años
+                     Operación: Alquiler ofrecido
+        Condición del inmueble: Excelente
+                       Visitas: 79
+          Fecha de publicación: 31/05/2007
+                     Ubicación: Bs. As. Capital Federal Capital Federal Centro ESMERALDA 300
+             Superficie propia: 80 m2
+</pre>
+
+<p>Los scrappers sólo obtienen información y desconocen de la semántica de cada proveedor de datos. Otra herramienta podría encargarse del vocabulario homegenizar la información</p>
+
+<h3>Aplicación Web</h3>
+<p>Ya con la disponibilidad de datos armé una pequeña aplicacion web, usando el excelente  <a href="http://webpy.org/">web.py</a> y google maps. El api de google map ya la conocía (<a href="http://flof.com.ar/">flof.com.ar</a>) y web.py también, pero no dejo de sorprenderme de lo fácil que es hacer una aplicación.</p>
+
+Recomiendo que prueben web.py!
+
+¿Mi  conclusión? No hay que tener miedo de desarrollar
+
+
+
+
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+    <h4 class="meta">tags: </h4>
+    <p>#<ArticleDrop:0x2abd9e766598></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/6/9/webpy#comments">1 comment</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2007/3/6/mantisbt-ldap">MantisBT &amp;&amp; LDAP</a></h2>
+  <p class="meta">written by juan on March 5th, 2007 @ 10:31 PM</p>
+  <div class="body">
+    <p> <a href="http://www.mantisbt.org/">Mantis</a> is a full featured issue tracker. It supports authentication using LDAP out of the box, but this support has a shortcoming: The administrator needs to create the user's entry in the database first.</p>
+<p>
+As we think that this deficiency prevents mantis from being deployed in the enterprise, we have developed a patch against 1.0.x to avoid this situation. If the user's credentials are valid, and the user does not exists in the database, the user is created using the ldap information. You can download the patch it <a href="/img/2007/03/mantis_ldap.diff">here</a>.</p>
+
+<p>
+<pre>
+account_page.php | 14 +++++++++++++-
+core/authentication_api.php | 12 ++++++++++--
+core/ldap_api.php | 26 +++++++++++++++++++++++++-
+3 files changed, 48 insertions(+), 4 deletions(-)
+</pre>
+</p>
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+    <h4 class="meta">tags: </h4>
+    <p>#<ArticleDrop:0x2abd9e760f80></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/3/6/mantisbt-ldap#comments">23 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2007/3/4/mudanza">mudanza</a></h2>
+  <p class="meta">written by juan on March 4th, 2007 @ 04:54 PM</p>
+  <div class="body">
+    Mudé el blog de <a href="http://www.leak.com.ar/~juan/blog/">http://www.leak.com.ar/~juan/blog/</a> a <a href="http://juan.zauber.com.ar/">http://juan.zauber.com.ar/</a>. 
+
+Puse redirects en la dirección vieja,  por lo que los agentes  que buscan el feed atom deberían seguir funcionando, pero si no es así,  el nuevo url de feed atom es: <a href="http://juan.zauber.com.ar/feed/atom.xml">http://juan.zauber.com.ar/feed/atom.xml</a>
+
+
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/3/4/mudanza#comments">0 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2007/1/22/monitoreo-de-aplicaciones-java">monitoreo de aplicaciones java</a></h2>
+  <p class="meta">written by juan on January 22nd, 2007 @ 12:00 AM</p>
+  <div class="body">
+    Una de las ventajas de correr Java 6 es que cualquier proceso puede ser <a href="
+http://java.sun.com/developer/technicalArticles/J2SE/monitoring/">monitoreado</a> localmente sin especificar ninguna propiedad especial. Yo ya le encontre utilidad: un programa  estaba consumiendo bastante memoria, el cual ya estaba corriendo, y que no deseaba reiniciar, pude sacar suficientes pistas con poco esfuerzo para resolver un problema de memoria.
+
+Lectura recomendada: <a href="http://java.sun.com/developer/technicalArticles/J2SE/monitoring/">http://java.sun.com/developer/technicalArticles/J2SE/monitoring/</a>.
+
+Por ejemplo, para ver la cantidad de instancias por clases:
+<div class="source"><pre>
+juan@aretha ~ $ /opt/sun-jdk-1.6.0/bin/jmap -histo:live  22130
+
+num   #instances    #bytes  class name
+--------------------------------------
+  1:     20441     2353200  <constMethodKlass>
+  2:     81009     1944216  java.lang.String
+  3:     80867     1728608  [C
+  4:     20441     1639312  <methodKlass>
+  5:     33582     1298728  <symbolKlass>
+  6:      1780      945704  <constantPoolKlass>
+  7:      1780      740664  <instanceKlassKlass>
+  8:      1498      577488  <constantPoolCacheKlass>
+  9:     23593      566232  java.util.HashMap$Entry
+ 10:      2568      431944  [B
+ 11:       721      279008  [Ljava.lang.String;
+ 12:      1698      273952  [Ljava.util.HashMap$Entry;
+ 13:      3451      204800  [Ljava.lang.Object;
+ 14:      2018      193728  java.lang.Class
+ 15:      2387      156952  [S
+ 16:      2775      133544  [[I
+ 17:      6815      109040  org.pdfbox.cos.COSInteger
+ 18:      1719       81704  [I
+ 19:      4728       75648  org.pdfbox.cos.COSName 
+...
+</pre></div>
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2007/1/22/monitoreo-de-aplicaciones-java#comments">0 comments</a>
+  </div>
+</div>
+<div class="article">
+
+  <h2 class="title"><a href="/2006/10/18/la-primavera-hizo-florecer-los-blogs">La primavera hizo florecer los blogs</a></h2>
+  <p class="meta">written by juan on October 18th, 2006 @ 12:00 AM</p>
+  <div class="body">
+    Me pongo contento de ver que la primavera no solo trajo flores sino además trae posts en blogs de tres amigos. Por un lado, el amigo Sergio (of  <a href="http://www.gledplay.com/">GledPlay</a> fame)  está escribiendo en 
+<ul>
+   <li><a href="http://desarrolloppc.blogspot.com/">Programación para Pocket PC</a></li>
+   <li><a href="http://cstyleguide.blogspot.com/">Guía de estilo de C / C++</a></li>
+   <li><a href="http://proyectosargentinos.blogspot.com/">Proyectos Argentino</a></li>
+</ul>
+
+Mientras que <a href="http://epere4.blogspot.com/">Edu Pereda</a> (of <a href="http://java2excel.sourceforge.net/">Java2Excel</a> fame)  está empezando a escribir más regularmente en su blog (no solo eso, sino que está empezando a construir un mashup sobre <a href="http://blog.flof.com.ar/">flof</a>).
+
+También los muchachos de <a href="http://bizarro-programming-language.blogspot.com/"> Bizarro Programming Language</a> (solo reconozco a uno) están escribiendo entradas  <a  href="http://bizarro-programming-language.blogspot.com/2006/10/metodologia-la-ira-del-dragn.html">
+muy divertidas</a>.
+
+
+Me pone muy contento, y espero que no sea algo estacional. Yo tambien por mi lado  espero poder escribir más seguido.
+  </div>
+  <div class="footer">
+    <h4 class="meta">posted in: </h4>
+    <p></p>
+  
+  
+    <h4 class="meta">comments are closed</h4>
+  
+  </div>
+
+  <div class="comments">
+    <a href="/2006/10/18/la-primavera-hizo-florecer-los-blogs#comments">0 comments</a>
+  </div>
+</div>
+
+
+
+  </div>
+
+</div>
+
+<div id="sidebar">
+
+<div class="boxy short">
+<h3>About</h3>
+
+<p>Soporte magn&eacute;tico de pensamientos, ideas y otras locuras de <b>Juan F. Codagnone</b>. Cosas técnicas y no técnicas. Escrito en ingles y/o español según a quien esté apuntada la entrada</p>
+
+<script type="text/javascript" src="http://alpha.popego.com/juan/api/widget?theme=e72510"></script>
+</div>
+
+
+<div id="search" class="boxy short">
+  <h3>Search</h3>
+  <form method="get" action="/search">
+    <fieldset>
+      <input class="text" type="text" id="q" value="" name="q"/>
+    </fieldset>
+  </form>
+</div> 
+
+<div class="boxy tall">
+<h3>Links</h3>
+<dl>
+  <dt>Links</dt>
+  <dd><a href="http://www.leak.com.ar/~juan/">Juan's Home Page</a></dd>
+  <dd><a href="http://flof.com.ar/">flof.com.ar: el mundo en etiquetas</a></dd>
+
+  <dt>Blogs I Participate</dt>
+  <dd><a href="http://blog.flof.com.ar/">flof.com.ar blog</a></dd>
+  <dd><a href="http://cstyleguide.blogspot.com/">Guia de estilo C/C++</a></dd>
+
+
+  <dt>Zauber blogs</dt>
+  <dd><a href="http://martin.zauber.com.ar/" rel="met friend co-worker" >Martín Marquez</a></dd>
+  <dd><a href="http://gabriel.zauber.com.ar/" rel="met friend co-worker">Gabriel Baños</a></dd>
+
+
+  <dt>Friends</dt>
+  <dd><a href="http://epere4.blogspot.com/" rel="met friend">epere4</a></dd>
+  <dd><a href="http://proyectosargentinos.blogspot.com/">Proyectos Argentinos</a></dd>
+  <dd><a href="http://bizarro-programming-language.blogspot.com/">Bizarro Programing Language</a></dd>
+  <dd><a href="http://www.mavenblogs.com/">maven blogs</a></dd>
+  <dd><a href="http://blog.jlubeck.com.ar/" rel="met friend">Tarde pero seguro</a></dd>
+  <dd><a href="http://codear.com.ar/" rel="acquaintance">code.ar</a></dd>
+  <a href="http://del.icio.us/jcodagnone"  rel="me"/>
+  <a href="http://flof.com.ar/user/juan/"  rel="me"/>
+  <a href="http://www.linkedin.com/in/jcodagnone"  rel="me"/>
+</dl>
+
+</div>
+<!-- div class="boxy tall minor">
+  <h3>Juan's del.icio.us</h3>
+  <script type="text/javascript" src="http://del.icio.us/feeds/js/tags/jcodagnone?count=50;size=8-20;color=ffffff
+-ffffff"></script>
+</div -->
+
+
+
+<div class="boxy tall minor">
+  <h3>Recent</h3>
+
+<dl>
+<dt>Articles <a class="feed" href="/feed/atom.xml"><span>feed</span></a></dt>
+<dd>
+  <ul>
+  
+    <li><a href="/2008/2/15/virtual-hosts-basados-en-nombres-y-multiples-certificados-ssl">Virtual hosts basados en nombres y multiples certificados SSL</a> <em>(February 14th)</em></li>
+  
+    <li><a href="/2008/2/6/popegueado">popegueado</a> <em>(February 6th)</em></li>
+  
+    <li><a href="/2008/2/2/amigo-de-un-amigo">Amigo de un amigo...</a> <em>(February 2nd)</em></li>
+  
+    <li><a href="/2007/12/4/release-garfio-0-5">[RELEASE] garfio 0.5</a> <em>(December 4th)</em></li>
+  
+    <li><a href="/2007/11/27/calles-de-argentina-en-google-map">Calles de Argentina en google map?</a> <em>(November 27th)</em></li>
+  
+    <li><a href="/2007/10/28/maven-site-twiki">Maven site &amp; TWiki</a> <em>(October 28th)</em></li>
+  
+    <li><a href="/2007/10/20/scrapper-consumo-movistar">Scrapper Consumo Movistar</a> <em>(October 20th)</em></li>
+  
+    <li><a href="/2007/10/6/xrandr">xrandr</a> <em>(October 6th)</em></li>
+  
+    <li><a href="/2007/9/18/libertad-e-innovación">Libertad e Innovación</a> <em>(September 18th)</em></li>
+  
+    <li><a href="/2007/7/8/dejar-de-tocar-la-musica-cuando-no-estoy-en-la-computadora">Apagá la musica cuando no estas en la computadora</a> <em>(July 8th)</em></li>
+  
+    <li><a href="/2007/6/9/webpy">web.py + gmap + scrapers = mashup</a> <em>(June 9th)</em></li>
+  
+    <li><a href="/2007/3/6/mantisbt-ldap">MantisBT &amp;&amp; LDAP</a> <em>(March 5th)</em></li>
+  
+    <li><a href="/2007/3/4/mudanza">mudanza</a> <em>(March 4th)</em></li>
+  
+    <li><a href="/2007/2/14/projects">old projects</a> <em>(February 14th)</em></li>
+  
+    <li><a href="/2007/1/22/monitoreo-de-aplicaciones-java">monitoreo de aplicaciones java</a> <em>(January 22nd)</em></li>
+  
+  </ul>
+</dd>
+
+<dt>Comments <a class="feed" href="/feed/all_comments.xml"><span>feed</span></a></dt>
+<dd>
+  <ul>
+  
+    <li><span>pedro</span> on <a href="/2007/10/20/scrapper-consumo-movistar#comment-170">Scrapper Consumo Movistar</a></li>
+  
+    <li><a href="http://juan.zauber.com.ar/">Juan F. Codagnone</a> on <a href="/2007/10/20/scrapper-consumo-movistar#comment-168">Scrapper Consumo Movistar</a></li>
+  
+    <li><a href="http://www.b2.cl">Alvaro Illanes</a> on <a href="/2007/10/20/scrapper-consumo-movistar#comment-167">Scrapper Consumo Movistar</a></li>
+  
+    <li><a href="http://juan.zauber.com.ar/">Juan F. Codagnone</a> on <a href="/2007/10/20/scrapper-consumo-movistar#comment-166">Scrapper Consumo Movistar</a></li>
+  
+    <li><a href="http://blog.dieresys.com.ar">Manuel</a> on <a href="/2007/10/20/scrapper-consumo-movistar#comment-165">Scrapper Consumo Movistar</a></li>
+  
+    <li><span>Javier Ruere</span> on <a href="/2007/9/18/libertad-e-innovación#comment-122">Libertad e Innovación</a></li>
+  
+    <li><a href="http://flof.com.ar">Gabriel</a> on <a href="/2007/9/18/libertad-e-innovación#comment-121">Libertad e Innovación</a></li>
+  
+    <li><span>Fernando</span> on <a href="/2007/9/18/libertad-e-innovación#comment-120">Libertad e Innovación</a></li>
+  
+    <li><a href="http://juan.zauber.com.ar/">Juan F. Codagnone</a> on <a href="/2007/9/18/libertad-e-innovación#comment-119">Libertad e Innovación</a></li>
+  
+    <li><a href="http://juan.zauber.com.ar/">Juan F. Codagnone</a> on <a href="/2007/9/18/libertad-e-innovación#comment-118">Libertad e Innovación</a></li>
+  
+    <li><span>Javier Rojo</span> on <a href="/2007/9/18/libertad-e-innovación#comment-117">Libertad e Innovación</a></li>
+  
+    <li><span>Javier Rojo</span> on <a href="/2007/9/18/libertad-e-innovación#comment-116">Libertad e Innovación</a></li>
+  
+    <li><a href="http://flof.com.ar">Gabriel </a> on <a href="/2007/9/18/libertad-e-innovación#comment-115">Libertad e Innovación</a></li>
+  
+    <li><span>Fernando</span> on <a href="/2007/9/18/libertad-e-innovación#comment-114">Libertad e Innovación</a></li>
+  
+    <li><span>Javier Rojo</span> on <a href="/2007/9/18/libertad-e-innovación#comment-113">Libertad e Innovación</a></li>
+  
+  </ul>
+</dd>
+</dl>
+</div>
+
+
+<div class="boxy short">
+  <h3>Archives</h3>
+  
+  <ul>
+  
+    
+    
+    <li><a href="/archives/2008/2">February 2008</a> (3)</li>
+    
+  
+    
+    
+  
+    
+    
+    <li><a href="/archives/2007/12">December 2007</a> (1)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2007/11">November 2007</a> (1)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2007/10">October 2007</a> (3)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2007/9">September 2007</a> (1)</li>
+    
+  
+    
+    
+  
+    
+    
+    <li><a href="/archives/2007/7">July 2007</a> (1)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2007/6">June 2007</a> (1)</li>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+    <li><a href="/archives/2007/3">March 2007</a> (2)</li>
+    
+  
+    
+    
+  
+    
+    
+    <li><a href="/archives/2007/1">January 2007</a> (1)</li>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+    <li><a href="/archives/2006/10">October 2006</a> (1)</li>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+    <li><a href="/archives/2006/6">June 2006</a> (2)</li>
+    
+  
+    
+    
+  
+    
+    
+  
+    
+    
+    <li><a href="/archives/2006/3">March 2006</a> (1)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2006/2">February 2006</a> (1)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2006/1">January 2006</a> (2)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2005/12">December 2005</a> (3)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2005/11">November 2005</a> (1)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2005/10">October 2005</a> (1)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2005/9">September 2005</a> (1)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2005/8">August 2005</a> (1)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2005/7">July 2005</a> (1)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2005/6">June 2005</a> (2)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2005/5">May 2005</a> (5)</li>
+    
+  
+    
+    
+    <li><a href="/archives/2005/4">April 2005</a> (10)</li>
+    
+  
+  </ul>
+</div>
+
+
+
+<div class="boxy short">
+  <p>This would be nicer if we could get the number of articles for each tag.</p>
+  <h3>tags: </h3>
+  <ul>
+   
+    <li><a href="/tags/foaf">foaf</a></li>
+   
+    <li><a href="/tags/gentoo linux">gentoo linux</a></li>
+   
+    <li><a href="/tags/google">google</a></li>
+   
+    <li><a href="/tags/google map">google map</a></li>
+   
+    <li><a href="/tags/linux,kde,amarok,script">linux,kde,amarok,script</a></li>
+   
+    <li><a href="/tags/maven twiki doxia">maven twiki doxia</a></li>
+   
+    <li><a href="/tags/opensource">opensource</a></li>
+   
+    <li><a href="/tags/opensource mapear argentina">opensource mapear argentina</a></li>
+   
+    <li><a href="/tags/projects">projects</a></li>
+   
+    <li><a href="/tags/rdf">rdf</a></li>
+   
+    <li><a href="/tags/scm">scm</a></li>
+   
+    <li><a href="/tags/scm,opensource">scm,opensource</a></li>
+   
+    <li><a href="/tags/scrapper python argentina local">scrapper python argentina local</a></li>
+   
+    <li><a href="/tags/scrapper,movistar,oss,local,argentina">scrapper,movistar,oss,local,argentina</a></li>
+   
+    <li><a href="/tags/semantic web">semantic web</a></li>
+   
+    <li><a href="/tags/zauber">zauber</a></li>
+  
+  </ul>
+</div>
+
+ 
+</div>
+
+</div>
+
+<div id="options">
+  <h2>Options:</h2>
+  <h3>Size</h3>
+  <ul id="option_size">
+    <li id="option_size_fixed"   class="fixed" ><a><span>fixed </span></a></li>
+    <li id="option_size_fluid"   class="fluid" ><a><span>fluid </span></a></li>
+  </ul>
+  <h3>Colors</h3>
+  <ul id="option_color">
+    <li id="option_color_orange" class="orange"><a><span>orange</span></a></li>
+    <li id="option_color_blue"   class="blue"  ><a><span>blue  </span></a></li>
+    <li id="option_color_green"  class="green" ><a><span>green </span></a></li>
+    <li id="option_color_pink"   class="pink"  ><a><span>pink  </span></a></li>
+    <li id="option_color_cyan"   class="cyan"  ><a><span>cyan  </span></a></li>
+    <li id="option_color_red"    class="red"   ><a><span>red   </span></a></li>
+    <li id="option_color_violet" class="violet"><a><span>violet</span></a></li>
+  </ul>
+</div>
+
+<div id="footer">
+<p>Copyright &copy; 2007, Juan F. Codagnone Valid <a href="http://validator.w3.org/check/referer">XHTML</a> and <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>.</p>
+<p>Using <a href="http://evil.che.lu/projects/skittlish">skittlish</a> on <a href="http://publishwithimpunity.com/">mephisto</a>.</p>
+</div>
+
+</div>
+
+</body>
+
+</html>

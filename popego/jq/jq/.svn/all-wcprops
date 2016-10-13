@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/private/popego/main/!svn/ver/2492/trunk/jq/jq
+END
+common.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/private/popego/main/!svn/ver/886/trunk/jq/jq/common.py
+END
+consumer_startup.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/private/popego/main/!svn/ver/1205/trunk/jq/jq/consumer_startup.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/private/popego/main/!svn/ver/380/trunk/jq/jq/__init__.py
+END
+queue_startup.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/private/popego/main/!svn/ver/1628/trunk/jq/jq/queue_startup.py
+END

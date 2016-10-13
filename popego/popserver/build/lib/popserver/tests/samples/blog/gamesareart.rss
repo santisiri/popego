@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:media="http://search.yahoo.com/mrss"
+	>
+
+<channel>
+	<title>Games Are Art 2.0</title>
+	<atom:link href="http://gamesareart.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://gamesareart.com</link>
+	<description>"What we play is life." Louis Armstrong</description>
+	<pubDate>Sun, 13 Jan 2008 00:38:45 +0000</pubDate>
+
+	<generator>http://wordpress.org/?v=MU</generator>
+	<language>en</language>
+			<item>
+		<title>Ludic Comedy</title>
+		<link>http://gamesareart.com/2008/01/12/playing-with-frustration/</link>
+		<comments>http://gamesareart.com/2008/01/12/playing-with-frustration/#comments</comments>
+
+		<pubDate>Sun, 13 Jan 2008 00:37:55 +0000</pubDate>
+		<dc:creator>Santi Siri</dc:creator>
+		
+		<category><![CDATA[art]]></category>
+
+		<category><![CDATA[games]]></category>
+
+		<guid isPermaLink="false">http://gamesareart.com/2008/01/12/playing-with-frustration/</guid>
+		<description><![CDATA[We&#8217;ve all played Super Mario: a classic platform game where with trial &#38; error you get to overcome the obstacles ahead of you. Now, a Japanese coder got the original level of Super Mario and gave it a very fun twist: it turned the game onto the most absurd and difficult platformer ever.
+The bizarre kitty [...]]]></description>
+			<content:encoded><![CDATA[<div class='snap_preview'><br /><p>We&#8217;ve all played <a href="http://en.wikipedia.org/wiki/Super_Mario_Bros.">Super Mario</a>: a classic platform game where with trial &amp; error you get to overcome the obstacles ahead of you. <b>Now, a Japanese coder got the original level of Super Mario and gave it a very fun twist: it turned the game onto the most absurd and difficult platformer ever.</b></p>
+<p>The bizarre kitty that&#8217;s replacing Mario, the silly music and the unfair rules make this ludic experiment quite fun to watch. Because you realize that it&#8217;s not about winning the game, but actually about experiencing the game as a comedy. <b>When you discover the most stupid things happening to your character, frustration gets transformed into a laugh.</b> What&#8217;s also nice about it, is that you can completely relate to the feelings the player is having: even though the character is a simple un-animated image, when he slowly walks towards the next trap you can realize the fear in him.</p>
+<p>I find this hilarious and a really good way of remixing old classic games. Watch:</p>
+<p align="center"> <span style="text-align:center; display: block;"><a href="http://gamesareart.com/2008/01/12/playing-with-frustration/"><img src="http://img.youtube.com/vi/hIXRgppi04M/2.jpg" alt="" /></a></span></p>
+<img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/gamesareart.wordpress.com/326/" /> <img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/gamesareart.wordpress.com/326/" /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/gamesareart.wordpress.com/326/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/gamesareart.wordpress.com/326/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godelicious/gamesareart.wordpress.com/326/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/gamesareart.wordpress.com/326/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gostumble/gamesareart.wordpress.com/326/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/gamesareart.wordpress.com/326/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godigg/gamesareart.wordpress.com/326/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/gamesareart.wordpress.com/326/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/goreddit/gamesareart.wordpress.com/326/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/gamesareart.wordpress.com/326/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=gamesareart.com&blog=793217&post=326&subd=gamesareart&ref=&feed=1" /></div>]]></content:encoded>
+
+			<wfw:commentRss>http://gamesareart.com/2008/01/12/playing-with-frustration/feed/</wfw:commentRss>
+	
+		<media:content url="http://a.wordpress.com/avatar/santisiri-128.jpg" medium="image">
+			<media:title type="html">santisiri</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Software as Art</title>
+
+		<link>http://gamesareart.com/2008/01/08/software-as-art/</link>
+		<comments>http://gamesareart.com/2008/01/08/software-as-art/#comments</comments>
+		<pubDate>Wed, 09 Jan 2008 02:56:12 +0000</pubDate>
+		<dc:creator>Santi Siri</dc:creator>
+		
+		<category><![CDATA[art]]></category>
+
+		<category><![CDATA[philosophy]]></category>
+
+		<category><![CDATA[software]]></category>
+
+		<guid isPermaLink="false">http://gamesareart.com/2008/01/08/software-as-art/</guid>
+		<description><![CDATA[I usually blog about innovations on the field of gaming that try to unleash new possibilities with interactivity. Probably because games, due to the their intrinsic interactive value, are the most common place to find new styles of interactive design. But games are a subset of a much more broader category: Software.
+Today, I want to [...]]]></description>
+			<content:encoded><![CDATA[<div class='snap_preview'><br /><p>I usually blog about innovations on the field of gaming that try to unleash new possibilities with interactivity. Probably because games, due to the their intrinsic interactive value, are the most common place to find new styles of interactive design. But games are a subset of a much more broader category: <b>Software</b>.</p>
+<p><b>Today, I want to share with you 2 specific works of computer code that really catched my imagination.</b></p>
+<p>The first one of them is the marvelous <b><a href="http://www.wefeelfine.org" target="_blank">We Feel Fine</a></b>. A clear example of how you can turn the entire web 2.0 feeling into an artistic experience. <b>A duet of coders in New York have created this amazing system that crawls the entire blogosphere trying to find the terms: &#8220;I&#8217;m feeling&#8230;&#8221; or &#8220;I feel&#8230;&#8221; and how the sentence continues.</b> With that sentence they try to identify your current feeling and match it to a specific color. The result? An incredible view of the world&#8217;s current mood through an amazing interface that will leave you breathless.</p>
+<div style="text-align:center;"><a href="http://www.wefeelfine.org" target="_blank"><img src="http://gamesareart.files.wordpress.com/2008/01/wefeelfine1.png?w=423&h=313" alt="wefeelfine1.png" height="313" width="423" /></a></div>
+<p>The second piece I would like to mention is the <a href="http://en.wikipedia.org/wiki/Philip_K._Dick">Phillip-K.-Dick</a>-inspired <b><a href="http://www.electricsheep.org">Electric Sheep</a></b>. <b>When the famous sc-fi authour wrote his novel &#8220;Do Androids Dream of Electric Sheep?&#8221; he didn&#8217;t know that a team of programmers would go and try to actually find out what computers dream about.</b> And they did by developing an astonishing screensaver system that calculates complex fractal animations in a distributed online network and the result is hours of the most beautiful math transformed into dancing designs that will appear on your screen each time your computer feels sleepy.</p>
+<div style="text-align:center;"><a href="http://www.electricsheep.org" target="_blank"><img src="http://gamesareart.files.wordpress.com/2008/01/0.jpg" alt="0.jpg" /></a></div>
+<p><b>I would like to see more stuff like this, because I truly consider digital interactivity the new horizon that art has to play with.</b> Each time that I go to a museum like the <a href="http://en.wikipedia.org/wiki/Museum_of_Modern_Art">MoMA</a> or <a href="http://en.wikipedia.org/wiki/MALBA">MALBA</a>, I have this constant thought about what gets exhibited as &#8220;modern&#8221; art: When <a href="http://en.wikipedia.org/wiki/Marcel_Duchamp">Marcel Duchamp</a> put an urinal at an art exhibtion, he definitely was a genius for being the first one having that wild idea. But all the other ones that came after him doing that same thing, are, like the french like to say, <i>pretentiousfucks</i>.</p>
+<img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/gamesareart.wordpress.com/323/" /> <img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/gamesareart.wordpress.com/323/" /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/gamesareart.wordpress.com/323/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/gamesareart.wordpress.com/323/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godelicious/gamesareart.wordpress.com/323/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/gamesareart.wordpress.com/323/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gostumble/gamesareart.wordpress.com/323/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/gamesareart.wordpress.com/323/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godigg/gamesareart.wordpress.com/323/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/gamesareart.wordpress.com/323/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/goreddit/gamesareart.wordpress.com/323/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/gamesareart.wordpress.com/323/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=gamesareart.com&blog=793217&post=323&subd=gamesareart&ref=&feed=1" /></div>]]></content:encoded>
+			<wfw:commentRss>http://gamesareart.com/2008/01/08/software-as-art/feed/</wfw:commentRss>
+	
+		<media:content url="http://a.wordpress.com/avatar/santisiri-128.jpg" medium="image">
+			<media:title type="html">santisiri</media:title>
+
+		</media:content>
+
+		<media:content url="http://gamesareart.wordpress.com/files/2008/01/wefeelfine1.png" medium="image">
+			<media:title type="html">wefeelfine1.png</media:title>
+		</media:content>
+
+		<media:content url="http://gamesareart.wordpress.com/files/2008/01/0.jpg" medium="image">
+			<media:title type="html">0.jpg</media:title>
+		</media:content>
+
+	</item>
+		<item>
+		<title>Wii Like Remixing Technology</title>
+		<link>http://gamesareart.com/2007/12/22/wii-like-remixing-technology/</link>
+		<comments>http://gamesareart.com/2007/12/22/wii-like-remixing-technology/#comments</comments>
+		<pubDate>Sat, 22 Dec 2007 03:49:17 +0000</pubDate>
+		<dc:creator>Santi Siri</dc:creator>
+
+		
+		<category><![CDATA[technology]]></category>
+
+		<category><![CDATA[wii]]></category>
+
+		<guid isPermaLink="false">http://gamesareart.com/2007/12/22/wii-like-remixing-technology/</guid>
+		<description><![CDATA[I&#8217;m sure that by now, you must be quite familiarized with all the alternative uses you can give to your Wiimote. But creativity, that amazing force that pushes humanity to discover new boundaries, always finds its way to show us something never seen before. Johnny Lee, from the Carnegie Mellon University, has created one of [...]]]></description>
+			<content:encoded><![CDATA[<div class='snap_preview'><br /><p>I&#8217;m sure that by now, you must be quite familiarized with all the alternative uses you can give to your Wiimote. But creativity, that amazing force that pushes humanity to discover new boundaries, always finds its way to show us something never seen before. <b><a href="http://www.cs.cmu.edu/~johnny/">Johnny Lee</a>, from the Carnegie Mellon University, has created one of the most impressive hacks for the Wiimote.</b></p>
+<p>See the video for further details.</p>
+<p align="center"><span style="text-align:center; display: block;"><a href="http://gamesareart.com/2007/12/22/wii-like-remixing-technology/"><img src="http://img.youtube.com/vi/Jd3-eiid-Uw/2.jpg" alt="" /></a></span></p>
+<img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/gamesareart.wordpress.com/322/" /> <img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/gamesareart.wordpress.com/322/" /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/gamesareart.wordpress.com/322/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/gamesareart.wordpress.com/322/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godelicious/gamesareart.wordpress.com/322/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/gamesareart.wordpress.com/322/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gostumble/gamesareart.wordpress.com/322/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/gamesareart.wordpress.com/322/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godigg/gamesareart.wordpress.com/322/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/gamesareart.wordpress.com/322/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/goreddit/gamesareart.wordpress.com/322/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/gamesareart.wordpress.com/322/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=gamesareart.com&blog=793217&post=322&subd=gamesareart&ref=&feed=1" /></div>]]></content:encoded>
+			<wfw:commentRss>http://gamesareart.com/2007/12/22/wii-like-remixing-technology/feed/</wfw:commentRss>
+	
+		<media:content url="http://a.wordpress.com/avatar/santisiri-128.jpg" medium="image">
+			<media:title type="html">santisiri</media:title>
+
+		</media:content>
+	</item>
+		<item>
+		<title>An Update About Playdreamer</title>
+		<link>http://gamesareart.com/2007/12/15/an-update-about-playdreamer/</link>
+		<comments>http://gamesareart.com/2007/12/15/an-update-about-playdreamer/#comments</comments>
+		<pubDate>Sat, 15 Dec 2007 21:43:35 +0000</pubDate>
+
+		<dc:creator>Santi Siri</dc:creator>
+		
+		<category><![CDATA[personal]]></category>
+
+		<category><![CDATA[playdreamer]]></category>
+
+		<category><![CDATA[software]]></category>
+
+		<guid isPermaLink="false">http://gamesareart.com/2007/12/15/an-update-about-playdreamer/</guid>
+		<description><![CDATA[On March this year at the Game Developers Conference, I gave a talk about the research I&#8217;ve been doing on 2006 on how to create interactive stories and showcased some tools that I&#8217;ve coded during that time. You can still see the complete session on google video.
+Playdreamer was the name I gave to an ideal [...]]]></description>
+			<content:encoded><![CDATA[<div class='snap_preview'><br /><p>On March this year at the Game Developers Conference, I gave a talk about the research I&#8217;ve been doing on 2006 on how to create interactive stories and showcased some tools that I&#8217;ve coded during that time. You can still <a href="http://gamesareart.com/conferences/">see the complete session</a> on google video.</p>
+<p><a href="http://www.playdreamer.com">Playdreamer</a> was the name I gave to an ideal tool that I wanted to develop to create drama games. During this whole year, each time some interesting idea concerning interactive fiction popped in my mind, I would write it on a nice <a href="http://es.wikipedia.org/wiki/Moleskine">moleskine</a> notebook that I bought for myself.  Some of them are pretty wacky and delusional but anyhow, as ideas deserve to be free, I&#8217;m sharing some of those pages on <a href="http://www.flickr.com/photos/santisiri/">my flickr</a>.</p>
+<p align="center"><a href="http://www.flickr.com/photos/santisiri/" title="Mockup of Playdreamer app by Santi Boy, on Flickr"><img src="http://farm3.static.flickr.com/2085/2112955617_c5189feeb9.jpg" alt="Mockup of Playdreamer app" height="375" width="500" /></a></p>
+<p>But Playdreamer wasn&#8217;t the only big idea on my mind. As some who are close to me know already, I&#8217;ve been working a lot on 2007 to start up a new company that aims to create an innovative piece of technology for the web called <a href="http://www.popego.com">Popego</a>. And, as the individual human being that I still am, I want to put all my energies (and passion) on that project. <strong>That&#8217;s why I&#8217;ll be 100% focused on Popego, and the Playdreamer project will have to be in the freezer until the time is right.</strong> If you&#8217;re curious on interactive fiction, you can still download the source code from my research and do something.</p>
+<p>The exciting thing is that with Popego we are building an amazing project with a great team and the best possible partners you can get when it comes to talk about innovation and technology. I&#8217;ll be writing a new post to specifically talk about this idea in the future, and if you were interested on my Playdreamer research, I hope you understand the reasons that I&#8217;m giving to put it aside for a while. <strong>Quite probably, in the future I would like to find links between gaming and education with a tool like Playdreamer. We&#8217;ll see&#8230;</strong></p>
+<img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/gamesareart.wordpress.com/320/" /> <img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/gamesareart.wordpress.com/320/" /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/gamesareart.wordpress.com/320/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/gamesareart.wordpress.com/320/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godelicious/gamesareart.wordpress.com/320/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/gamesareart.wordpress.com/320/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gostumble/gamesareart.wordpress.com/320/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/gamesareart.wordpress.com/320/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godigg/gamesareart.wordpress.com/320/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/gamesareart.wordpress.com/320/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/goreddit/gamesareart.wordpress.com/320/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/gamesareart.wordpress.com/320/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=gamesareart.com&blog=793217&post=320&subd=gamesareart&ref=&feed=1" /></div>]]></content:encoded>
+
+			<wfw:commentRss>http://gamesareart.com/2007/12/15/an-update-about-playdreamer/feed/</wfw:commentRss>
+	
+		<media:content url="http://a.wordpress.com/avatar/santisiri-128.jpg" medium="image">
+			<media:title type="html">santisiri</media:title>
+		</media:content>
+
+		<media:content url="http://farm3.static.flickr.com/2085/2112955617_c5189feeb9.jpg" medium="image">
+			<media:title type="html">Mockup of Playdreamer app</media:title>
+		</media:content>
+
+	</item>
+		<item>
+		<title>Art + Science = Game</title>
+		<link>http://gamesareart.com/2007/11/17/art-science-game/</link>
+		<comments>http://gamesareart.com/2007/11/17/art-science-game/#comments</comments>
+		<pubDate>Sun, 18 Nov 2007 02:49:46 +0000</pubDate>
+		<dc:creator>Santi Siri</dc:creator>
+
+		
+		<category><![CDATA[art]]></category>
+
+		<category><![CDATA[education]]></category>
+
+		<category><![CDATA[games]]></category>
+
+		<category><![CDATA[videos]]></category>
+
+		<guid isPermaLink="false">http://gamesareart.com/2007/11/17/art-science-game/</guid>
+		<description><![CDATA[It has always been told that games are the perfect marriage between art and science. The best and most simple empirical proof of such statement is made by Helsinki&#8217;s great talent Petri Purho with this little game over here. I remember meeting him at this year&#8217;s GDC after he made a brilliant presentation on the [...]]]></description>
+			<content:encoded><![CDATA[<div class='snap_preview'><br /><p><strong>It has always been told that games are the perfect marriage between art and science.</strong> The best and most simple empirical proof of such statement is made by Helsinki&#8217;s great talent Petri Purho with <a href="http://www.kloonigames.com/blog/games/crayon/">this little game</a> over here. I remember meeting him at this year&#8217;s GDC after he made a brilliant presentation on the <a href="http://www.experimentalgameplay.com/">Experimental Gameplay Project</a>. If you love experimental games, keep a close eye on his <a href="http://www.kloonigames.com/blog/">blog</a>.</p>
+<p align="center"><span style="text-align:center; display: block;"><a href="http://gamesareart.com/2007/11/17/art-science-game/"><img src="http://img.youtube.com/vi/QsTqspnvAaI/2.jpg" alt="" /></a></span></p>
+<p align="left">Probably one of the inspirations behind this great ludic idea was MIT&#8217;s magic blackboard. An awesome tool that could be applied to teach Maths and Physics in a more interactive way.</p>
+<p align="center"><span style="text-align:center; display: block;"><a href="http://gamesareart.com/2007/11/17/art-science-game/"><img src="http://img.youtube.com/vi/NZNTgglPbUA/2.jpg" alt="" /></a></span></p>
+<p align="left"><strong>The marriage between these concepts -game and educational technology- is the piece of proof I needed for my previous post. </strong> The techniques and ways of thinking from people involved in entertainment industries such as videogames, could shape entire generations if we start using those ideas for making schools a place were students <em>want</em> to go rather than imposing them the pressure of <em>having </em>to go.<strong> Education has been stuck in the 19th century for too long&#8230;</strong></p>
+<img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/gamesareart.wordpress.com/319/" /> <img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/gamesareart.wordpress.com/319/" /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/gamesareart.wordpress.com/319/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/gamesareart.wordpress.com/319/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godelicious/gamesareart.wordpress.com/319/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/gamesareart.wordpress.com/319/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gostumble/gamesareart.wordpress.com/319/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/gamesareart.wordpress.com/319/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godigg/gamesareart.wordpress.com/319/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/gamesareart.wordpress.com/319/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/goreddit/gamesareart.wordpress.com/319/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/gamesareart.wordpress.com/319/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=gamesareart.com&blog=793217&post=319&subd=gamesareart&ref=&feed=1" /></div>]]></content:encoded>
+
+			<wfw:commentRss>http://gamesareart.com/2007/11/17/art-science-game/feed/</wfw:commentRss>
+	
+		<media:content url="http://a.wordpress.com/avatar/santisiri-128.jpg" medium="image">
+			<media:title type="html">santisiri</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Rant on Education</title>
+
+		<link>http://gamesareart.com/2007/11/08/rant-on-education/</link>
+		<comments>http://gamesareart.com/2007/11/08/rant-on-education/#comments</comments>
+		<pubDate>Thu, 08 Nov 2007 05:09:38 +0000</pubDate>
+		<dc:creator>Santi Siri</dc:creator>
+		
+		<category><![CDATA[education]]></category>
+
+		<category><![CDATA[games]]></category>
+
+		<category><![CDATA[play]]></category>
+
+		<category><![CDATA[technology]]></category>
+
+		<guid isPermaLink="false">http://gamesareart.com/2007/11/08/rant-on-education/</guid>
+		<description><![CDATA[I&#8217;ve been thinking about Education a lot lately. Two reasons: my partner commented to me some weeks ago about an idea he had for making videogames to be used on schools. And secondly, I had one of those interviews about games &#38; violence where the questions went on the direction of asking &#8220;but, do you [...]]]></description>
+			<content:encoded><![CDATA[<div class='snap_preview'><br /><p>I&#8217;ve been thinking about Education a lot lately. Two reasons: my partner commented to me some weeks ago about an idea he had for making videogames to be used on schools. And secondly, I had one of those interviews about <em>games &amp; violence</em> where the questions went on the direction of asking &#8220;but, do you <em>seriously</em> think is good for kids to play games?&#8221;.</p>
+<p>Probably I&#8217;ve said this to many times, but I&#8217;ll say it once again: <strong>We are genetically designed to train and gain knowledge through play. Cats play with a ball of wool, dogs dramatize biting each other and we, mammalians homo sapiens, play in many <em>many</em> ways as well. We do so because Play is the framework nature gave us to gather the skills we&#8217;ll need to survive in the natural and social world.</strong></p>
+<p style="text-align:center;"><img src="http://gamesareart.files.wordpress.com/2007/11/imagen-1.png" alt="imagen-1.png" /></p>
+<p>And the main thing with traditional education is that we are too scared to change it. It&#8217;s changing how we were shaped, it&#8217;s changing the future of our kids. But what&#8217;s really scaring is realising that if you go check the compositions and writings you did in your teens about biology, chemistry, history or you-name-it, chances are that you won&#8217;t remember a single thing that you wrote back then.. and the reason is simple: you just didn&#8217;t care about those topics. And after a single glance to the Wikipedia you&#8217;ll understand those topics are so damn limited!</p>
+<p>High School education is terrible. Probably because teenagers are annoying as hell. But also because of its competitive design: <strong>Students constantly suffer the pressure of achieving good <em>Results </em>instead of focusing on the process of real <em>Learning</em>. </strong>That leads to classic end-justifying-the-means situations and thus, an average individual can&#8217;t tell what he&#8217;ll do for the rest of his life when he&#8217;s 18 years old.</p>
+<p>That needs to get fixed. And Games and Play can be part of the solution if we add to that cocktail the power of the Internet. Working on real solutions on this field sounds like an exciting solution for technologists that want to do something more than just money. And hopefully, <a href="http://laptop.org/">One Laptop Per Child</a> is only the beginning&#8230;</p>
+<img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/gamesareart.wordpress.com/317/" /> <img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/gamesareart.wordpress.com/317/" /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/gamesareart.wordpress.com/317/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/gamesareart.wordpress.com/317/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godelicious/gamesareart.wordpress.com/317/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/gamesareart.wordpress.com/317/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gostumble/gamesareart.wordpress.com/317/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/gamesareart.wordpress.com/317/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godigg/gamesareart.wordpress.com/317/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/gamesareart.wordpress.com/317/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/goreddit/gamesareart.wordpress.com/317/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/gamesareart.wordpress.com/317/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=gamesareart.com&blog=793217&post=317&subd=gamesareart&ref=&feed=1" /></div>]]></content:encoded>
+			<wfw:commentRss>http://gamesareart.com/2007/11/08/rant-on-education/feed/</wfw:commentRss>
+	
+		<media:content url="http://a.wordpress.com/avatar/santisiri-128.jpg" medium="image">
+
+			<media:title type="html">santisiri</media:title>
+		</media:content>
+
+		<media:content url="http://gamesareart.wordpress.com/files/2007/11/imagen-1.png" medium="image">
+			<media:title type="html">imagen-1.png</media:title>
+		</media:content>
+	</item>
+		<item>
+
+		<title>The Conscious Web</title>
+		<link>http://gamesareart.com/2007/10/23/the-conscious-web/</link>
+		<comments>http://gamesareart.com/2007/10/23/the-conscious-web/#comments</comments>
+		<pubDate>Tue, 23 Oct 2007 04:03:31 +0000</pubDate>
+		<dc:creator>Santi Siri</dc:creator>
+		
+		<category><![CDATA[philosophy]]></category>
+
+		<category><![CDATA[technology]]></category>
+
+		<category><![CDATA[web 2.0]]></category>
+
+		<guid isPermaLink="false">http://gamesareart.com/2007/10/23/the-conscious-web/</guid>
+		<description><![CDATA[This is a thought that I had on my mind for a very long time, and actually wrote about it in very metaphorical terms a couple years ago. As the web keeps evolving, the sensation that this collective construction is slowly awakening is getting stronger.
+ 
+Globalization is leading us to create an universal system to [...]]]></description>
+			<content:encoded><![CDATA[<div class='snap_preview'><br /><p>This is a thought that I had on my mind for a very long time, and actually wrote about it in very metaphorical terms a couple years ago. <strong>As the web keeps evolving, the sensation that this collective construction is slowly awakening is getting stronger.</strong></p>
+<p align="center"> <img src="http://gamesareart.files.wordpress.com/2007/10/111936073_c8136ec32f.jpg?w=444&h=333" alt="111936073_c8136ec32f.jpg" height="333" width="444" /></p>
+<p>Globalization is leading us to create an universal system to access all the knowledge we have acquired throughout 10,000 years of recorded history. Each website, more and more, seems to me as an isolated neuron were a central nervous system such as <a href="http://en.wikipedia.org/wiki/Google">Google</a> is obsessed in extracting sense from all of the chaos. <a href="http://en.wikipedia.org/wiki/Wikipedia">Wikipedia</a> <em>is</em> the universal memory resource of the world. All the digital cameras out there are the eyes of this living system that will later obtain meaning through <a href="http://www.flickr.com">Flickr</a>. And the tiny messages sent to <a href="http://www.twitter.com/santisiri">Twitter</a> are the kind of random thoughts planet Earth likes to have when it feels bored (or inspired).</p>
+<p>The more global consciousness invades us, the closer to the notion of a living Earth we might get. <strong>Just think about all the media obsession about global warming&#8230; has technology permitted the consciousness of the Earth to output it&#8217;s pain? </strong></p>
+<p>And it has happened before. Our individual consciousness is the product of millions of years in evolution that took single-cell life onto the multi-cellular systems we are made of today. And probably our current thoughts are the fiction produced by millions of cells interacting with each other right now.</p>
+<p>So I wonder.. am I writing this or is it the earth expressing itself?</p>
+<img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/gamesareart.wordpress.com/314/" /> <img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/gamesareart.wordpress.com/314/" /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/gamesareart.wordpress.com/314/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/gamesareart.wordpress.com/314/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godelicious/gamesareart.wordpress.com/314/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/gamesareart.wordpress.com/314/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gostumble/gamesareart.wordpress.com/314/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/gamesareart.wordpress.com/314/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godigg/gamesareart.wordpress.com/314/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/gamesareart.wordpress.com/314/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/goreddit/gamesareart.wordpress.com/314/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/gamesareart.wordpress.com/314/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=gamesareart.com&blog=793217&post=314&subd=gamesareart&ref=&feed=1" /></div>]]></content:encoded>
+			<wfw:commentRss>http://gamesareart.com/2007/10/23/the-conscious-web/feed/</wfw:commentRss>
+	
+		<media:content url="http://a.wordpress.com/avatar/santisiri-128.jpg" medium="image">
+
+			<media:title type="html">santisiri</media:title>
+		</media:content>
+
+		<media:content url="http://gamesareart.wordpress.com/files/2007/10/111936073_c8136ec32f.jpg" medium="image">
+			<media:title type="html">111936073_c8136ec32f.jpg</media:title>
+		</media:content>
+	</item>
+		<item>
+
+		<title>Philosophical Rugby</title>
+		<link>http://gamesareart.com/2007/10/06/philosophical-rugby/</link>
+		<comments>http://gamesareart.com/2007/10/06/philosophical-rugby/#comments</comments>
+		<pubDate>Sat, 06 Oct 2007 21:22:20 +0000</pubDate>
+		<dc:creator>Santi Siri</dc:creator>
+		
+		<category><![CDATA[games]]></category>
+
+		<category><![CDATA[philosophy]]></category>
+
+		<category><![CDATA[play]]></category>
+
+		<guid isPermaLink="false">http://gamesareart.com/2007/10/06/philosophical-rugby/</guid>
+		<description><![CDATA[Just like music, were Tango defines Argentine identity or Samba speaks Brazil&#8217;s rythm; sports emerge from cultures expressing their influences and virtues. American Football is the american adaptation of Rugby were they&#8217;ve created a propietary version of the sport that works perfect for broadcasting TV commercials and it&#8217;s focused on technological innovation. Meanwhile, Rugby represents [...]]]></description>
+			<content:encoded><![CDATA[<div class='snap_preview'><br /><p><strong>Just like music, were Tango defines Argentine identity or Samba speaks Brazil&#8217;s rythm; sports emerge from cultures expressing their influences and virtues.</strong> American Football is the american adaptation of Rugby were they&#8217;ve created a propietary version of the sport that works perfect for broadcasting TV commercials and it&#8217;s focused on technological innovation. Meanwhile, Rugby represents the european tradition of fighting with barely any protections on for the oval ball.</p>
+<p style="text-align:center;"><img src="http://gamesareart.files.wordpress.com/2007/10/imagen-2.png?w=448&h=282" alt="imagen-2.png" height="282" width="448" /></p>
+<p> Right now, the <a href="http://en.wikipedia.org/wiki/Rugby_world_cup">rugby world cup</a> is being held at france. Argentina&#8217;s <a href="http://en.wikipedia.org/wiki/Argentina_national_rugby_union_team">Pumas</a> are this year&#8217;s revelation after beating the strong teams of France and Ireland. And the thing it got to my attention about Rugby is how it was perceived by french philosopher Catherine Kintzler:</p>
+<blockquote><p><em>Rugby is a dialectical activity were you must conciliate the opposites, and the opposition. The movements are opposite within them: you must pass the ball backwards in order to move forwards; and the ball must be kept close and at the same time far away: stuck to your body while running, but released if you are falling after a tackle. That means that all actions are symmetrically oppossed.</em></p></blockquote>
+<p align="left">Also, unlike other sports, some Rugby teams perform amazing theatrical performances to energize their spirits before playing the game. Such is the case of the world famous New Zealand team: <a href="http://en.wikipedia.org/wiki/All_blacks"><em>All Blacks</em></a> and their ancient maori <a href="http://en.wikipedia.org/wiki/Haka_of_the_All_Blacks">Haka dance</a>. It&#8217;s not common to see the notion of Play of theater and sports united like this.</p>
+<p align="center"><span style="text-align:center; display: block;"><a href="http://gamesareart.com/2007/10/06/philosophical-rugby/"><img src="http://img.youtube.com/vi/83U_Vg1GRvA/2.jpg" alt="" /></a></span></p>
+<img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/gamesareart.wordpress.com/312/" /> <img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/gamesareart.wordpress.com/312/" /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/gamesareart.wordpress.com/312/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/gamesareart.wordpress.com/312/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godelicious/gamesareart.wordpress.com/312/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/gamesareart.wordpress.com/312/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gostumble/gamesareart.wordpress.com/312/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/gamesareart.wordpress.com/312/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godigg/gamesareart.wordpress.com/312/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/gamesareart.wordpress.com/312/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/goreddit/gamesareart.wordpress.com/312/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/gamesareart.wordpress.com/312/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=gamesareart.com&blog=793217&post=312&subd=gamesareart&ref=&feed=1" /></div>]]></content:encoded>
+			<wfw:commentRss>http://gamesareart.com/2007/10/06/philosophical-rugby/feed/</wfw:commentRss>
+	
+		<media:content url="http://a.wordpress.com/avatar/santisiri-128.jpg" medium="image">
+
+			<media:title type="html">santisiri</media:title>
+		</media:content>
+
+		<media:content url="http://gamesareart.wordpress.com/files/2007/10/imagen-2.png" medium="image">
+			<media:title type="html">imagen-2.png</media:title>
+		</media:content>
+	</item>
+		<item>
+
+		<title>When Books Were Technology</title>
+		<link>http://gamesareart.com/2007/10/01/when-books-were-technology/</link>
+		<comments>http://gamesareart.com/2007/10/01/when-books-were-technology/#comments</comments>
+		<pubDate>Mon, 01 Oct 2007 15:50:02 +0000</pubDate>
+		<dc:creator>Santi Siri</dc:creator>
+		
+		<category><![CDATA[art]]></category>
+
+		<category><![CDATA[education]]></category>
+
+		<category><![CDATA[philosophy]]></category>
+
+		<category><![CDATA[technology]]></category>
+
+		<guid isPermaLink="false">http://gamesareart.com/2007/10/01/when-books-were-technology/</guid>
+		<description><![CDATA[In a world of exponential technological growth, inventions from the past can sometimes be perceived as a common thing from nature. Books in particular, have been with us for so many centuries that we often forget they are one of the most important pieces of technology ever created.
+The greatest contributor to books in the spanish [...]]]></description>
+			<content:encoded><![CDATA[<div class='snap_preview'><br /><p>In a world of <a href="http://www.ted.com/index.php/talks/view/id/38?gclid=CPDSveb-7Y4CFQUoZAodVCQHEQ">exponential technological growth</a>, inventions from the past can sometimes be perceived as a common thing from nature. Books in particular, have been with us for so many centuries that we often forget they are one of the most important pieces of technology ever created.</p>
+<p><strong>The greatest contributor to books in the spanish language from the last century by using these to artistically express himself (just like games exploit computers for that very same expressive purpose and in many languages as well (C, Actionscript or Java)) was, without any doubt, <a href="http://en.wikipedia.org/wiki/Jorge_Luis_Borges">Jorge Luis Borges</a>. </strong>Few like him make me feel proud of the nationality I never chose.</p>
+<p align="center"><img src="http://gamesareart.files.wordpress.com/2007/10/20070924aba981.jpg?w=344&h=459" alt="20070924aba981.jpg" height="459" width="344" /></p>
+<p>A particular short essay from him got my attention a few weeks ago.<strong> In his book <em>Other Inquisitions </em>he explores the birth of reading, he reminds the reader that back in the egyptian times books were received with reactionary comments, for them, they were &#8220;like painted figures that seem alive but never answer a single question asked to them&#8221; and they eventually provoke that &#8220;people stop using their memory and become dependant on symbols&#8221;. </strong></p>
+<p>The voice, in all cultures, was regarded as a sacred sound that had more power than symbols themselves. Reading was always a communal excercise were one read for the others to hear.</p>
+<p>Borges finally recalls a writing from Saint Augustine from the 2nd century were he witnesses that precise moment when man seemed to begin reading in silence:</p>
+<p align="center"><em>When Ambrosio read, he passed his view over the pages penetrating their soul, in the sense, of not conveying a single word nor even moving the tongue.</em></p>
+<p align="left">We already know how computers are changing our culture and  law as we know it. How is it changing our minds?</p>
+<img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/gamesareart.wordpress.com/310/" /> <img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/gamesareart.wordpress.com/310/" /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/gamesareart.wordpress.com/310/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/gamesareart.wordpress.com/310/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godelicious/gamesareart.wordpress.com/310/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/gamesareart.wordpress.com/310/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gostumble/gamesareart.wordpress.com/310/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/gamesareart.wordpress.com/310/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godigg/gamesareart.wordpress.com/310/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/gamesareart.wordpress.com/310/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/goreddit/gamesareart.wordpress.com/310/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/gamesareart.wordpress.com/310/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=gamesareart.com&blog=793217&post=310&subd=gamesareart&ref=&feed=1" /></div>]]></content:encoded>
+			<wfw:commentRss>http://gamesareart.com/2007/10/01/when-books-were-technology/feed/</wfw:commentRss>
+
+	
+		<media:content url="http://a.wordpress.com/avatar/santisiri-128.jpg" medium="image">
+			<media:title type="html">santisiri</media:title>
+		</media:content>
+
+		<media:content url="http://gamesareart.wordpress.com/files/2007/10/20070924aba981.jpg" medium="image">
+			<media:title type="html">20070924aba981.jpg</media:title>
+		</media:content>
+	</item>
+
+		<item>
+		<title>Karma Banana</title>
+		<link>http://gamesareart.com/2007/09/04/karma-banana/</link>
+		<comments>http://gamesareart.com/2007/09/04/karma-banana/#comments</comments>
+		<pubDate>Tue, 04 Sep 2007 10:53:51 +0000</pubDate>
+		<dc:creator>Santi Siri</dc:creator>
+
+		
+		<category><![CDATA[personal]]></category>
+
+		<category><![CDATA[philosophy]]></category>
+
+		<category><![CDATA[politics]]></category>
+
+		<guid isPermaLink="false">http://gamesareart.com/2007/09/04/karma-banana/</guid>
+		<description><![CDATA[Debating politics is probably the most excting form of dialectical gaming. Gaming because it gives us tools we eventually use for our survival in the social world. And even when it&#8217;s with bright and smart individuals, it may go beyond the boundaries of reason onto the realms of passion. But the thing with politics is [...]]]></description>
+			<content:encoded><![CDATA[<div class='snap_preview'><br /><p>Debating politics is probably the most excting form of dialectical gaming. Gaming because it gives us tools we eventually use for our survival in the social world. And even when it&#8217;s with bright and smart individuals, it may go beyond the boundaries of reason onto the realms of passion. But the thing with politics is that we definitely take it too seriously: Our pride makes us stubborn on changing our opinion and thus, it makes harder to understand our opponents points. And this is a good thing for me: The stronger the collision of ideas, the better the outcome in the long term, when reflection comes.</p>
+<p style="text-align:center;"><img src="http://banana.xar.us/Budha_Banana.jpg" alt="Karma Banana" height="334" width="425" /></p>
+<p>After taking the reccommendation of Papamook and Patrick Dugan, I saw the excellent piece of documentary <a href="http://video.google.com/videoplay?docid=5832390545689805144&amp;pr=goog-sl">The Revolution Will Not Be Televised</a>. A great testimony of the coup Hugo Chavez had back in 2002 and proof of the importance of the so called <em>Fourth Power</em>. Yet, although the events portrayed in this documentary may certainly be important to Venezuela&#8217;s history or unknown to the institutional traditions of USA, Europe or Australia they aren&#8217;t even a novelty if we correlate them to the history of Argentina (and so many other latinamerican nations).</p>
+<p><strong>This documentary is about the karmic spectre that has been haunting latinamerica -the spectre of Populism, the spectre of Dictatorships. The vicious circle that keeps trapping real progress. </strong></p>
+<p>Throughout history, dictatorships and the shameful external politics of the United States have been the best allies of leaders such as Peron, Chavez or Castro -you know, that kind of leader that has a thrill for reforming constitutions and get eternal presidencies at the same time they declare themselves men of the people and democracy. Nobody, in its sane mind, would prefer a dictatorship. And when that happens, it only helps to expand the figure of such leaders. It happened over and over again in Argentina during the second half of the XXth century.</p>
+<p>I&#8217;ll put a personal note here to make clear were I&#8217;m standing: My big interest for politics came when I read for the first time <a href="http://books.google.com.ar/books?id=7Xa6W34FOw8C&amp;dq=&amp;pg=PP1&amp;ots=b6kI9B19r6&amp;sig=aKP24-luBnnNOwlMFeNbB0T6MWQ&amp;prev=http://www.google.com.ar/search%3Fq%3Dcommunist%2Bmanifesto%26ie%3Dutf-8%26oe%3Dutf-8%26aq%3Dt%26rls%3Dorg.mozilla:es-AR:official%26client%3Dfirefox-a&amp;sa=X&amp;oi=print&amp;ct=title">The Communist Manifesto</a>, a piece of writing that still feels updated today. Since then a lot of utopias inspired me to pursue a path that would help me contribute in the process of making a better world. But when I went to Cuba for a month, it taught me many things and the essential difference of having an idea and living a reality. One thing came up clear to me: <strong>Ideologies are just like religions (but without the god thing). They only blind people behind impossible ideals and lead to massive wars.</strong></p>
+<img alt="" border="0" src="http://feeds.wordpress.com/1.0/categories/gamesareart.wordpress.com/304/" /> <img alt="" border="0" src="http://feeds.wordpress.com/1.0/tags/gamesareart.wordpress.com/304/" /> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gocomments/gamesareart.wordpress.com/304/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/gamesareart.wordpress.com/304/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godelicious/gamesareart.wordpress.com/304/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/gamesareart.wordpress.com/304/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/gostumble/gamesareart.wordpress.com/304/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/gamesareart.wordpress.com/304/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/godigg/gamesareart.wordpress.com/304/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/gamesareart.wordpress.com/304/" /></a> <a rel="nofollow" href="http://feeds.wordpress.com/1.0/goreddit/gamesareart.wordpress.com/304/"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/gamesareart.wordpress.com/304/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=gamesareart.com&blog=793217&post=304&subd=gamesareart&ref=&feed=1" /></div>]]></content:encoded>
+			<wfw:commentRss>http://gamesareart.com/2007/09/04/karma-banana/feed/</wfw:commentRss>
+
+	
+		<media:content url="http://a.wordpress.com/avatar/santisiri-128.jpg" medium="image">
+			<media:title type="html">santisiri</media:title>
+		</media:content>
+
+		<media:content url="http://banana.xar.us/Budha_Banana.jpg" medium="image">
+			<media:title type="html">Karma Banana</media:title>
+		</media:content>
+	</item>
+
+	</channel>
+</rss>

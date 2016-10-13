@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/private/popego/main/!svn/ver/1215/trunk/jq/bin
+END
+run-server.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/private/popego/main/!svn/ver/463/trunk/jq/bin/run-server.sh
+END
+clean-popego-start-server.sh
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/private/popego/main/!svn/ver/1120/trunk/jq/bin/clean-popego-start-server.sh
+END
+stop-server.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/private/popego/main/!svn/ver/463/trunk/jq/bin/stop-server.sh
+END
+alpha-popego-queue-ctl.sh
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/private/popego/main/!svn/ver/1126/trunk/jq/bin/alpha-popego-queue-ctl.sh
+END
+clean-popego-stop-server.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/private/popego/main/!svn/ver/1120/trunk/jq/bin/clean-popego-stop-server.sh
+END

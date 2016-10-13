@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* PNG Transparency en imagenes de background */
+
+/* 
+  Complemento de card_content_bubble.css.
+  Hacks menores estan en el archivo mencionado.
+*/
+
+#popcard .menu_button_selected {
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + Popego.Env.baseUrl + "/images/widget/button_tab_active.png', sizingMethod='scale')"
+    );
+}
+
+#popcard .cmd_close {	
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + Popego.Env.baseUrl + "/images/widget/button_close_idle.png', sizingMethod='scale')"
+    );
+	
+	_over: expression(onmouseover=new Function("this.style.cursor='hand'"));
+    _out: expression(onmouseout=new Function("this.style.cursor=''"));	
+}
+
+/**************************************************************************************************/
+
+/* 
+  Complemento de card_content_bubble.css.
+  Hacks menores estan en el archivo mencionado.
+*/
+#popbubble.dialog .content,
+#popbubble.dialog .t,
+#popbubble.dialog .b,
+#popbubble.dialog .b div {
+	_background: none;
+}
+
+#popbubble.dialog .content .wrapper_white {
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + Popego.Env.baseUrl + "/images/widget/card_background_white.png', sizingMethod='scale')"
+    )
+}
+
+/**************************************************************************************************/
+
+/* 
+  Complemento de card_content_default.css.
+  Hacks menores estan en el archivo mencionado.
+*/
+
+.thumb_mask {
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/widget/thumbnail_idle.png', sizingMethod='image')"
+    );
+}
+
+/* Section: Media */
+.category strong {
+    _over: expression(onmouseover=new Function("this.style.textDecorationUnderline='true'; this.style.cursor='hand'"));
+    _out: expression(onmouseout=new Function("this.style.textDecorationUnderline=''; this.style.cursor=''"));
+}
+
+
+/* Sub Section: Pictures */
+/*.index_item_post,*/
+.index_item {
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/widget/card_footer_background.png', sizingMethod='scale')"
+    );
+	_background-color: #e9e9e9;
+	
+	_over: expression(onmouseover=new Function("this.style.cursor='hand';this.style.backgroundColor='ffffff'"));
+    _out: expression(onmouseout=new Function("this.style.cursor='';this.style.backgroundColor='e9e9e9'"));
+}

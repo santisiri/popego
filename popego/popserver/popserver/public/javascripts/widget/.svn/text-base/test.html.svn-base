@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Galore, ahora seeee!</title>
+    <style>
+html,
+body {
+  
+}
+#list .view {
+   margin:0;
+   padding:0;
+   height:100%;
+   border:1px solid red;
+}
+ 
+#list .viewport {
+   min-height:100%;
+   position:relative; 
+}
+
+#top_shadow {
+   background:#ff0;
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the bottom_shadow */
+}
+#bottom_shadow {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the bottom_shadow */
+   background:#6cf;
+}
+
+#list {
+   height:100%;
+}
+    </style>
+</head>
+<body>
+    <!--Aca un widget
+    <div style="border:1px solid red">
+        <script type="text/javascript">
+            gWidgetDescriptor = {key:(new Date().getTime()), user:"manuel", theme:"tff900a", type:"default"};
+        </script>
+        <script type="text/javascript" src="popego.js"></script>
+    </div>
+    
+    Aca otro
+    <div style="border:1px solid red">
+        <script type="text/javascript">
+            gWidgetDescriptor = {key:(new Date().getTime()), user:"mariano", theme:"tff900a", type:"default"};
+        </script>
+        <script type="text/javascript" src="popego.js"></script>
+    </div>
+    
+    Y otro mas
+    <div style="border:1px solid red">
+        <script type="text/javascript">
+            gWidgetDescriptor = {key:(new Date().getTime()), user:"santi", theme:"tff3366", type:"default"};
+        </script>
+        <script type="text/javascript" src="popego.js"></script>
+    </div>
+    
+    En otra fila
+    <div style="border:1px solid red">
+        <script type="text/javascript">
+            gWidgetDescriptor = {key:(new Date().getTime()), user:"fernando", theme:"tff3366", type:"default"};
+        </script>
+        <script type="text/javascript" src="popego.js"></script>
+    </div>
+    
+    Anteultimo
+    <div style="border:1px solid red">
+        <script type="text/javascript">
+            gWidgetDescriptor = {key:(new Date().getTime()), user:"santicoffey", theme:"tff3366", type:"default"};
+        </script>
+        <script type="text/javascript" src="popego.js"></script>
+    </div>
+    
+    Y este es el ultimo
+    <div style="border:1px solid red">
+        <script type="text/javascript">
+            gWidgetDescriptor = {key:(new Date().getTime()), user:"vic", theme:"tff900a", type:"default"};
+        </script>
+        <script type="text/javascript" src="popego.js"></script>
+    </div>-->
+    <div id="list" >
+       <div id="top_shadow"></div>
+       <div class="viewport">
+        <div id="body"></div>
+        <div id="bottom_shadow"></div>
+       </div>
+    </div>
+</body>
+</html>

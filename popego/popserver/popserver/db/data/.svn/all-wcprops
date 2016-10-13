@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/private/popego/main/!svn/ver/1064/trunk/popserver/popserver/db/data
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/private/popego/main/!svn/ver/496/trunk/popserver/popserver/db/data/__init__.py
+END
+data_migration_000.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/496/trunk/popserver/popserver/db/data/data_migration_000.py
+END
+data_migration_010.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/566/trunk/popserver/popserver/db/data/data_migration_010.py
+END
+data_migration_001.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/496/trunk/popserver/popserver/db/data/data_migration_001.py
+END
+data_migration_011.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/608/trunk/popserver/popserver/db/data/data_migration_011.py
+END
+data_migration_002.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/510/trunk/popserver/popserver/db/data/data_migration_002.py
+END
+data_migration_012.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/627/trunk/popserver/popserver/db/data/data_migration_012.py
+END
+data_migration_003.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/506/trunk/popserver/popserver/db/data/data_migration_003.py
+END
+data_migration_013.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/802/trunk/popserver/popserver/db/data/data_migration_013.py
+END
+data_migration_004.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/510/trunk/popserver/popserver/db/data/data_migration_004.py
+END
+data_migration_014.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/989/trunk/popserver/popserver/db/data/data_migration_014.py
+END
+data_migration_005.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/512/trunk/popserver/popserver/db/data/data_migration_005.py
+END
+data_migration_015.py
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/private/popego/main/!svn/ver/1064/trunk/popserver/popserver/db/data/data_migration_015.py
+END
+data_migration_006.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/529/trunk/popserver/popserver/db/data/data_migration_006.py
+END
+data_migration_007.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/545/trunk/popserver/popserver/db/data/data_migration_007.py
+END
+data_migration_008.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/547/trunk/popserver/popserver/db/data/data_migration_008.py
+END
+data_migration_009.py
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/private/popego/main/!svn/ver/558/trunk/popserver/popserver/db/data/data_migration_009.py
+END

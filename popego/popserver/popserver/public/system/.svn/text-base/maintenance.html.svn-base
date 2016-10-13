@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Popego | The Internet meets You.</title>
+	
+	<link rel="Shortcut Icon" href="/favicon.ico">
+
+	<style type="text/css">
+	  #highlight a{color:#fff;text-decoration:underline;}.dialog{position:relative;margin:0 auto;width:100%;min-width:230px;max-width:420px;z-index:1;margin-left:8px;margin-bottom:.5em;}.dialog .bubble,.dialog .t,.dialog .b,.dialog .b div{background:transparent url(/images/website/box_lightgrey_low.png) no-repeat top right;}#highlight .dialog .bubble,#highlight .dialog .t,#highlight .dialog .b,#highlight .dialog .b div{background:transparent url(/images/website/box_highlight_low.png) no-repeat top right;color:#fff;}#highlight .dialog .bubble,.dialog .bubble{position:relative;zoom:1;padding:12px 12px 0 0;max-height:680px;_overflow-y:hidden;}#highlight .dialog .t,.dialog .t{position:absolute;left:0;top:0;width:12px;margin-left:-12px;height:100%;_height:1600px;background-position:top left;}.dialog .b{position:relative;width:100%;}.dialog .iefix{*width:229px;}.dialog .b,.dialog .b div{height:12px;font-size:1px;}#highlight .dialog .b,.dialog .b{background-position:bottom right;}#highlight .dialog .b div,.dialog .b div{position:relative;width:12px;margin-left:-12px;background-position:bottom left;}.dialog .hd,.dialog .bd,.dialog .ft{position:relative;}.dialog .wrapper{position:static;max-height:1000px;overflow:auto;}.dialog h1,.dialog p{margin:0;padding:.5em 0 .5em 0;}.dialog h1{padding-bottom:0;}
+	  html,body{height:100%;}body{font-family:Arial,Helvetica,Tahoma,sans-serif;margin:0;background:#efefef;color:#727272;font-size:16px;}a{text-decoration:none;color:#17C7E1;}a:hover{text-decoration:underline;}h1,h2,h3,h4,h5{color:#000;font-weight:normal;margin:15px 0;}h4{font-size:16px;color:#666;}h5{font-size:12px;color:#b0b0b0;}img{vertical-align:middle;border:0;}h2 strong{font-weight:normal;color:#e12c31;}input,select,textarea{font-family:Arial,Helvetica,Tahoma,sans-serif;background-color:#FFF;color:#737373;height:20px;font-size:14px;width:280px;padding:6px 4px 0 4px;border:1px solid #a9a9a9;}input:focus,textarea:focus{color:#333;}form{margin:0;}form p{margin:4px 0;}.background{background:#FFF url(../../images/website/teaser_background.jpg) no-repeat top center;max-width:1178px;min-height:630px;margin:0 auto;border-left:1px #737373 solid;border-right:1px #737373 solid;height:100%;_width:83%;}.wave{height:350px;width:100%;}.topbar{width:100%;height:53px;text-align:center;}.content{width:815px;margin:0 auto;height:100%;}.teaser_widget{position:relative;margin-top:112px;width:266px;float:left;}.hello_box{display:block;position:relative;_padding-top:4px;}.teaser_popcard{position:relative;width:469px;height:430px;margin-top:98px;margin-left:-30px;float:left;padding:32px 35px 20px 55px;}.signup_extended_form,.explanation_box{position:relative;top:10px;font-size:14px;line-height:26px;border-top:dashed 1px #ccc;padding:10px 0;_padding:1px 0;}.signup_extended_form{*padding-left:10px;*padding-top:5px;}.explanation_box ul{list-style:none;padding:0;margin:0;display:table;white-space:nowrap;}.explanation_box p{clear:both;}.explanation_box li{float:left;position:relative;margin:4px 6px;line-height:6px;}.explanation_box li img{width:16px;height:16px;}.dialog{font-size:11px;max-width:463px;margin-top:12px;margin-left:12px;}.signup_extended_form .dialog{font-size:12px;line-height:20px;margin-top:0;}.signup_extended_form h1{font-size:18px;font-weight:bold;}.signup_extended_form h3{color:#0a6;padding:0;}.short{width:162px;margin-right:4px;}.dialog p{padding:5px 0;}.signup_extended_form .dialog form{margin:4px 0 0 10px;_margin:0;}.dialog{margin-top:20px;}.signup_extended_form .dialog{margin-top:12px;}.signup_extended_form .dialog p{padding:0;}.dialog label{display:block;font-size:11px;}.signup_extended_form li{display:table-cell;float:left;margin-right:10px;}.signup_extended_form ul{display:table;padding:0;margin:2px 0;clear:both;}.checkbox{margin:8px 0;width:16px;height:16px;}.side_label{margin-top:-29px;_margin-top:-26px;margin-left:24px;}.dialog .bubble{padding-left:8px;}.signup_button_small,.signup_button{border:0;float:left;color:#fff;text-align:center;font-size:16px;}.signup_button{margin-top:-65px;background:url(/images/website/signup_button.png) no-repeat top left;width:126px;height:72px;padding-bottom:32px;float:right;cursor:pointer;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/website/signup_button.png',sizingMethod='image');}.signup_button_small{background:url(../../images/website/signup_button_small.png) no-repeat top left;width:200px;height:44px;padding-bottom:9px;margin-top:5px;cursor:pointer;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/website/signup_button_small.png',sizingMethod='image');}.signup_button_small:hover,.signup_button:hover{background:url(../../images/website/signup_button_hover.png) no-repeat top left;}.signup_button_small:hover{background:url(../../images/website/signup_button_small.png) no-repeat top left;text-decoration:underline;}.final_links,.final_links_alt{float:right;font-size:12px;color:#999;position:relative;text-align:center;margin-top:-10px;}.final_links_alt{width:210px;padding-top:2px;}.final_links,.final_links a{padding-left:10px;text-align:right;margin:20px 0;margin-right:60px;}.final_links a{border-left-style:solid;border-left-color:#909090;border-left-width:1px;margin:0 5px;}.error{color:#f36;font-size:11px;}.error ul{display:block;padding:0;margin-top:0;_margin-left:0;_margin-bottom:5px;}.error li{display:block;float:none;line-height:15px;}.dialog .bubble,.dialog .t,.dialog .b,.dialog .b div{background:transparent url(/images/website/box_alpha_low.png) no-repeat top right;}.dialog .t{position:absolute;left:0;top:0;width:18px;margin-left:-18px;height:100%;_height:1600px;background-position:top left;}.dialog .bubble{position:relative;zoom:1;_overflow-y:hidden;padding:10px 18px 0 0;max-height:680px;}.dialog .b{background-position:bottom right;}.dialog .b,.dialog .b div{height:18px;font-size:1px;}.dialog .b div{position:relative;width:18px;margin-left:-18px;background-position:bottom left;}
+	</style>
+	
+	<!-- NOTA: Script que borra el contenido de los textfields al clickearlos -->
+	<script language="javascript" src="/javascripts/base.js"></script>
+
+	<!--[if lt IE 7.]>
+	<script defer type="text/javascript" src="/javascripts/pngfix.js"></script>
+	<![endif]-->
+	
+</head>
+<body>
+
+<div class="background">
+	
+<div class="content">
+
+	<!-- Teaser Widget -->
+	<div class="teaser_widget" >
+		<img src="/images/website/teaser_widget.png" width="266px" height="385px" />
+	</div>
+	<!-- End of Teaser Widget -->
+	
+	<!-- Teaser Popcard -->
+	<!--<div class="teaser_popcard_background">
+		<img src="/images/website/teaser_popcard.png" width="554px" height="487px" />
+	</div>-->
+	<div class="teaser_popcard">
+		<img src="/images/website/teaser_popcard.png" width="554px" height="487px" style="position:absolute; top:0px; left:0px; z-index:0;" />
+		
+		<div class="hello_box">
+			<img src="images/website/alpha_slogan.png" title="Click to learn more." style="margin:17px"/>
+			<!--<h2>Popego empowers your <strong>digital life</strong> to a whole new level of communication.</h2>
+			<h3><a href="#">Gather everything, be everywhere.</a></h3>-->
+		</div>
+				
+		<!-- NOTA: En Explanation Box, el link que dice "Learn More" y tambein el link de arriba ("Gather everything..") 
+				   le pone el display:none al DIV de abajo y muestra el DIV de mas abajo (Explanation Box FULL SIZE) -->
+		
+		<!-- Explanation Box -->
+		<div class="explanation_box" style="display:block">
+			<!--<p>The web is beautiful. You can share videos at <a href="#">youtube</a>, pictures at <a href="#">flickr</a>, links at <a href="#">delicious</a> or contacts at <a href="#">facebook</a>. These and other services do a terrific job at their task. But as a user, you end up having your identity fragmented with many profiles: one for each service you want to use.</p>-->
+			<!--<p>Popego is a universal widget that feeds from all the web services you love to use. It can easily be embedded on any blog, forum or website. And when you find a Popego anywhere online, you'll discover the real people behind the username. <a href="#">Learn more.</a></p>-->
+			<br><br>
+			<h2 style="color:#666">We are maintaining our servers at the moment.</h2>
+			<!--<strong>The scheduled time for this is from 7.00 PM to 10.00 PM PST.</strong>-->
+			<p>
+			You may experience temporary service interruption in the next hour or so.
+			<br>We apologize for the inconvenience caused. For more information about Popego you can visit <a href="http://blog.popego.com/">our blog</a>.
+			</p>
+		</div>
+		<!-- End of Explanation Box -->
+		
+					
+		
+	</div>
+	<!-- End Teaser Popcard -->
+	
+	<img src="images/website/wazaaa.png" style="position:absolute; float:right; margin-left:790px; margin-top:-390px">	
+	
+	<div class="final_links">
+		&copy; 2008 Popego Inc.
+		<a href="http://blog.popego.com/">Pop Blog</a>
+		<a href="#">Contact Us</a>		
+	</div>
+</div>
+
+</div>
+
+</body>
+</html>

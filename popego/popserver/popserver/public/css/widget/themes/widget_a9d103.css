@@ -1,0 +1,14 @@
+/*******************************
+ ** Widget Theme: a9d103
+ ** Base Color: #a9d103
+ ******************************/
+#popego.widget {
+	background:url(/images/widget/widget_background_a9d103.png) top left no-repeat;
+	/* IE */
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + Popego.Env.baseUrl + "/images/widget/widget_background_a9d103.png', sizingMethod='scale')",
+		this.style.width = "143px",
+		this.style.height = "235px"
+    );
+}

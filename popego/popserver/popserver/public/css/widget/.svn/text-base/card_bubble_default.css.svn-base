@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*************************************** Reset Styles ********************************************/
+#popcard.dialog {
+	margin: 0;
+}
+
+#popcard.dialog .content {
+	float:none;
+	padding: 0;
+}
+
+#popcard .menu {
+	background: none;
+}
+/*************************************************************************************************/
+
+
+
+/********* iFrame & Top Menu ************/
+
+#popcard {
+	font-size:13px;
+	font-family: Arial, Tahoma, FreeSans, sans-serif;
+	text-align: left;
+}
+
+#popcard iframe {
+	position: relative;
+	margin: 14px 0 0 -14px;
+	width: 410px;
+	height: 101%;
+	z-index:9998;
+	clear:both;
+	
+	/* IE 6 */
+	_height: 430px;
+	_margin: -10px 0 0 14px;
+}
+
+#popcard a {
+	text-decoration:none;
+}
+
+#popcard .menu {
+	font-weight:bold;
+	z-index:9999;
+	position:relative;
+	float:left;
+	margin: 20px 0 -11px 0;	
+	
+	/* IE 6 */
+	_margin: -5px 0px 0px 8px;
+}
+
+#popcard .menu_button_selected,
+#popcard .menu a {
+	float:left;
+	/*background-image:url(../../images/widget/button_tab_idle.png);
+	background-repeat:repeat-x;
+	background-position:top left;*/	
+	padding-top:6px;
+	/*width:76px;*/
+	text-align:center;
+	margin-right:15px;
+}
+
+#popcard .menu a {
+	color:#FFF;
+}
+
+#popcard .menu a:hover {
+	/*background-image:url(../../images/widget/button_tab_over.png);*/
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+#popcard .menu img {
+	float:left;
+	vertical-align:middle;
+	/*margin:-2px 10px 0 -18px; */
+	
+	margin:0px 5px 0px -14px;
+	
+	/* IE 6 */
+	_margin: 0 10px 0 0;
+}
+
+#popcard .menu_button_selected {
+	background-image:url(/images/widget/button_tab_active.png);
+	background-repeat:no-repeat;
+	
+	/* IE */
+	_background: none;
+	/* ARREGLARRRRRRRRRRRRRRRRRRRRRRRRRR */ 
+	/*_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + Popego.Env.baseUrl + "images/widget/button_tab_active.png', sizingMethod='scale')"
+    );*/
+	
+	height:40px;
+	width:76px;
+	padding-top:5px;
+	/*margin-top:2px;
+	height:34px;
+	width:71px;
+	margin:0pt -2px 0pt -6px;
+	padding:8px 0px 0px; */
+}
+
+#popcard .menu .button_bar {
+	width: 100%;
+	
+	/* IE 6 */
+	_position: absolute; 
+	_margin-left: 10px;
+}
+
+#popcard .cmd_close {
+	width:24px;
+	height:24px;
+	
+	background-image:url(/images/widget/button_close_idle.png);
+	background-repeat:no-repeat;
+	
+	/* IE */
+	_background: none;
+	/* ARREGLARRRRRRRRRRRR */
+	/*_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + Popego.Env.baseUrl + "images/widget/button_close_idle.png', sizingMethod='scale')"
+    );*/
+	
+	z-index:9999;
+	float:right;
+	position:relative;
+	margin:15px 15px 0 0;  _margin:-10px 0 0 0; /* IE */
+	
+	/* IE Hover */
+	_over: expression(onmouseover=new Function("this.style.cursor='hand'"));
+    _out: expression(onmouseout=new Function("this.style.cursor=''"));	
+}
+
+#popcard .cmd_close:hover {
+	cursor:pointer;
+	background-image:url(../../images/widget/button_close_over.png);
+}
+
+#popcard .logo {
+/*	float:left;*/
+	position:relative;
+	z-index:9998;
+	display:table;
+	float:left;
+	margin:-6px 0 0 -16px;
+}
+
+#popcard .logo img {
+	vertical-align:middle;	
+	width:24px;
+	height:24px;
+}
+
+/********* Dynamic Bubble Design ************/
+/* 
+  -- Even more rounded corners with CSS: Base stylesheet --
+*/
+
+#popcard.dialog {
+	position: absolute;	
+	width:430px; _width:460px;
+	height:100%;
+	min-width:300px;
+	max-width:515px; /* based on image dimensions - not quite consistent with drip styles yet */
+	color:#fff;
+	z-index:9999;
+	
+	margin-left:35px; /* default, width of left corner */
+	margin-top:-12px;
+	margin-bottom: 0.5em; /* spacing under dialog */
+	
+	max-height:640px;
+	display:block;
+}
+
+#popcard .content {
+	height:100%;
+}
+
+/*#popcard.dialog .content,
+#popcard.dialog .t,
+#popcard.dialog .b,
+#popcard.dialog .b div {
+	background:transparent url(/images/widget/card_background_pink.png) no-repeat top right;
+	/* IE 
+	_background: none;
+}*/
+
+#popcard.dialog .content {
+	position: relative;
+}
+/*
+#popcard.dialog .content .wrapper_pink {
+	/* IE */	
+	/*_height: 1px; /* Para que se active isLayout y se acomode */
+	/*_padding:23px 12px 20px 0px;
+	_background: none;
+	_background-image: expression(
+        this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + Popego.Env.baseUrl + "images/widget/card_background_pink.png', sizingMethod='scale')"
+    );
+}*/
+
+#popcard.dialog .t {
+	/* top+left vertical slice */
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:35px; /* top slice width */
+	margin-left:-35px;
+	height:100%;
+	background-position:top left;
+}
+
+#popcard.dialog .b {
+	/* bottom */
+	position:relative;
+	width:100%;
+	
+	/* IE 7 */
+	*z-index:-1;
+}
+
+#popcard.dialog .b,
+#popcard.dialog .b div {
+	height:33px; /* height of bottom cap/shade */
+	font-size:1px;
+}
+
+#popcard.dialog .b {
+	background-position:bottom right;
+}
+
+#popcard.dialog .b div {
+	position:relative;
+	width:35px; /* bottom corner width */
+	margin-left:-35px;
+	background-position: bottom left;
+}
+
+#popcard.dialog .header,
+#popcard.dialog .footer {
+	position:absolute;
+}
+
+/*#popcard.dialog .wrapper {
+	/* extra content protector - preventing vertical overflow (past background) */
+	/*position:static;*/
+	/*max-height:1000px;*/
+	/*overflow:auto; /* note that overflow:auto causes a rather annoying redraw "lag" in Firefox 2, and may degrade performance. Might be worth trying without if you aren't worried about height/overflow issues. */
+/*}*/
+
+#popcard.dialog h1,
+#popcard.dialog p {
+	margin:0px; /* margins will blow out backgrounds, leaving whitespace. */
+	padding:0.5em 0px 0.5em 0px;
+}
+
+#popcard.dialog h1 {
+	padding-bottom:0px;
+}

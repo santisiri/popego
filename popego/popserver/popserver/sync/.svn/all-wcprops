@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/private/popego/main/!svn/ver/1064/trunk/popserver/popserver/sync
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/private/popego/main/!svn/ver/358/trunk/popserver/popserver/sync/__init__.py
+END
+cache.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/private/popego/main/!svn/ver/1045/trunk/popserver/popserver/sync/cache.py
+END
+item_factory.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/private/popego/main/!svn/ver/1064/trunk/popserver/popserver/sync/item_factory.py
+END

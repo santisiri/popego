@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/private/popego/main/!svn/ver/844/trunk/popserver/popserver/cron
+END
+compatibility.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/private/popego/main/!svn/ver/762/trunk/popserver/popserver/cron/compatibility.py
+END
+interest_constants.py
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/private/popego/main/!svn/ver/530/trunk/popserver/popserver/cron/interest_constants.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/private/popego/main/!svn/ver/762/trunk/popserver/popserver/cron/__init__.py
+END
+cache.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/private/popego/main/!svn/ver/767/trunk/popserver/popserver/cron/cache.py
+END

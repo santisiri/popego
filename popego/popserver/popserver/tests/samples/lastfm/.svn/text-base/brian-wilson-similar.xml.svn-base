@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<similarartists artist="Brian Wilson" streamable="1" picture="http://userserve-ak.last.fm/serve/160/363872.jpg" mbid="634fe78e-fc6b-4b2a-ba83-c8c66e13a8aa">
+<artist>
+    <name>The Beach Boys</name>
+    <mbid>ebfc1398-8d96-47e3-82c3-f782abcdb13d</mbid>
+    <match>100</match>
+    <url>http://www.last.fm/music/The+Beach+Boys</url>
+    <image_small>http://userserve-ak.last.fm/serve/50/335348.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/160/335348.jpg</image>
+    <streamable>1</streamable>
+</artist>
+<artist>
+    <name>The Beatles</name>
+    <mbid>b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d</mbid>
+    <match>25.76</match>
+    <url>http://www.last.fm/music/The+Beatles</url>
+    <image_small>http://userserve-ak.last.fm/serve/50/124035.jpg</image_small>
+    <image>http://userserve-ak.last.fm/serve/160/124035.jpg</image>
+    <streamable>1</streamable>
+</artist>
+</similarartists>
