@@ -23,4 +23,4 @@ db dump to be uploaded soon.
 
 ## Credit
 
-@scoffey, @fzunino, @manuelaristaran, @vcalvello, @ideasrapidas, @mcortesi5, @earlkman, @santisiri 
+@scoffey, @fzunino, @manuelaristaran, @vcalvello, @ideasrapidas, @mcortesi5, @earlkman, @santisiri, @k0001
