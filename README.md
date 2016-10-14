@@ -1,6 +1,8 @@
 # Popego - A Meaningful Web
 Social media meets machine learning to deliver meaningful recommendations. Launched in September 2008. 
 
+[Video of our launch at TechCruch Disrupt 2008](https://www.youtube.com/watch?v=aC01-egcNCE)
+
 ## Installation and Setup
 
 Install ``popserver`` using easy_install::
