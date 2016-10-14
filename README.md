@@ -1,7 +1,9 @@
 # Popego - A Meaningful Web
-Social media meets machine learning to deliver meaningful recommendations. Launched in September 2008. 
+Social media meets machine learning to deliver meaningful recommendations. Launched in September 2008.
 
 The project is not maintained anymore, but it is made available to world under a BSD3 license.
+=======
+[Video of our launch at TechCruch Disrupt 2008](https://www.youtube.com/watch?v=aC01-egcNCE)
 
 ## Installation and Setup
 
@@ -21,7 +23,7 @@ Then you are ready to go.
 
 ## TODO
 
-db dump to be uploaded soon. 
+db dump to be uploaded soon.
 
 ## Credit
 
